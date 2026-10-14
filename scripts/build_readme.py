@@ -46,14 +46,6 @@ TOPICS = {
     "domain_capability": ("Domain capability benchmarks", "领域能力基准"),
     "suite_components": ("Components of listed suites", "已收录基准的子集"),
 }
-TYPES = {
-    "benchmark": ("Benchmark", "基准"), "benchmark_suite": ("Suite", "基准套件"),
-    "evaluation_dataset": ("Eval data", "评测数据"), "training_dataset": ("Train data", "训练数据"),
-    "attack_method": ("Method", "方法"), "framework": ("Framework", "框架"),
-    "suite_component": ("Component", "子集"),
-}
-
-
 def esc(value):
     return str(value if value is not None else "—").replace("|", "\\|").replace("\r", " ").replace("\n", "<br>")
 
@@ -157,9 +149,9 @@ def catalog_links(entry):
 
 
 def catalog_table(entries):
-    """Render the same compact six-column table for each track."""
+    """Render the same compact five-column table for each track."""
     headers = [
-        "Topic", "Resource", "Links", "Type", "Year", "Language",
+        "Topic", "Resource", "Links", "Year", "Language",
     ]
     lines = [
         "| " + " | ".join(headers) + " |",
@@ -172,7 +164,6 @@ def catalog_table(entries):
             esc(TOPICS[entry["topic"]][0]),
             esc(entry["name"]),
             catalog_links(entry),
-            esc(TYPES[entry["resource_type"]][0]),
             esc(year),
             esc(languages),
         ]
