@@ -163,8 +163,7 @@ def bilingual_cell(english, chinese):
 def catalog_table(entries):
     """Render a compact, consistent table for one topic subsection."""
     headers = [
-        "Resource \\| 条目", "Type \\| 类型", "Year \\| 年份",
-        "Language \\| 语言", "Links \\| 链接",
+        "Resource", "Type", "Year", "Language", "Links",
     ]
     lines = [
         "| " + " | ".join(headers) + " |",

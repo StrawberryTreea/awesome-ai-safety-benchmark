@@ -14,7 +14,7 @@
 
 ### Comprehensive safety | 综合安全
 
-| Resource \| 条目 | Type \| 类型 | Year \| 年份 | Language \| 语言 | Links \| 链接 |
+| Resource | Type | Year | Language | Links |
 | --- | --- | --- | --- | --- |
 | AILuminate | Suite \| 基准套件 | 2025 | zh, en, other | [Code \| 代码](<https://github.com/mlcommons/ailuminate>) |
 | Ch3Ef | Suite \| 基准套件 | 2024 | en | [Paper \| 论文](<https://arxiv.org/abs/2403.17830>) |
@@ -32,7 +32,7 @@
 
 ### Harmful content and toxicity | 有害内容与毒性
 
-| Resource \| 条目 | Type \| 类型 | Year \| 年份 | Language \| 语言 | Links \| 链接 |
+| Resource | Type | Year | Language | Links |
 | --- | --- | --- | --- | --- |
 | BeaverTails | Eval data \| 评测数据 | 2023 | zh, en | [Project \| 项目](<https://sites.google.com/view/pku-beavertails>) |
 | ChineseSafe | Eval data \| 评测数据 | 2024 | zh | [Data \| 数据](<https://huggingface.co/datasets/SUSTech/ChineseSafe>) |
@@ -61,7 +61,7 @@
 
 ### Jailbreaks and adversarial prompts | 越狱与对抗提示
 
-| Resource \| 条目 | Type \| 类型 | Year \| 年份 | Language \| 语言 | Links \| 链接 |
+| Resource | Type | Year | Language | Links |
 | --- | --- | --- | --- | --- |
 | AdvBench | Benchmark \| 基准 | 2023 | en | [Paper \| 论文](<https://arxiv.org/abs/2307.15043>) · [Code \| 代码](<https://github.com/llm-attacks/llm-attacks>) |
 | AttaQ | Benchmark \| 基准 | 2023 | en | [Data \| 数据](<https://huggingface.co/datasets/ibm-research/AttaQ>) |
@@ -79,7 +79,7 @@
 
 ### Prompt injection and instruction boundaries | 提示注入与指令边界
 
-| Resource \| 条目 | Type \| 类型 | Year \| 年份 | Language \| 语言 | Links \| 链接 |
+| Resource | Type | Year | Language | Links |
 | --- | --- | --- | --- | --- |
 | BIPIA | Benchmark \| 基准 | KDD 2025 | en | [Paper \| 论文](<https://arxiv.org/abs/2312.14197>) · [Code \| 代码](<https://github.com/microsoft/BIPIA>) |
 | HackAPrompt | Benchmark \| 基准 | 2023 | 英文(含少量多语言混淆) | [Data \| 数据](<https://huggingface.co/datasets/hackaprompt/hackaprompt-dataset>) |
@@ -91,7 +91,7 @@
 
 ### Bias and fairness | 偏见与公平
 
-| Resource \| 条目 | Type \| 类型 | Year \| 年份 | Language \| 语言 | Links \| 链接 |
+| Resource | Type | Year | Language | Links |
 | --- | --- | --- | --- | --- |
 | BBQ | Eval data \| 评测数据 | 2021 | en | [Code \| 代码](<https://github.com/nyu-mll/BBQ>) |
 | BOLD | Eval data \| 评测数据 | 2021 | en | [Code \| 代码](<https://github.com/amazon-science/bold>) |
@@ -105,7 +105,7 @@
 
 ### Values, ethics and cultural norms | 价值观、伦理与文化规范
 
-| Resource \| 条目 | Type \| 类型 | Year \| 年份 | Language \| 语言 | Links \| 链接 |
+| Resource | Type | Year | Language | Links |
 | --- | --- | --- | --- | --- |
 | CMoralEval | Benchmark \| 基准 | 2024 | zh | [Code \| 代码](<https://github.com/tjunlp-lab/CMoralEval>) |
 | CValues | Benchmark \| 基准 | — | zh | [Code \| 代码](<https://github.com/X-PLUG/CValues>) · [Paper \| 论文](<https://arxiv.org/abs/2307.09705>) · [Data \| 数据](<https://modelscope.cn/datasets/damo/CValues-Comparison/summary>) |
@@ -123,7 +123,7 @@
 
 ### Privacy | 隐私
 
-| Resource \| 条目 | Type \| 类型 | Year \| 年份 | Language \| 语言 | Links \| 链接 |
+| Resource | Type | Year | Language | Links |
 | --- | --- | --- | --- | --- |
 | ASQ-PHI | Benchmark \| 基准 | 2025 | en | [Code \| 代码](<https://github.com/JamesWeatherhead/asq-phi>) |
 | ConfAIde | Benchmark \| 基准 | 2024 | en | [Code \| 代码](<https://github.com/skywalker023/confaide/tree/main>) |
@@ -134,7 +134,7 @@
 
 ### Over-refusal | 过度拒答
 
-| Resource \| 条目 | Type \| 类型 | Year \| 年份 | Language \| 语言 | Links \| 链接 |
+| Resource | Type | Year | Language | Links |
 | --- | --- | --- | --- | --- |
 | FalseReject | Benchmark \| 基准 | 2025 | en | [Data \| 数据](<https://huggingface.co/datasets/AmazonScience/FalseReject>) |
 | OR-Bench | Benchmark \| 基准 | 2024 | en | [Code \| 代码](<https://github.com/justincui03/or-bench>) |
@@ -144,7 +144,7 @@
 
 ### Autonomy and alignment | 自主性与对齐
 
-| Resource \| 条目 | Type \| 类型 | Year \| 年份 | Language \| 语言 | Links \| 链接 |
+| Resource | Type | Year | Language | Links |
 | --- | --- | --- | --- | --- |
 | Anthropic Evals | Suite \| 基准套件 | 2022 | en | [Code \| 代码](<https://github.com/anthropics/evals>) |
 | CRiskEval | Suite \| 基准套件 | 2025 | zh | [Code \| 代码](<https://github.com/tjunlp-lab/CRiskEval>) |
@@ -155,7 +155,7 @@
 
 ### Domain risks | 领域风险
 
-| Resource \| 条目 | Type \| 类型 | Year \| 年份 | Language \| 语言 | Links \| 链接 |
+| Resource | Type | Year | Language | Links |
 | --- | --- | --- | --- | --- |
 | CyberSecEval 1/2/3 (Purple Llama) | Benchmark \| 基准 | 2023 | en | [Code \| 代码](<https://github.com/meta-llama/PurpleLlama>) |
 | FinSafetyBench | Benchmark \| 基准 | 2026 | zh, en | [Code \| 代码](<https://github.com/sustech-nlp/FinSafetyBench>) |
@@ -168,7 +168,7 @@
 
 ### Prompt injection and instruction boundaries | 提示注入与指令边界
 
-| Resource \| 条目 | Type \| 类型 | Year \| 年份 | Language \| 语言 | Links \| 链接 |
+| Resource | Type | Year | Language | Links |
 | --- | --- | --- | --- | --- |
 | AgentDojo | Benchmark \| 基准 | NeurIPS 2024 | en | [Paper \| 论文](<https://arxiv.org/abs/2406.13352>) · [Code \| 代码](<https://github.com/ethz-spylab/agentdojo>) |
 | AgentDyn | Benchmark \| 基准 | 2026 | en | [Paper \| 论文](<https://arxiv.org/abs/2602.03117>) · [Code \| 代码](<https://github.com/SaFo-Lab/AgentDyn>) |
@@ -177,7 +177,7 @@
 
 ### General agent safety and misuse | 综合 Agent 安全与滥用
 
-| Resource \| 条目 | Type \| 类型 | Year \| 年份 | Language \| 语言 | Links \| 链接 |
+| Resource | Type | Year | Language | Links |
 | --- | --- | --- | --- | --- |
 | Agent Security Bench (ASB) | Benchmark \| 基准 | 2024/2025 | en | [Paper \| 论文](<https://arxiv.org/abs/2410.02644>) · [Code \| 代码](<https://github.com/agiresearch/ASB>) |
 | Agent-SafetyBench | Benchmark \| 基准 | 2025 | en | [Paper \| 论文](<https://arxiv.org/abs/2412.14470>) · [Code \| 代码](<https://github.com/thu-coai/Agent-SafetyBench>) · [Data \| 数据](<https://huggingface.co/datasets/thu-coai/Agent-SafetyBench>) · [Project \| 项目](<https://www.semanticscholar.org/reader/7d11400eeb317ebee278f49e108226a4f8555dda>) |
@@ -189,7 +189,7 @@
 
 ### Tool, API and MCP safety | 工具、API 与 MCP 安全
 
-| Resource \| 条目 | Type \| 类型 | Year \| 年份 | Language \| 语言 | Links \| 链接 |
+| Resource | Type | Year | Language | Links |
 | --- | --- | --- | --- | --- |
 | MCIP | Benchmark \| 基准 | 2025 | en | [Paper \| 论文](<https://arxiv.org/abs/2505.14590>) |
 | MCP Security Bench (MSB) | Benchmark \| 基准 | 2025 | en | [Paper \| 论文](<https://arxiv.org/abs/2510.15994>) · [Code \| 代码](<https://github.com/dongsenzhang/MSB>) |
@@ -201,7 +201,7 @@
 
 ### Privacy and memory | 隐私与记忆
 
-| Resource \| 条目 | Type \| 类型 | Year \| 年份 | Language \| 语言 | Links \| 链接 |
+| Resource | Type | Year | Language | Links |
 | --- | --- | --- | --- | --- |
 | AgentDAM | Benchmark \| 基准 | 2025 | en | [Code \| 代码](<https://github.com/facebookresearch/ai-agent-privacy>) |
 | AgentLeak | Benchmark \| 基准 | 2026 | en | [Paper \| 论文](<https://arxiv.org/abs/2602.11510>) · [Code \| 代码](<https://github.com/Privatris/AgentLeak>) · [Data \| 数据](<https://huggingface.co/datasets/humain2/AgentLeak>) |
@@ -209,7 +209,7 @@
 
 ### Web, computer and mobile agents | 网页、桌面与移动 Agent
 
-| Resource \| 条目 | Type \| 类型 | Year \| 年份 | Language \| 语言 | Links \| 链接 |
+| Resource | Type | Year | Language | Links |
 | --- | --- | --- | --- | --- |
 | AgentHazard | Benchmark \| 基准 | 2026 | en | [Paper \| 论文](<https://arxiv.org/abs/2604.02947>) · [Code \| 代码](<https://github.com/Yunhao-Feng/AgentHazard>) · [Project \| 项目](<https://yunhao-feng.github.io/AgentHazard/>) |
 | CUAHarm | Benchmark \| 基准 | 2025 | en | [Paper \| 论文](<https://arxiv.org/abs/2508.00935>) · [Code \| 代码](<https://github.com/db-ol/CUAHarm>) · [Data \| 数据](<https://huggingface.co/datasets/CUAHarm/CUAHarm>) |
@@ -222,7 +222,7 @@
 
 ### Embodied safety | 具身安全
 
-| Resource \| 条目 | Type \| 类型 | Year \| 年份 | Language \| 语言 | Links \| 链接 |
+| Resource | Type | Year | Language | Links |
 | --- | --- | --- | --- | --- |
 | SafeAgentBench | Benchmark \| 基准 | 2024 | en | [Paper \| 论文](<https://arxiv.org/abs/2412.13178>) · [Project \| 项目](<https://safeagentbench.github.io>) · [Code \| 代码](<https://github.com/shengyin1224/SafeAgentBench>) |
 
@@ -230,7 +230,7 @@
 
 ### Agent trajectories and action safety | Agent 轨迹与动作安全
 
-| Resource \| 条目 | Type \| 类型 | Year \| 年份 | Language \| 语言 | Links \| 链接 |
+| Resource | Type | Year | Language | Links |
 | --- | --- | --- | --- | --- |
 | ATBench | Eval data \| 评测数据 | 2026 | en | [Paper \| 论文](<https://arxiv.org/abs/2604.02022>) · [Code \| 代码](<https://github.com/LiYu0524/ATbench>) · [Data \| 数据](<https://huggingface.co/datasets/AI45Research/ATBench>) |
 | PhoneSafety | Eval data \| 评测数据 | 2025 | 中文为主 | [Paper \| 论文](<https://arxiv.org/abs/2605.07630>) · [Code \| 代码](<https://github.com/tangzhy/PhoneSafety>) · [Data \| 数据](<https://huggingface.co/datasets/phonesafety-anon/PhoneSafety_Data>) |
@@ -244,7 +244,7 @@
 
 ### Content guardrail evaluation | 内容护栏评测
 
-| Resource \| 条目 | Type \| 类型 | Year \| 年份 | Language \| 语言 | Links \| 链接 |
+| Resource | Type | Year | Language | Links |
 | --- | --- | --- | --- | --- |
 | GuardBench | Suite \| 基准套件 | 2024 | en | [Code \| 代码](<https://github.com/AmenRa/guardbench>) |
 | WildGuard (WildGuardMix/WildGuardTest) | Suite \| 基准套件 | 2024 | en | [Data \| 数据](<https://huggingface.co/datasets/allenai/wildguardmix>) |
@@ -253,7 +253,7 @@
 
 ### Training datasets | 训练数据
 
-| Resource \| 条目 | Type \| 类型 | Year \| 年份 | Language \| 语言 | Links \| 链接 |
+| Resource | Type | Year | Language | Links |
 | --- | --- | --- | --- | --- |
 | Aegis 1.0 (Nemotron Content Safety Dataset V1) | Train data \| 训练数据 | 2024 | en | [Data \| 数据](<https://huggingface.co/datasets/nvidia/Aegis-AI-Content-Safety-Dataset-1.0>) |
 | GuardReasoner (GuardReasonerTrain) | Train data \| 训练数据 | 2025 | en | [Data \| 数据](<https://huggingface.co/datasets/yueliu1999/GuardReasonerTrain>) |
@@ -270,7 +270,7 @@
 
 ### Attack methods | 攻击方法
 
-| Resource \| 条目 | Type \| 类型 | Year \| 年份 | Language \| 语言 | Links \| 链接 |
+| Resource | Type | Year | Language | Links |
 | --- | --- | --- | --- | --- |
 | AgentPoison | Method \| 方法 | 2024 | en | [Paper \| 论文](<https://arxiv.org/abs/2407.12784>) · [Code \| 代码](<https://github.com/AI-secure/AgentPoison>) · [Project \| 项目](<https://billchan226.github.io/AgentPoison.html>) |
 | ArtPrompt | Method \| 方法 | 2024 | en | [Code \| 代码](<https://github.com/uw-nsl/ArtPrompt>) |
@@ -290,7 +290,7 @@
 
 ### Frameworks and mixed resources | 框架及混合资源
 
-| Resource \| 条目 | Type \| 类型 | Year \| 年份 | Language \| 语言 | Links \| 链接 |
+| Resource | Type | Year | Language | Links |
 | --- | --- | --- | --- | --- |
 | AgentDefense-Bench | Framework \| 框架 | 2025 | en | [Code \| 代码](<https://github.com/arunsanna/AgentDefense-Bench>) |
 | CC-BOS | Framework \| 框架 | 2026 | zh | [Code \| 代码](<https://github.com/xaoLiu1222/cc-bos>) |
@@ -302,13 +302,13 @@
 
 ### Attack challenges and data | 攻击挑战与数据
 
-| Resource \| 条目 | Type \| 类型 | Year \| 年份 | Language \| 语言 | Links \| 链接 |
+| Resource | Type | Year | Language | Links |
 | --- | --- | --- | --- | --- |
 | LLMail-Inject | Eval data \| 评测数据 | 2025 | en | [Paper \| 论文](<https://arxiv.org/abs/2506.09956>) · [Code \| 代码](<https://github.com/microsoft/llmail-inject-challenge>) |
 
 ### Capability baselines and environments | 能力基线与环境
 
-| Resource \| 条目 | Type \| 类型 | Year \| 年份 | Language \| 语言 | Links \| 链接 |
+| Resource | Type | Year | Language | Links |
 | --- | --- | --- | --- | --- |
 | Agent-Diff | Benchmark \| 基准 | 2026 | en | [Paper \| 论文](<https://arxiv.org/abs/2602.11224>) · [Code \| 代码](<https://github.com/agent-diff-bench/agent-diff>) · [Project \| 项目](<https://www.agentdiff.dev>) · [Data \| 数据](<https://huggingface.co/datasets/hubertmarek/agent-diff-bench>) |
 | API-Bank | Benchmark \| 基准 | EMNLP 2023 | en | [Paper \| 论文](<https://arxiv.org/abs/2304.08244>) |
@@ -324,7 +324,7 @@
 
 ### Factuality and general trace diagnostics | 事实性与通用轨迹诊断
 
-| Resource \| 条目 | Type \| 类型 | Year \| 年份 | Language \| 语言 | Links \| 链接 |
+| Resource | Type | Year | Language | Links |
 | --- | --- | --- | --- | --- |
 | HaluEval | Eval data \| 评测数据 | 2023 | en | [Paper \| 论文](<https://arxiv.org/abs/2305.11747>) · [Code \| 代码](<https://github.com/RUCAIBox/HaluEval>) |
 | RAGTruth | Eval data \| 评测数据 | 2023 | en | [Paper \| 论文](<https://arxiv.org/abs/2401.00396>) |
@@ -334,7 +334,7 @@
 
 ### Domain capability benchmarks | 领域能力基准
 
-| Resource \| 条目 | Type \| 类型 | Year \| 年份 | Language \| 语言 | Links \| 链接 |
+| Resource | Type | Year | Language | Links |
 | --- | --- | --- | --- | --- |
 | CTIBench | Benchmark \| 基准 | 2024 | en | [Data \| 数据](<https://huggingface.co/datasets/AI4Sec/cti-bench>) |
 | CyberMetric | Benchmark \| 基准 | 2024 | en | [Code \| 代码](<https://github.com/cybermetric/CyberMetric>) |
@@ -344,7 +344,7 @@
 
 ### Components of listed suites | 已收录基准的子集
 
-| Resource \| 条目 | Type \| 类型 | Year \| 年份 | Language \| 语言 | Links \| 链接 |
+| Resource | Type | Year | Language | Links |
 | --- | --- | --- | --- | --- |
 | DecodingTrust（Privacy 子集） | Component \| 子集 | 2023 | en | [Code \| 代码](<https://github.com/AI-secure/DecodingTrust>) |
 | JBB-Behaviors | Component \| 子集 | 2024 | en | [Data \| 数据](<https://huggingface.co/datasets/JailbreakBench/JBB-Behaviors>) |
