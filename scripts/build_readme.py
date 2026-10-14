@@ -133,53 +133,82 @@ def link_report(catalog, audit):
     return "\n".join(lines)
 
 
-def table(entries, lang):
-    headers = ["Resource", "Type", "Year reported", "Language reported", "Links"] if lang == 0 else ["条目", "评测重点（原表摘要）", "类型", "原表年份", "原表语言", "链接"]
-    lines = ["| " + " | ".join(headers) + " |", "| " + " | ".join(["---"] * len(headers)) + " |"]
-    for entry in sorted(entries, key=lambda e: e["name"].casefold()):
+def bilingual_links(entry):
+    """Render every public link with one bilingual label convention."""
+    labels = {
+        "paper": "Paper / 论文",
+        "code": "Code / 代码",
+        "dataset": "Data / 数据",
+        "project": "Project / 项目",
+    }
+    annotations = {
+        "restricted": "access restricted / 访问受限",
+        "login_required": "login required / 需登录",
+        "server_error": "server error / 服务器错误",
+        "network_error": "connection failed / 连接失败",
+        "http_error": "HTTP error / HTTP 异常",
+    }
+    parts = []
+    for link in navigation_links(entry):
+        note = annotations.get(link.get("access", {}).get("status"))
+        suffix = f" ({note})" if note else ""
+        parts.append(f'[{labels[link["type"]]}](<{effective_url(link)}>)' + suffix)
+    return " · ".join(parts) or "Source pending / 待补来源"
+
+
+def catalog_table(entries):
+    """Render one fixed-width schema for every catalog module."""
+    headers = [
+        "Track / 方向", "Topic / 主题", "Resource / 条目", "Focus / 评测重点",
+        "Type / 类型", "Year / 年份", "Language / 语言", "Links / 链接",
+    ]
+    lines = [
+        "| " + " | ".join(headers) + " |",
+        "| " + " | ".join(["---"] * len(headers)) + " |",
+    ]
+    track_order = {key: index for index, key in enumerate(TRACKS)}
+    topic_order = {key: index for index, key in enumerate(TOPICS)}
+    visible = [e for e in entries if e["catalog_status"] != "needs_review"]
+    visible.sort(key=lambda e: (
+        track_order.get(e["track"], 99), topic_order.get(e["topic"], 99), e["name"].casefold()
+    ))
+    for entry in visible:
         year = entry["reported_metadata"]["year"]["value"]
         languages = ", ".join(entry["languages"]) or "—"
-        cells = [esc(entry["name"]), TYPES[entry["resource_type"]][lang], esc(year), esc(languages), resource_links(entry, lang)]
-        if lang == 1:
-            description = entry.get("description_zh") or "—"
-            cells.insert(1, esc(description[:80] + ("…" if len(description) > 80 else "")))
+        description = entry.get("description_zh") or "—"
+        description = description[:100] + ("…" if len(description) > 100 else "")
+        cells = [
+            f"{esc(TRACKS[entry['track']][0])}<br>{esc(TRACKS[entry['track']][1])}",
+            f"{esc(TOPICS[entry['topic']][0])}<br>{esc(TOPICS[entry['topic']][1])}",
+            esc(entry["name"]),
+            esc(description),
+            f"{TYPES[entry['resource_type']][0]} / {TYPES[entry['resource_type']][1]}",
+            esc(year),
+            esc(languages),
+            bilingual_links(entry),
+        ]
         lines.append("| " + " | ".join(cells) + " |")
     return "\n".join(lines)
 
 
-def make_readme(catalog, stats, lang):
-    entries = catalog["entries"]
-    counts = stats["by_catalog_status"]
-    intro = ["# Awesome LLM & Agent Safety Benchmarks", "", "[English](README.md) · [简体中文](README.zh-CN.md)", ""]
-    if lang == 0:
-        intro += [
-            "A continuously updated navigation project for LLM and agent safety benchmarks, evaluation datasets and related resources. Entries are organized by evaluation target and topic.", "",
-            f'**{stats["unique_catalog_entries"]} catalog entries** from {stats.get("collection_source_files", stats["source_files"])} original source files. '
-            f'Updated {catalog["updated_on"]}; includes {counts.get("listed", 0)} safety entries, {counts.get("related", 0)} related resources and {counts.get("needs_review", 0)} entries pending review.', "",
-            link_summary(stats, 0), "",
-            "## Contents", "", "- [LLM Safety](#llm-safety)", "- [Agent Safety & Security](#agent-safety--security)", "- [Safety Judging & Guardrails](#safety-judging--guardrails)", "- [Related Resources](#related-resources)", "",
-        ]
-    else:
-        intro += [
-            "本项目持续收集 LLM 与 Agent 安全相关 benchmark、评测数据和配套资源，按评测对象与主题整理。", "",
-            f'更新日期 {catalog["updated_on"]}：从 {stats.get("collection_source_files", stats["source_files"])} 份原始来源中整理出 **{stats["unique_catalog_entries"]} 个目录条目**，其中安全收录 {counts.get("listed", 0)} 项、相关资源 {counts.get("related", 0)} 项、待核验 {counts.get("needs_review", 0)} 项。', "",
-            link_summary(stats, 1), "",
-            "## 目录", "", "- [LLM 安全](#llm-安全)", "- [Agent 安全](#agent-安全)", "- [安全审查与护栏](#安全审查与护栏)", "- [相关资源](#相关资源)", "",
-        ]
-    for track, labels in TRACKS.items():
-        subset = [e for e in entries if e["track"] == track and e["catalog_status"] != "needs_review"]
-        intro += [f"## {labels[lang]}", ""]
-        topics = defaultdict(list)
-        for entry in subset:
-            topics[entry["topic"]].append(entry)
-        for topic in TOPICS:
-            if topic not in topics:
-                continue
-            intro += [f"### {TOPICS[topic][lang]}", "", table(topics[topic], lang), ""]
-    if lang == 0:
-        intro += ["## Maintenance", "", "Add or update records in `data/benchmarks.json`, then run:", "", "```powershell", "python scripts/check_links.py", "python scripts/apply_link_checks.py", "python scripts/build_readme.py", "python scripts/validate.py", "```", "", "See [contribution criteria](CONTRIBUTING.md), [taxonomy](docs/taxonomy.md), [schema](docs/schema.md) and [import report](docs/import-report.md). Unresolved identity or scope questions remain in the private maintenance data under `.local/`; source snapshots containing local paths and collector information are excluded via `.gitignore`.", ""]
-    else:
-        intro += ["## 维护", "", "在 `data/benchmarks.json` 中增量添加或更新条目，然后运行：", "", "```powershell", "python scripts/check_links.py", "python scripts/apply_link_checks.py", "python scripts/build_readme.py", "python scripts/validate.py", "```", "", "详见[贡献说明](CONTRIBUTING.md)、[分类口径](docs/taxonomy.md)、[字段说明](docs/schema.md)和[导入报告](docs/import-report.md)。身份或主题范围待核验事项保留在 `.local/` 的后台维护数据中；包含本机路径、收集人信息的原始快照也保留在已忽略的 `.local/` 中。", ""]
+def make_readme(catalog, stats):
+    del stats  # README is a project landing page; maintenance counts stay in docs.
+    intro = [
+        "# Awesome LLM & Agent Safety Benchmarks | LLM 与 Agent 安全 Benchmark",
+        "",
+        "[English](README.md) · [简体中文](README.zh-CN.md)",
+        "",
+        "| English | 中文 |",
+        "| --- | --- |",
+        "| A continuously updated collection of benchmarks, evaluation datasets and supporting resources for LLM and agent safety. | 持续收集 LLM 与 Agent 安全相关的 benchmark、评测数据和配套资源。 |",
+        "| The catalog covers model safety, agent safety and security, safety judging, guardrails, attack methods, training data and related research resources. | 内容覆盖模型安全、Agent 安全与安全防护、安全审查、护栏、攻击方法、训练数据及相关研究资源。 |",
+        "| Entries are organized by evaluation target and topic, with direct links to papers, code, datasets and project pages. | 条目按评测对象与主题导航，并提供论文、代码、数据和项目页面的直接链接。 |",
+        "",
+        "## Catalog | 目录",
+        "",
+        catalog_table(catalog["entries"]),
+        "",
+    ]
     return "\n".join(intro)
 
 
@@ -241,8 +270,8 @@ def outputs():
     from curate import export_contents
     exports, stats = export_contents(catalog)
     documents = {
-        "README.md": make_readme(catalog, stats, 0),
-        "README.zh-CN.md": make_readme(catalog, stats, 1),
+        "README.md": make_readme(catalog, stats),
+        "README.zh-CN.md": make_readme(catalog, stats),
         "docs/import-report.md": import_report(catalog, stats, sources),
         "docs/link-check-report.md": link_report(catalog, json.loads((ROOT / "data/link_checks.json").read_text(encoding="utf-8"))),
     }
