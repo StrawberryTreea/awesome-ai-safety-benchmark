@@ -149,9 +149,9 @@ def catalog_links(entry):
 
 
 def catalog_table(entries):
-    """Render the same compact five-column table for each track."""
+    """Render the same compact four-column table for each topic subsection."""
     headers = [
-        "Topic", "Resource", "Links", "Year", "Language",
+        "Resource", "Links", "Year", "Language",
     ]
     lines = [
         "| " + " | ".join(headers) + " |",
@@ -161,7 +161,6 @@ def catalog_table(entries):
         year = entry["reported_metadata"]["year"]["value"]
         languages = ", ".join(entry["languages"]) or "—"
         cells = [
-            esc(TOPICS[entry["topic"]][0]),
             esc(entry["name"]),
             catalog_links(entry),
             esc(year),
@@ -188,11 +187,18 @@ def make_readme(catalog, stats):
         "",
     ]
     entries = [e for e in catalog["entries"] if e["catalog_status"] != "needs_review"]
+    topic_order = {key: index for index, key in enumerate(TOPICS)}
     for track, track_labels in TRACKS.items():
         track_entries = [e for e in entries if e["track"] == track]
         if not track_entries:
             continue
-        intro += [f"## {track_labels[0]} | {track_labels[1]}", "", catalog_table(track_entries), ""]
+        intro += [f"## {track_labels[0]} | {track_labels[1]}", ""]
+        topics = defaultdict(list)
+        for entry in track_entries:
+            topics[entry["topic"]].append(entry)
+        for topic in sorted(topics, key=lambda key: topic_order.get(key, 99)):
+            topic_labels = TOPICS[topic]
+            intro += [f"### {topic_labels[0]} | {topic_labels[1]}", "", catalog_table(topics[topic]), ""]
     return "\n".join(intro)
 
 
