@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 from collections import Counter, defaultdict
+import html
 import json
 from pathlib import Path
 from curate import effective_url, navigation_links
@@ -125,8 +126,8 @@ def link_report(catalog, audit):
     return "\n".join(lines)
 
 
-def catalog_links(entry):
-    """Render public links with short English labels for the catalog tables."""
+def catalog_links_html(entry):
+    """Render public links as short HTML anchors for fixed-width catalog tables."""
     labels = {
         "paper": "Paper",
         "code": "Code",
@@ -144,29 +145,45 @@ def catalog_links(entry):
     for link in navigation_links(entry):
         note = annotations.get(link.get("access", {}).get("status"))
         suffix = f" ({note})" if note else ""
-        parts.append(f'[{labels[link["type"]]}](<{effective_url(link)}>)' + suffix)
-    return " · ".join(parts) or "Source pending"
+        url = html.escape(effective_url(link), quote=True)
+        label = labels[link["type"]]
+        parts.append(f'<a href="{url}">{label}</a>{html.escape(suffix)}')
+    return "<br>".join(parts) or "Source pending"
 
 
 def catalog_table(entries):
-    """Render the same compact four-column table for each topic subsection."""
-    headers = [
-        "Resource", "Links", "Year", "Language",
-    ]
+    """Render every topic with the same fixed five-column HTML table."""
+    # Keep these widths identical for every subsection so a short topic cannot
+    # produce a different visual layout from a long one.  HTML width hints are
+    # used because Markdown tables let each table size itself from its content.
+    widths = ["18%", "46%", "10%", "10%", "16%"]
+    headers = ["Resource", "Description", "Year", "Language", "Links"]
     lines = [
-        "| " + " | ".join(headers) + " |",
-        "| " + " | ".join(["---"] * len(headers)) + " |",
+        '<table width="100%">',
+        "<colgroup>",
+        *[f'  <col width="{width}">' for width in widths],
+        "</colgroup>",
+        "<thead>",
+        "<tr>" + "".join(f'<th width="{width}">{header}</th>' for width, header in zip(widths, headers)) + "</tr>",
+        "</thead>",
+        "<tbody>",
     ]
     for entry in sorted(entries, key=lambda e: e["name"].casefold()):
         year = entry["reported_metadata"]["year"]["value"]
         languages = ", ".join(entry["languages"]) or "—"
+        full_description = " ".join(str(entry.get("description_zh") or "—").split())
+        description = full_description if len(full_description) <= 80 else full_description[:80].rstrip() + "…"
+        description = html.escape(description)
+        description_title = html.escape(full_description, quote=True)
         cells = [
-            esc(entry["name"]),
-            catalog_links(entry),
-            esc(year),
-            esc(languages),
+            html.escape(str(entry["name"])),
+            f'<span title="{description_title}">{description}</span>',
+            html.escape(str(year)),
+            html.escape(str(languages)),
+            catalog_links_html(entry),
         ]
-        lines.append("| " + " | ".join(cells) + " |")
+        lines.append("<tr>" + "".join(f"<td>{cell}</td>" for cell in cells) + "</tr>")
+    lines += ["</tbody>", "</table>"]
     return "\n".join(lines)
 
 
