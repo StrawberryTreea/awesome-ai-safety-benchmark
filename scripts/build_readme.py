@@ -133,37 +133,33 @@ def link_report(catalog, audit):
     return "\n".join(lines)
 
 
-def bilingual_links(entry):
-    """Render every public link with one bilingual label convention."""
+def catalog_links(entry):
+    """Render public links with short English labels for the catalog tables."""
     labels = {
-        "paper": "Paper \\| 论文",
-        "code": "Code \\| 代码",
-        "dataset": "Data \\| 数据",
-        "project": "Project \\| 项目",
+        "paper": "Paper",
+        "code": "Code",
+        "dataset": "Data",
+        "project": "Project",
     }
     annotations = {
-        "restricted": "access restricted \\| 访问受限",
-        "login_required": "login required \\| 需登录",
-        "server_error": "server error \\| 服务器错误",
-        "network_error": "connection failed \\| 连接失败",
-        "http_error": "HTTP error \\| HTTP 异常",
+        "restricted": "access restricted",
+        "login_required": "login required",
+        "server_error": "server error",
+        "network_error": "connection failed",
+        "http_error": "HTTP error",
     }
     parts = []
     for link in navigation_links(entry):
         note = annotations.get(link.get("access", {}).get("status"))
         suffix = f" ({note})" if note else ""
         parts.append(f'[{labels[link["type"]]}](<{effective_url(link)}>)' + suffix)
-    return " · ".join(parts) or "Source pending \\| 待补来源"
-
-
-def bilingual_cell(english, chinese):
-    return f"{esc(english)} \\| {esc(chinese)}"
+    return " · ".join(parts) or "Source pending"
 
 
 def catalog_table(entries):
-    """Render a compact, consistent table for one topic subsection."""
+    """Render the same compact six-column table for each track."""
     headers = [
-        "Resource", "Type", "Year", "Language", "Links",
+        "Topic", "Resource", "Links", "Type", "Year", "Language",
     ]
     lines = [
         "| " + " | ".join(headers) + " |",
@@ -173,11 +169,12 @@ def catalog_table(entries):
         year = entry["reported_metadata"]["year"]["value"]
         languages = ", ".join(entry["languages"]) or "—"
         cells = [
+            esc(TOPICS[entry["topic"]][0]),
             esc(entry["name"]),
-            bilingual_cell(*TYPES[entry["resource_type"]]),
+            catalog_links(entry),
+            esc(TYPES[entry["resource_type"]][0]),
             esc(year),
             esc(languages),
-            bilingual_links(entry),
         ]
         lines.append("| " + " | ".join(cells) + " |")
     return "\n".join(lines)
@@ -200,18 +197,11 @@ def make_readme(catalog, stats):
         "",
     ]
     entries = [e for e in catalog["entries"] if e["catalog_status"] != "needs_review"]
-    topic_order = {key: index for index, key in enumerate(TOPICS)}
     for track, track_labels in TRACKS.items():
         track_entries = [e for e in entries if e["track"] == track]
         if not track_entries:
             continue
-        intro += [f"## {track_labels[0]} | {track_labels[1]}", ""]
-        topics = defaultdict(list)
-        for entry in track_entries:
-            topics[entry["topic"]].append(entry)
-        for topic in sorted(topics, key=lambda key: topic_order.get(key, 99)):
-            topic_labels = TOPICS[topic]
-            intro += [f"### {topic_labels[0]} | {topic_labels[1]}", "", catalog_table(topics[topic]), ""]
+        intro += [f"## {track_labels[0]} | {track_labels[1]}", "", catalog_table(track_entries), ""]
     return "\n".join(intro)
 
 
