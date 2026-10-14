@@ -310,7 +310,7 @@ def export_contents(catalog):
     outputs = {}
     for name, subset in [("benchmarks.csv", entries), ("review_queue.csv", [e for e in entries if e["catalog_status"] == "needs_review"])]:
         out = io.StringIO(newline="")
-        writer = csv.DictWriter(out, fieldnames=CSV_COLUMNS)
+        writer = csv.DictWriter(out, fieldnames=CSV_COLUMNS, lineterminator="\n")
         writer.writeheader()
         writer.writerows({k: safe_csv_value(v) for k, v in flatten(e).items()} for e in subset)
         outputs["data/" + name] = ("\ufeff" + out.getvalue()).encode("utf-8")
