@@ -136,53 +136,46 @@ def link_report(catalog, audit):
 def bilingual_links(entry):
     """Render every public link with one bilingual label convention."""
     labels = {
-        "paper": "Paper / 论文",
-        "code": "Code / 代码",
-        "dataset": "Data / 数据",
-        "project": "Project / 项目",
+        "paper": "Paper \\| 论文",
+        "code": "Code \\| 代码",
+        "dataset": "Data \\| 数据",
+        "project": "Project \\| 项目",
     }
     annotations = {
-        "restricted": "access restricted / 访问受限",
-        "login_required": "login required / 需登录",
-        "server_error": "server error / 服务器错误",
-        "network_error": "connection failed / 连接失败",
-        "http_error": "HTTP error / HTTP 异常",
+        "restricted": "access restricted \\| 访问受限",
+        "login_required": "login required \\| 需登录",
+        "server_error": "server error \\| 服务器错误",
+        "network_error": "connection failed \\| 连接失败",
+        "http_error": "HTTP error \\| HTTP 异常",
     }
     parts = []
     for link in navigation_links(entry):
         note = annotations.get(link.get("access", {}).get("status"))
         suffix = f" ({note})" if note else ""
         parts.append(f'[{labels[link["type"]]}](<{effective_url(link)}>)' + suffix)
-    return " · ".join(parts) or "Source pending / 待补来源"
+    return " · ".join(parts) or "Source pending \\| 待补来源"
+
+
+def bilingual_cell(english, chinese):
+    return f"{esc(english)} \\| {esc(chinese)}"
 
 
 def catalog_table(entries):
-    """Render one fixed-width schema for every catalog module."""
+    """Render a compact, consistent table for one topic subsection."""
     headers = [
-        "Track / 方向", "Topic / 主题", "Resource / 条目", "Focus / 评测重点",
-        "Type / 类型", "Year / 年份", "Language / 语言", "Links / 链接",
+        "Resource \\| 条目", "Type \\| 类型", "Year \\| 年份",
+        "Language \\| 语言", "Links \\| 链接",
     ]
     lines = [
         "| " + " | ".join(headers) + " |",
         "| " + " | ".join(["---"] * len(headers)) + " |",
     ]
-    track_order = {key: index for index, key in enumerate(TRACKS)}
-    topic_order = {key: index for index, key in enumerate(TOPICS)}
-    visible = [e for e in entries if e["catalog_status"] != "needs_review"]
-    visible.sort(key=lambda e: (
-        track_order.get(e["track"], 99), topic_order.get(e["topic"], 99), e["name"].casefold()
-    ))
-    for entry in visible:
+    for entry in sorted(entries, key=lambda e: e["name"].casefold()):
         year = entry["reported_metadata"]["year"]["value"]
         languages = ", ".join(entry["languages"]) or "—"
-        description = entry.get("description_zh") or "—"
-        description = description[:100] + ("…" if len(description) > 100 else "")
         cells = [
-            f"{esc(TRACKS[entry['track']][0])}<br>{esc(TRACKS[entry['track']][1])}",
-            f"{esc(TOPICS[entry['topic']][0])}<br>{esc(TOPICS[entry['topic']][1])}",
             esc(entry["name"]),
-            esc(description),
-            f"{TYPES[entry['resource_type']][0]} / {TYPES[entry['resource_type']][1]}",
+            bilingual_cell(*TYPES[entry["resource_type"]]),
             esc(year),
             esc(languages),
             bilingual_links(entry),
@@ -206,9 +199,20 @@ def make_readme(catalog, stats):
         "",
         "## Catalog | 目录",
         "",
-        catalog_table(catalog["entries"]),
-        "",
     ]
+    entries = [e for e in catalog["entries"] if e["catalog_status"] != "needs_review"]
+    topic_order = {key: index for index, key in enumerate(TOPICS)}
+    for track, track_labels in TRACKS.items():
+        track_entries = [e for e in entries if e["track"] == track]
+        if not track_entries:
+            continue
+        intro += [f"## {track_labels[0]} | {track_labels[1]}", ""]
+        topics = defaultdict(list)
+        for entry in track_entries:
+            topics[entry["topic"]].append(entry)
+        for topic in sorted(topics, key=lambda key: topic_order.get(key, 99)):
+            topic_labels = TOPICS[topic]
+            intro += [f"### {topic_labels[0]} | {topic_labels[1]}", "", catalog_table(topics[topic]), ""]
     return "\n".join(intro)
 
 
