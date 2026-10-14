@@ -154,15 +154,13 @@ def catalog_links_html(entry):
 def catalog_table(entries):
     """Render every topic with the same fixed five-column HTML table."""
     # Keep these widths identical for every subsection so a short topic cannot
-    # produce a different visual layout from a long one.  HTML width hints are
-    # used because Markdown tables let each table size itself from its content.
+    # produce a different visual layout from a long one.  Widths are repeated
+    # on header and body cells because GitHub removes <colgroup> from README
+    # HTML and Markdown tables size themselves from their content.
     widths = ["18%", "46%", "10%", "10%", "16%"]
     headers = ["Resource", "Description", "Year", "Language", "Links"]
     lines = [
         '<table width="100%">',
-        "<colgroup>",
-        *[f'  <col width="{width}">' for width in widths],
-        "</colgroup>",
         "<thead>",
         "<tr>" + "".join(f'<th width="{width}">{header}</th>' for width, header in zip(widths, headers)) + "</tr>",
         "</thead>",
@@ -182,7 +180,7 @@ def catalog_table(entries):
             html.escape(str(languages)),
             catalog_links_html(entry),
         ]
-        lines.append("<tr>" + "".join(f"<td>{cell}</td>" for cell in cells) + "</tr>")
+        lines.append("<tr>" + "".join(f'<td width="{width}">{cell}</td>' for width, cell in zip(widths, cells)) + "</tr>")
     lines += ["</tbody>", "</table>"]
     return "\n".join(lines)
 
