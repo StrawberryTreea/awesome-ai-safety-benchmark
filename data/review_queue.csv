@@ -1,0 +1,35 @@
+﻿id,name,catalog_status,track,topic,resource_type,year,year_reported,languages,description_zh,size_reported,metrics_reported,execution_reported,availability_reported,code_urls,dataset_urls,paper_urls,project_urls,last_link_check,link_status_summary,issues,curation_note_zh,parent_id,source_refs
+aart,AART,needs_review,related_resources,frameworks,framework,2023,2023,en,AI辅助红队数据生成,演示数据集aart-v1（约80+用例，覆盖多文化/地区概念）,概念覆盖率、人工质量评分,,是,,,,,,,placeholder_link,原表 GitHub 地址含 xxxx 占位符，暂不作为有效资源链接。,,llm-increment:原始统计表:119
+airgapagent-r,AirGapAgent-R,needs_review,agent_safety,privacy_memory,benchmark,2025,2025,en,PII泄露,4160,Utility Score、Privacy Score,,是,,https://huggingface.co/datasets/parameterlab/leaky_thoughts,,,2026-10-14,accessible:1,identity_or_scope_needs_review,原表所给链接为 parameterlab/leaky_thoughts，任务类型为分类。项目名称、数据来源和是否评测 Agent 执行需重新确认。,,llm-increment:原始统计表:38
+biosecbench-refusal,BioSecBench-Refusal,needs_review,agent_safety,domain_risk,benchmark,2026,2026,en,生物安全（智能体生物风险识别与拒绝）,61个合法任务+46个红队危害任务配对,拒绝率、流程准确率,,是,,,https://arxiv.org/abs/2607.05462,,2026-10-14,accessible:1,identity_or_scope_needs_review; paper_only,原表仅提供论文链接。先核验题名、任务性质与安全评测定位。,,llm-increment:原始统计表:157
+biosecbench-surveillance,BioSecBench-Surveillance,needs_review,related_resources,domain_capability,benchmark,2026,2026,en,生物安全（病原体基因组监测）,100个监测任务（7类，约4000次可评分尝试）,流程准确率,,是,,,https://arxiv.org/abs/2607.19262,,2026-10-14,accessible:1,identity_or_scope_needs_review; paper_only,原表描述偏向监测能力评测。需核验项目身份及与安全主题的关系。,,llm-increment:原始统计表:158
+cbbq,CBBQ,needs_review,llm_safety,bias_fairness,evaluation_dataset,2023,2023,zh,中文社会偏见（14个契合中国文化的社会维度）,100000+道题（3000+人工模板）,歧义/消歧准确率、偏见分数,,是,,,,,,,placeholder_link,原表 GitHub 地址含 xxxx 占位符，需补正式来源。,,llm-increment:原始统计表:129
+cooridinate-ai,Cooridinate AI,needs_review,llm_safety,autonomy_alignment,benchmark_suite,2022,2022,zh,,1080,“answer_matching_behavior” / “answer_not_matching_behavior” 的比例,,是,https://github.com/anthropics/evals/tree/main/advanced-ai-risk/human_generated_evals,,https://arxiv.org/abs/2212.09251,,2026-10-14,accessible:2,link_access_server_error; name_needs_verification,保留原表拼写，正式名称及所属上级评测集待核验。,,"link-repair-2026-10-14:web:3
+llm-increment:原始统计表:12"
+dxpia,DXPIA,needs_review,related_resources,frameworks,framework,,2025-2026,en,跨 Agent 多跳提示注入,"300个测试用例,8种DXPIA攻击模式,6个Agent委托链",ASR/TPR/FPR,真实走多个Agent的运行流程,,,,,https://freyzo.github.io/deep-xpia/,2026-10-14,redirected:1,identity_or_scope_needs_review; source_metadata_variants,按多 Agent 提示注入相关项目保留，是否构成独立 benchmark 待核验。,,"agent-collection:Sheet1:56
+agent-rescreen:主Agent安全集:24
+agent-rescreen:全量重筛结果:56
+agent-screen-v2:暂缓与剔除清单:8
+agent-screen-v2:最终筛查总表:40
+agent-screen-v2:第二阶段详表:39
+agent-screen:第二阶段详表:39"
+manyih-bench,ManyIH-Bench,needs_review,llm_safety,prompt_injection,benchmark,2026,2026,en,多层指令冲突,853个Agent任务(复杂编码题+真实指令遵从对话),整体准确率(最强Gemini 3.1 Pro仅42.7%);6/8/12层级下准确率递减,,,,,,https://jhu-clsp.github.io/ManyIH/,2026-10-14,redirected:1,identity_or_scope_needs_review; source_metadata_variants,原表将 arXiv 链接标为占位符，身份和来源待补。,,"agent-collection:Sheet1:48
+agent-rescreen:全量重筛结果:48
+agent-rescreen:非主测与辅助集:11
+agent-screen-v2:初步移除:4
+agent-screen-v2:暂缓与剔除清单:9
+agent-screen-v2:最终筛查总表:41
+agent-screen:初步移除:4"
+os-harm,OS-Harm,needs_review,agent_safety,web_computer_mobile,benchmark,2025,2025,en,桌面 GUI 滥用 / 提示注入 / 自发不当行为,150 个 OSWorld 扩展安全任务；索引：misuse 25、injection 10、misbehavior 50，test_all 369；example configs 449、Windows configs 49,Accuracy、Safety；自动Judge与人工标注F1；各攻击类别安全率。,真实桌面应用+虚拟机,是,"https://github.com/thomas-kuntz/os-harm
+https://github.com/tml-epfl/os-harm","https://huggingface.co/datasets/os-harm/os-harm
+https://huggingface.co/datasets/thomas-kuntz/os-harm",https://arxiv.org/abs/2506.14866,,2026-10-14,accessible:4; restricted:1,link_access_restricted; repository_conflict; source_metadata_variants,不同原表给出 tml-epfl/os-harm 与 thomas-kuntz/os-harm，需核验官方仓库及迁移关系。,,"agent-collection:Sheet1:11
+agent-rescreen:全量重筛结果:11
+agent-rescreen:暂缓不可测:3
+agent-screen-v2:暂缓与剔除清单:2
+agent-screen-v2:最终筛查总表:34
+agent-screen-v2:第二阶段详表:8
+agent-screen:第二阶段详表:8
+link-repair-2026-10-14:web:12
+llm-increment:原始统计表:96"
+tap-pair,TAP/PAIR,needs_review,related_resources,attack_methods,attack_method,2023,2023,en,自动化越狱树搜索,内置有害目标集(goals)+攻击生成提示,ASR,,是,https://github.com/RICommunity/TAP,,,,2026-10-14,accessible:1,bundled_projects,原表把 TAP 与 PAIR 合写，所给链接指向 TAP。待拆分并补齐 PAIR 的独立来源。,,llm-increment:原始统计表:110
+toxicchat,ToxicChat,needs_review,llm_safety,harmful_content,evaluation_dataset,2023,2023,en,仇恨言论,10K,Precision / Recall / F1、Accuracy,,是,https://github.com/abaheti95/ToxiChat,,,,2026-10-14,accessible:1,identity_or_scope_needs_review; name_link_mismatch,原表项目名为 ToxicChat，链接指向 abaheti95/ToxiChat。两种拼写可能对应不同数据集，需核对身份后收录。,,llm-increment:原始统计表:22

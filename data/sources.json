@@ -1,0 +1,229 @@
+{
+  "imported_on": "2026-10-14",
+  "sources": [
+    {
+      "id": "llm-increment",
+      "filename": "大模型安全测评数据集收集-增量.xlsx",
+      "sha256": "22cfc008c94ad6f4d4e46cd0fb56b64335d2758676e78677e75feb3e5d9cb2fa",
+      "bytes": 59403,
+      "named_rows": 166,
+      "sheets": [
+        {
+          "name": "原始统计表",
+          "max_row": 194,
+          "max_column": 20,
+          "header_row": 1,
+          "named_rows": 166,
+          "nonempty_rows": 167,
+          "embedded_images": 0
+        }
+      ]
+    },
+    {
+      "id": "agent-screen",
+      "filename": "数据集筛查.xlsx",
+      "sha256": "1003751f26a0c2b35076d598ecd9c5ad1a6e845889cca382b2a5f1bcd79fb54d",
+      "bytes": 43977,
+      "named_rows": 67,
+      "sheets": [
+        {
+          "name": "初步移除",
+          "max_row": 20,
+          "max_column": 12,
+          "header_row": 1,
+          "named_rows": 19,
+          "nonempty_rows": 20,
+          "embedded_images": 0
+        },
+        {
+          "name": "第二阶段详表",
+          "max_row": 49,
+          "max_column": 11,
+          "header_row": 1,
+          "named_rows": 48,
+          "nonempty_rows": 49,
+          "embedded_images": 0
+        },
+        {
+          "name": "论文链接核验说明",
+          "max_row": 36,
+          "max_column": 3,
+          "header_row": null,
+          "named_rows": 0,
+          "nonempty_rows": 36,
+          "embedded_images": 0
+        }
+      ]
+    },
+    {
+      "id": "agent-screen-v2",
+      "filename": "Agent安全Benchmark重新筛查v2.xlsx",
+      "sha256": "7673a50d8007f346d5a2ca0ee4ac49031a8266be1b7d34a42e1c3b8b1691f41d",
+      "bytes": 96322,
+      "named_rows": 221,
+      "sheets": [
+        {
+          "name": "初步移除",
+          "max_row": 20,
+          "max_column": 12,
+          "header_row": 1,
+          "named_rows": 19,
+          "nonempty_rows": 20,
+          "embedded_images": 0
+        },
+        {
+          "name": "第二阶段详表",
+          "max_row": 49,
+          "max_column": 11,
+          "header_row": 1,
+          "named_rows": 48,
+          "nonempty_rows": 49,
+          "embedded_images": 0
+        },
+        {
+          "name": "论文链接核验说明",
+          "max_row": 36,
+          "max_column": 3,
+          "header_row": null,
+          "named_rows": 0,
+          "nonempty_rows": 36,
+          "embedded_images": 0
+        },
+        {
+          "name": "最终筛查总表",
+          "max_row": 68,
+          "max_column": 12,
+          "header_row": 1,
+          "named_rows": 67,
+          "nonempty_rows": 68,
+          "embedded_images": 0
+        },
+        {
+          "name": "保留建议清单",
+          "max_row": 33,
+          "max_column": 9,
+          "header_row": 1,
+          "named_rows": 32,
+          "nonempty_rows": 33,
+          "embedded_images": 0
+        },
+        {
+          "name": "暂缓与剔除清单",
+          "max_row": 36,
+          "max_column": 8,
+          "header_row": 1,
+          "named_rows": 35,
+          "nonempty_rows": 36,
+          "embedded_images": 0
+        },
+        {
+          "name": "筛查摘要",
+          "max_row": 32,
+          "max_column": 9,
+          "header_row": null,
+          "named_rows": 0,
+          "nonempty_rows": 27,
+          "embedded_images": 0
+        },
+        {
+          "name": "核心保留核验详表",
+          "max_row": 24,
+          "max_column": 14,
+          "header_row": 4,
+          "named_rows": 20,
+          "nonempty_rows": 23,
+          "embedded_images": 0
+        }
+      ]
+    },
+    {
+      "id": "agent-rescreen",
+      "filename": "Agent安全评测Benchmark_重筛版.xlsx",
+      "sha256": "56c05b6ebbaa738e18edbdeeb1f94929c4351539fa9339daecc0d3bd314072dc",
+      "bytes": 45805,
+      "named_rows": 150,
+      "sheets": [
+        {
+          "name": "筛选总览",
+          "max_row": 15,
+          "max_column": 5,
+          "header_row": null,
+          "named_rows": 0,
+          "nonempty_rows": 14,
+          "embedded_images": 0
+        },
+        {
+          "name": "全量重筛结果",
+          "max_row": 76,
+          "max_column": 23,
+          "header_row": 1,
+          "named_rows": 75,
+          "nonempty_rows": 76,
+          "embedded_images": 0
+        },
+        {
+          "name": "主Agent安全集",
+          "max_row": 31,
+          "max_column": 10,
+          "header_row": 1,
+          "named_rows": 30,
+          "nonempty_rows": 31,
+          "embedded_images": 0
+        },
+        {
+          "name": "非主测与辅助集",
+          "max_row": 24,
+          "max_column": 7,
+          "header_row": 1,
+          "named_rows": 23,
+          "nonempty_rows": 24,
+          "embedded_images": 0
+        },
+        {
+          "name": "暂缓不可测",
+          "max_row": 23,
+          "max_column": 8,
+          "header_row": 1,
+          "named_rows": 22,
+          "nonempty_rows": 23,
+          "embedded_images": 0
+        },
+        {
+          "name": "接入路线图",
+          "max_row": 7,
+          "max_column": 6,
+          "header_row": null,
+          "named_rows": 0,
+          "nonempty_rows": 7,
+          "embedded_images": 0
+        }
+      ]
+    },
+    {
+      "id": "agent-collection",
+      "filename": "Agent安全评测数据集收集表.xlsx",
+      "sha256": "d48e32a3e850099acfc27290a7ab39d891a58a395aa6002efb7f5ca22cfbf396",
+      "bytes": 637922,
+      "named_rows": 75,
+      "sheets": [
+        {
+          "name": "Sheet1",
+          "max_row": 76,
+          "max_column": 20,
+          "header_row": 1,
+          "named_rows": 75,
+          "nonempty_rows": 76,
+          "embedded_images": 2
+        }
+      ]
+    },
+    {
+      "id": "link-repair-2026-10-14",
+      "filename": "Verified replacement links collected 2026-10-14",
+      "url": "https://web.archive.org/web/20240320015444id_/http://openeval.org.cn/assets/index-8a3a0411.js",
+      "retrieved_on": "2026-10-14",
+      "named_rows": 13,
+      "notes": "Archived OpenEval catalog and current official repositories, papers and dataset pages used to repair dead or restricted navigation links. Page reachability only."
+    }
+  ]
+}
