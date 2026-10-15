@@ -47,6 +47,11 @@ def validate(catalog, records, sources):
         require(e.get("track") in TRACKS, f"Invalid track: {eid}")
         require(e.get("catalog_status") in STATUSES, f"Invalid status: {eid}")
         require(e.get("resource_type") in TYPES, f"Invalid resource type: {eid}")
+        for field in ("description_en", "description_zh"):
+            value = e.get(field)
+            require(field in e and (value is None or isinstance(value, str)), f"Invalid {field}: {eid}")
+            if e.get("catalog_status") != "needs_review":
+                require(isinstance(value, str) and bool(value.strip()), f"Missing public {field}: {eid}")
         require(bool(e.get("source_refs")), f"Missing provenance: {eid}")
         for ref in e.get("source_refs", []):
             require(ref in record_ids, f"Unknown source ref: {eid}/{ref}")

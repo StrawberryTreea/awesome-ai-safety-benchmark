@@ -7,7 +7,7 @@ Contributions should help readers choose an evaluation for a concrete LLM or age
 1. Search the JSON catalog for the name, aliases, paper and repository. Update an existing record when appropriate. Add a parent relationship for a component rather than counting it as a new independent suite.
 2. Add primary evidence: an official paper, code repository, dataset page or project site. Preserve the source URL and the claim it supports. An aggregator homepage alone is insufficient for the main navigation.
 3. Classify the evaluation target and resource type using [the taxonomy](docs/taxonomy.md). Training data, attack methods and generic capability benchmarks belong under related resources.
-4. Record language, split, version, scale, metrics and environment descriptions when supplied by the source. Keep missing values null. This collection provides access links; license review and runnable implementations are not inclusion requirements.
+4. Add concise English and Chinese descriptions for public entries. Record language, split, version, scale, metrics and environment descriptions when supplied by the source. Keep missing metadata null. This collection provides access links; license review and runnable implementations are not inclusion requirements.
 5. Check that the linked resource page is reachable, record the date and distinguish redirects, missing pages and restricted access. Link checks concern the page; other metadata retains its source attribution.
 6. Edit `data/benchmarks.json`, then regenerate and validate:
 

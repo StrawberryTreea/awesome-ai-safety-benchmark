@@ -181,18 +181,20 @@ def catalog_languages(values):
     return f'<span title="{html.escape(original, quote=True)}">{html.escape(display)}</span>'
 
 
+def catalog_description(value):
+    return html.escape(" ".join(value.split()))
+
+
 def catalog_rows(entries):
     """Render catalog entries into the shared five-column table."""
     widths = ["18%", "46%", "10%", "10%", "16%"]
     lines = []
     for entry in sorted(entries, key=lambda e: e["name"].casefold()):
-        full_description = " ".join(str(entry.get("description_zh") or "—").split())
-        description = full_description if len(full_description) <= 80 else full_description[:80].rstrip() + "…"
-        description = html.escape(description)
-        description_title = html.escape(full_description, quote=True)
+        description = (catalog_description(entry["description_en"])
+                       + " | " + catalog_description(entry["description_zh"]))
         cells = [
             catalog_name(entry["name"]),
-            f'<span title="{description_title}">{description}</span>',
+            description,
             catalog_year(entry["reported_metadata"]["year"]["value"]),
             catalog_languages(entry["languages"]),
             catalog_links_html(entry),

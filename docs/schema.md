@@ -8,7 +8,7 @@
 | `name`, `aliases` | Canonical display name and source name variants |
 | `track`, `topic`, `resource_type` | Evaluation target, navigation topic and resource identity |
 | `catalog_status` | `listed`, `related` or `needs_review`; separate from verification |
-| `description_zh` | Short source-derived description, null when missing |
+| `description_en`, `description_zh` | English and Chinese catalog descriptions; both required for public entries, null allowed for entries awaiting review |
 | `year` | Parsed source year only when unambiguous; null for multiple years |
 | `languages` | Normalized unambiguous language labels; unusual source labels retained |
 | `reported_metadata` | Original values with source IDs, cells and alternative expressions |

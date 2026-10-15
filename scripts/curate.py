@@ -259,7 +259,7 @@ def build():
 
 
 CSV_COLUMNS = ["id", "name", "catalog_status", "track", "topic", "resource_type", "year", "year_reported", "languages",
-               "description_zh", "size_reported", "metrics_reported", "execution_reported", "availability_reported",
+               "description_en", "description_zh", "size_reported", "metrics_reported", "execution_reported", "availability_reported",
                "code_urls", "dataset_urls", "paper_urls", "project_urls", "last_link_check", "link_status_summary",
                "issues", "curation_note_zh", "parent_id", "source_refs"]
 
@@ -300,8 +300,10 @@ def navigation_links(entry):
 
 def safe_csv_value(value):
     # CSV formula injection protection for Excel. JSON preserves the exact source.
-    if isinstance(value, str) and value.lstrip().startswith(("=", "+", "-", "@")):
-        return "'" + value
+    if isinstance(value, str):
+        value = re.sub(r"[ \t]+(?=\r?\n)", "", value)
+        if value.lstrip().startswith(("=", "+", "-", "@")):
+            return "'" + value
     return value
 
 

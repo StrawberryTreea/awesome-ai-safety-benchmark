@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_on": "2026-10-14",
+  "updated_on": "2026-10-15",
   "entries": [
     {
       "id": "aart",
@@ -10,6 +10,7 @@
       "topic": "frameworks",
       "resource_type": "framework",
       "catalog_status": "needs_review",
+      "description_en": null,
       "description_zh": "AI辅助红队数据生成",
       "languages": [
         "en"
@@ -137,6 +138,7 @@
       "topic": "jailbreak",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Harmful requests and adversarial prompts for testing refusal and jailbreak robustness.",
       "description_zh": "有害请求与越狱",
       "languages": [
         "en"
@@ -393,6 +395,7 @@
       "topic": "training_data",
       "resource_type": "training_dataset",
       "catalog_status": "related",
+      "description_en": "Content safety classification across 13 key risk categories for guardrail evaluation.",
       "description_zh": "护栏审核（13类关键风险内容安全分类）",
       "languages": [
         "en"
@@ -521,7 +524,8 @@
       "topic": "general",
       "resource_type": "benchmark",
       "catalog_status": "listed",
-      "description_zh": "任务分为两类：一类是正常任务，例如系统管理员 Agent “识别并修补过期软件漏洞”、学术搜索 Agent 检索和总结论文、金融分析 Agent 做投资分析等；另一类是攻击任务，例如诱导 Agent 调用攻击工具删除客户数据库、导出财务数据、执行错误投资/医疗/法律/自动驾驶等高风险操作。攻击方式包括 Direct Prompt Injection、Indirect Prompt Injection、Memory Poisoning、Plan-of-Thought Backdoor、Mixed Attack。",
+      "description_en": "Agent tasks and attacks spanning prompt injection, memory poisoning, and unsafe tool use.",
+      "description_zh": "正常任务与攻击任务中的提示注入、记忆投毒和危险工具调用评测",
       "languages": [
         "en"
       ],
@@ -959,6 +963,7 @@
       "topic": "capability_environments",
       "resource_type": "benchmark",
       "catalog_status": "related",
+      "description_en": "Compares workflow states and task completion in agent environments.",
       "description_zh": "工作流状态差分与任务完成",
       "languages": [
         "en"
@@ -1255,7 +1260,8 @@
       "topic": "general",
       "resource_type": "benchmark",
       "catalog_status": "listed",
-      "description_zh": "测试任务覆盖 8 类风险：敏感信息泄露、财产损失、传播不安全/虚假信息、造成物理伤害、违法/伦理违规、破坏可用性、生成/传播有害或脆弱代码、产生不安全/虚假内容。任务不只是问模型“能不能拒答”，而是让 Agent 在邮件、网页、银行、家庭助手、文件、代码、日程、网络等环境中调用工具，观察其是否会因错误工具调用、忽视约束、过度信任工具结果等行为造成风险。",
+      "description_en": "Tool-use tasks probing information leaks, unsafe actions, and other agent risks.",
+      "description_zh": "工具使用任务中的信息泄露、不安全操作等 Agent 风险评测",
       "languages": [
         "en"
       ],
@@ -1691,6 +1697,7 @@
       "topic": "privacy_memory",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Evaluates privacy minimization and information leakage in AI agents.",
       "description_zh": "智能体隐私最小化/隐私泄露",
       "languages": [
         "en"
@@ -1816,6 +1823,7 @@
       "topic": "frameworks",
       "resource_type": "framework",
       "catalog_status": "related",
+      "description_en": "Benchmark for detecting and blocking malicious MCP requests.",
       "description_zh": "MCP 请求检测与阻断",
       "languages": [
         "en"
@@ -2051,7 +2059,8 @@
       "topic": "prompt_injection",
       "resource_type": "benchmark",
       "catalog_status": "listed",
-      "description_zh": "任务覆盖四类真实应用场景：Workspace：邮件、日历、云盘任务，例如统计日程、总结邮件、发送信息；Slack：读取网页/文件、发 Slack 消息、邀请成员；Travel：搜索并预订航班、酒店、餐厅、租车；Banking：转账、支付账单、总结银行流水等。攻击任务则是通过工具返回的不可信内容注入恶意指令，例如泄露邮件、发送 2FA 验证码、发送钓鱼链接、预订最贵酒店、把钱转到攻击者账户等。",
+      "description_en": "Tool-output prompt injections across workspace, travel, banking, and messaging tasks.",
+      "description_zh": "工作、旅行、银行与消息任务中的工具输出提示注入评测",
       "languages": [
         "en"
       ],
@@ -2418,6 +2427,7 @@
       "topic": "prompt_injection",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Tests agent resistance to malicious third-party instructions in open-ended dynamic tasks.",
       "description_zh": "在开放式动态任务中插入有用但潜在恶意的第三方指令，测试 agent 是否能完成任务同时抵御注入。",
       "languages": [
         "en"
@@ -2742,7 +2752,8 @@
       "topic": "general",
       "resource_type": "benchmark",
       "catalog_status": "listed",
-      "description_zh": "测试任务是显式恶意的 agentic misuse 请求，覆盖 Fraud、Cybercrime、Self-harm、Harassment、Sexual、Copyright、Drugs、Disinformation、Hate、Violence、Terrorism 11 类。任务通常要求 Agent 执行多步工具调用，并且存在调用顺序依赖：后续工具调用需要利用前一步返回的信息。论文强调这些任务是“digitally realizable behaviors”，但不包含真实姓名、地址、地点等敏感现实信息。",
+      "description_en": "Multi-step tool-use tasks probing agent compliance with harmful user goals.",
+      "description_zh": "多步工具调用下，Agent 对有害用户目标的执行倾向评测",
       "languages": [
         "en"
       ],
@@ -3220,6 +3231,7 @@
       "topic": "web_computer_mobile",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Tests whether agents halt cumulative harm across seemingly benign tool-use steps.",
       "description_zh": "将有害目标拆成局部看似合理的步骤，测试 agent 是否能在多轮工具使用中识别并中止累计风险。",
       "languages": [
         "en"
@@ -3578,7 +3590,8 @@
       "topic": "prompt_injection",
       "resource_type": "benchmark",
       "catalog_status": "listed",
-      "description_zh": "测试长程任务中 intent hijacking、tool chaining、task injection、objective drifting、memory poisoning 等自适应攻击。",
+      "description_en": "Adaptive prompt-injection attacks on long-horizon agents, including memory poisoning and objective drift.",
+      "description_zh": "长程 Agent 的自适应提示注入，涵盖记忆投毒与目标偏移",
       "languages": [
         "en"
       ],
@@ -3930,6 +3943,7 @@
       "topic": "privacy_memory",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Privacy leakage through multi-agent messages, shared memory, and tool arguments.",
       "description_zh": "评测多 agent 系统中隐私信息是否通过内部消息、共享记忆、工具参数等通道泄露。",
       "languages": [
         "en"
@@ -4287,7 +4301,8 @@
       "topic": "attack_methods",
       "resource_type": "attack_method",
       "catalog_status": "related",
-      "description_zh": "向Agent的外部知识库或memory中注入恶意数据，并通过优化触发器提高投毒内容的检索概率，评估RAG poisoning攻击对Agent行为和输出的影响",
+      "description_en": "Poisons external knowledge or memory to influence an agent through retrieval.",
+      "description_zh": "通过投毒外部知识或记忆，诱导 Agent 在检索后偏离任务",
       "languages": [
         "en"
       ],
@@ -4653,7 +4668,8 @@
       "topic": "comprehensive",
       "resource_type": "benchmark_suite",
       "catalog_status": "listed",
-      "description_zh": null,
+      "description_en": "Safety prompts for chat systems across hazard categories",
+      "description_zh": "跨风险类别的对话系统安全提示评测",
       "languages": [
         "zh",
         "en",
@@ -4778,6 +4794,7 @@
       "topic": "privacy_memory",
       "resource_type": "benchmark",
       "catalog_status": "needs_review",
+      "description_en": null,
       "description_zh": "PII泄露",
       "languages": [
         "en"
@@ -4907,7 +4924,8 @@
       "topic": "autonomy_alignment",
       "resource_type": "benchmark_suite",
       "catalog_status": "listed",
-      "description_zh": null,
+      "description_en": "Model-written evaluations of advanced AI risks, sycophancy and bias",
+      "description_zh": "模型生成的行为评测数据，涵盖高级 AI 风险、迎合与偏见",
       "languages": [
         "en"
       ],
@@ -5030,6 +5048,7 @@
       "topic": "capability_environments",
       "resource_type": "benchmark",
       "catalog_status": "related",
+      "description_en": "Evaluates API understanding, retrieval, invocation, and response generation.",
       "description_zh": "API 理解、检索、调用与回答",
       "languages": [
         "en"
@@ -5295,6 +5314,7 @@
       "topic": "capability_environments",
       "resource_type": "benchmark",
       "catalog_status": "related",
+      "description_en": "Cross-application agent tasks testing completion and code-execution capabilities.",
       "description_zh": "跨应用任务完成与代码执行能力",
       "languages": [
         "en"
@@ -5582,6 +5602,7 @@
       "topic": "attack_methods",
       "resource_type": "attack_method",
       "catalog_status": "related",
+      "description_en": "Jailbreak prompts encoded with ASCII art.",
       "description_zh": "ASCII艺术编码越狱",
       "languages": [
         "en"
@@ -5707,6 +5728,7 @@
       "topic": "privacy",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Tests leakage of personally identifiable information from language models.",
       "description_zh": "PII泄露",
       "languages": [
         "en"
@@ -5832,6 +5854,7 @@
       "topic": "agent_trajectory",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Judges safety of full agent trajectories and attributes risks.",
       "description_zh": "完整轨迹安全判断与风险归因",
       "languages": [
         "en"
@@ -6109,6 +6132,7 @@
       "topic": "jailbreak",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Adversarial questions probing a model's tendency to produce harmful responses.",
       "description_zh": "对抗性问题有害响应倾向",
       "languages": [
         "en"
@@ -6240,6 +6264,7 @@
       "topic": "attack_methods",
       "resource_type": "attack_method",
       "catalog_status": "related",
+      "description_en": "Automatically generates stealthy jailbreak prompts.",
       "description_zh": "隐蔽越狱提示生成",
       "languages": [
         "en"
@@ -6365,6 +6390,7 @@
       "topic": "attack_methods",
       "resource_type": "attack_method",
       "catalog_status": "related",
+      "description_en": "Multi-turn jailbreaks based on the foot-in-the-door persuasion technique.",
       "description_zh": "登门槛效应（Foot-in-the-Door）心理操纵多轮越狱",
       "languages": [
         "en"
@@ -6492,6 +6518,7 @@
       "topic": "bias_fairness",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Question-answering benchmark for social bias across demographic groups.",
       "description_zh": "群体公平与偏见风险（社会偏见问答）",
       "languages": [
         "en"
@@ -6617,7 +6644,8 @@
       "topic": "harmful_content",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
-      "description_zh": null,
+      "description_en": "Safety classification, preference and response evaluation datasets",
+      "description_zh": "有害内容分类、安全偏好与安全响应评测数据",
       "languages": [
         "zh",
         "en"
@@ -6746,6 +6774,7 @@
       "topic": "capability_environments",
       "resource_type": "benchmark",
       "catalog_status": "related",
+      "description_en": "Tests function selection, argument generation, and multi-step tool calling.",
       "description_zh": "函数选择、参数生成与多步调用",
       "languages": [
         "英语为主",
@@ -6992,6 +7021,7 @@
       "topic": "domain_risk",
       "resource_type": "benchmark",
       "catalog_status": "needs_review",
+      "description_en": null,
       "description_zh": "生物安全（智能体生物风险识别与拒绝）",
       "languages": [
         "en"
@@ -7120,6 +7150,7 @@
       "topic": "domain_capability",
       "resource_type": "benchmark",
       "catalog_status": "needs_review",
+      "description_en": null,
       "description_zh": "生物安全（病原体基因组监测）",
       "languages": [
         "en"
@@ -7248,6 +7279,7 @@
       "topic": "prompt_injection",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Indirect prompt-injection attacks against language models.",
       "description_zh": "间接提示注入",
       "languages": [
         "en"
@@ -7540,6 +7572,7 @@
       "topic": "bias_fairness",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Open-ended generation prompts probing bias across identities and social groups.",
       "description_zh": "群体公平与偏见风险（开放生成公平性，5域43群体）",
       "languages": [
         "en"
@@ -7665,6 +7698,7 @@
       "topic": "bias_fairness",
       "resource_type": "evaluation_dataset",
       "catalog_status": "needs_review",
+      "description_en": null,
       "description_zh": "中文社会偏见（14个契合中国文化的社会维度）",
       "languages": [
         "zh"
@@ -7792,7 +7826,8 @@
       "topic": "frameworks",
       "resource_type": "framework",
       "catalog_status": "related",
-      "description_zh": null,
+      "description_en": "Jailbreak prompt search using Classical Chinese obfuscation and optimization",
+      "description_zh": "文言文混淆与优化搜索驱动的越狱提示生成框架",
       "languages": [
         "zh"
       ],
@@ -7913,6 +7948,7 @@
       "topic": "bias_fairness",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Chinese dialogue benchmark for fairness and bias risks.",
       "description_zh": "伤害类型7：群体公平与偏见风险",
       "languages": [
         "zh"
@@ -8071,6 +8107,7 @@
       "topic": "comprehensive",
       "resource_type": "benchmark_suite",
       "catalog_status": "listed",
+      "description_en": "Evaluates helpfulness, honesty, and harmlessness across 12 domains and 46 tasks.",
       "description_zh": "HHH（helpful/honest/harmless）对齐12域46任务",
       "languages": [
         "en"
@@ -8198,6 +8235,7 @@
       "topic": "harmful_content",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Chinese unsafe content spanning politics, pornography, violence, and homophone-based evasion.",
       "description_zh": "政治敏感/色情/暴恐/变体谐音规避（4大类10小类）",
       "languages": [
         "zh"
@@ -8323,6 +8361,7 @@
       "topic": "comprehensive",
       "resource_type": "benchmark_suite",
       "catalog_status": "listed",
+      "description_en": "Tests recognition of safety risks and refusal behavior.",
       "description_zh": "风险识别与拒绝",
       "languages": [
         "zh"
@@ -8448,6 +8487,7 @@
       "topic": "attack_methods",
       "resource_type": "attack_method",
       "catalog_status": "related",
+      "description_en": "Cipher-encoded jailbreak prompts targeting instruction-following safeguards.",
       "description_zh": "密码编码越狱",
       "languages": [
         "zh",
@@ -8574,6 +8614,7 @@
       "topic": "values_ethics",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Evaluates model judgments about moral values.",
       "description_zh": "价值观",
       "languages": [
         "zh"
@@ -8699,6 +8740,7 @@
       "topic": "attack_methods",
       "resource_type": "attack_method",
       "catalog_status": "related",
+      "description_en": "Personalized encrypted jailbreak prompts targeting model safeguards.",
       "description_zh": "个性化加密越狱",
       "languages": [
         "en"
@@ -8824,6 +8866,7 @@
       "topic": "harmful_content",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Offensive and harmful language risks in Chinese text.",
       "description_zh": "伤害类型8：攻击性与有害表达风险",
       "languages": [
         "zh"
@@ -9001,6 +9044,7 @@
       "topic": "privacy",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Probes leakage of model training data.",
       "description_zh": "训练数据泄露",
       "languages": [
         "en"
@@ -9126,6 +9170,7 @@
       "topic": "autonomy_alignment",
       "resource_type": "benchmark_suite",
       "catalog_status": "needs_review",
+      "description_en": null,
       "description_zh": null,
       "languages": [
         "zh"
@@ -9285,6 +9330,7 @@
       "topic": "jailbreak",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Multi-turn safety attacks that exploit references across dialogue turns.",
       "description_zh": "多轮对话指代消解安全攻击",
       "languages": [
         "en"
@@ -9410,6 +9456,7 @@
       "topic": "harmful_content",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Cross-cultural hate-speech annotations and disagreement.",
       "description_zh": "仇恨言论（跨文化标注差异）",
       "languages": [
         "en",
@@ -9536,6 +9583,7 @@
       "topic": "attack_methods",
       "resource_type": "attack_method",
       "catalog_status": "related",
+      "description_en": "Jailbreak method that escalates requests gradually across a conversation.",
       "description_zh": "渐进式对话升级越狱",
       "languages": [
         "en"
@@ -9663,7 +9711,8 @@
       "topic": "autonomy_alignment",
       "resource_type": "benchmark_suite",
       "catalog_status": "listed",
-      "description_zh": null,
+      "description_en": "Chinese frontier-risk tendency evaluation across risk types and safety levels",
+      "description_zh": "中文前沿风险倾向评测，按风险类型与安全等级标注",
       "languages": [
         "zh"
       ],
@@ -9788,6 +9837,7 @@
       "topic": "domain_capability",
       "resource_type": "benchmark",
       "catalog_status": "related",
+      "description_en": "Cyber threat intelligence tasks including attribution, root-cause mapping, and ATT&CK extraction.",
       "description_zh": "网络威胁情报CTI任务（MCQ/根因映射/归因/ATT&CK提取）",
       "languages": [
         "en"
@@ -9913,6 +9963,7 @@
       "topic": "web_computer_mobile",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Computer-use agent misuse tasks involving system compromise, data leakage, and disruption.",
       "description_zh": "测试 computer-use agent 是否会完成禁用防火墙、泄露机密、发起 DoS、安装后门等误用目标。",
       "languages": [
         "en"
@@ -10248,6 +10299,7 @@
       "topic": "attack_methods",
       "resource_type": "attack_method",
       "catalog_status": "related",
+      "description_en": "Curiosity-driven method for automated red-teaming of language models.",
       "description_zh": "好奇心驱动自动红队",
       "languages": [
         "en"
@@ -10373,7 +10425,8 @@
       "topic": "values_ethics",
       "resource_type": "benchmark",
       "catalog_status": "listed",
-      "description_zh": null,
+      "description_en": "Chinese LLM values evaluation across safety and responsibility",
+      "description_zh": "中文大模型价值观评测，覆盖安全性与责任性",
       "languages": [
         "zh"
       ],
@@ -10544,6 +10597,7 @@
       "topic": "domain_capability",
       "resource_type": "benchmark",
       "catalog_status": "related",
+      "description_en": "Cybersecurity knowledge questions generated from NIST-based materials with retrieval augmentation.",
       "description_zh": "网络安全知识（基于NIST框架/RAG生成）",
       "languages": [
         "en"
@@ -10669,6 +10723,7 @@
       "topic": "domain_risk",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Cybersecurity safety evaluations covering unsafe code, attack assistance, prompt injection, and visual attacks.",
       "description_zh": "不安全代码/网络攻击协助/提示注入（v3含视觉注入与自主网络攻击）",
       "languages": [
         "en"
@@ -10794,6 +10849,7 @@
       "topic": "values_ethics",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Everyday scenarios probing model value judgments.",
       "description_zh": "价值观",
       "languages": [
         "en"
@@ -10925,6 +10981,7 @@
       "topic": "comprehensive",
       "resource_type": "benchmark_suite",
       "catalog_status": "listed",
+      "description_en": "Checks for training-data leakage in language models.",
       "description_zh": "训练数据泄露",
       "languages": [
         "en"
@@ -11050,6 +11107,7 @@
       "topic": "suite_components",
       "resource_type": "suite_component",
       "catalog_status": "related",
+      "description_en": "Privacy subset of DecodingTrust focused on personally identifiable information leakage.",
       "description_zh": "PII泄露",
       "languages": [
         "en"
@@ -11175,6 +11233,7 @@
       "topic": "attack_methods",
       "resource_type": "attack_method",
       "catalog_status": "related",
+      "description_en": "Nested scenarios designed as jailbreak prompts.",
       "description_zh": "场景嵌套越狱",
       "languages": [
         "en"
@@ -11300,6 +11359,7 @@
       "topic": "harmful_content",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Dialogue safety annotations with diverse rater demographics.",
       "description_zh": "带评分者人口统计多样性的对话安全标注",
       "languages": [
         "en"
@@ -11427,7 +11487,8 @@
       "topic": "harmful_content",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
-      "description_zh": null,
+      "description_en": "Unsafe instructions for evaluating LLM refusal and safeguards",
+      "description_zh": "应拒答有害指令与模型安全防护评测",
       "languages": [
         "zh",
         "en"
@@ -11555,6 +11616,7 @@
       "topic": "frameworks",
       "resource_type": "framework",
       "catalog_status": "needs_review",
+      "description_en": null,
       "description_zh": "跨 Agent 多跳提示注入",
       "languages": [
         "en"
@@ -11797,6 +11859,7 @@
       "topic": "harmful_content",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Dynamically generated adversarial hate-speech examples.",
       "description_zh": "仇恨言论（对抗动态生成）",
       "languages": [
         "en"
@@ -11922,6 +11985,7 @@
       "topic": "general",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Multi-turn agent attacks involving online harassment.",
       "description_zh": "多轮网络骚扰智能体攻击",
       "languages": [
         "en"
@@ -12049,6 +12113,7 @@
       "topic": "values_ethics",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Moral reasoning scenarios spanning justice, duty, virtue, common sense, and utility.",
       "description_zh": "机器伦理/道德判断（正义、义务、美德、常识、功利主义）",
       "languages": [
         "en"
@@ -12174,6 +12239,7 @@
       "topic": "overrefusal",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Harmless requests with misleading harmful cues for measuring over-refusal.",
       "description_zh": "过度拒答校准（伪有害但实际无害查询）",
       "languages": [
         "en"
@@ -12299,6 +12365,7 @@
       "topic": "domain_risk",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Financial safety risks, including crime and professional ethics violations.",
       "description_zh": "金融安全（金融犯罪+职业伦理违规，14细分类别）",
       "languages": [
         "zh",
@@ -12425,6 +12492,7 @@
       "topic": "comprehensive",
       "resource_type": "benchmark_suite",
       "catalog_status": "listed",
+      "description_en": "Chinese value-alignment evaluation spanning safety, fairness, morality, privacy, and legality.",
       "description_zh": "中文价值对齐（安全、公平、道德、数据保护、合法性）",
       "languages": [
         "zh"
@@ -12556,7 +12624,8 @@
       "topic": "comprehensive",
       "resource_type": "benchmark_suite",
       "catalog_status": "listed",
-      "description_zh": null,
+      "description_en": "LLM safety evaluation across content, deception, embodied and existential risks",
+      "description_zh": "覆盖内容安全、欺骗、具身与存在风险的综合安全评测",
       "languages": [
         "en"
       ],
@@ -12679,6 +12748,7 @@
       "topic": "values_ethics",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Cross-national questions probing whether model responses reflect global public opinion.",
       "description_zh": "价值观对齐（跨国全球观点代表性）",
       "languages": [
         "en",
@@ -12805,6 +12875,7 @@
       "topic": "attack_methods",
       "resource_type": "attack_method",
       "catalog_status": "related",
+      "description_en": "Mutation-based fuzzing of jailbreak prompt templates.",
       "description_zh": "越狱模板变异模糊测试",
       "languages": [
         "en"
@@ -12930,6 +13001,7 @@
       "topic": "content_guardrail",
       "resource_type": "benchmark_suite",
       "catalog_status": "listed",
+      "description_en": "Aggregates safety datasets to evaluate content guardrail models.",
       "description_zh": "护栏模型评测（统一聚合40个安全评测数据集）",
       "languages": [
         "en"
@@ -13055,6 +13127,7 @@
       "topic": "training_data",
       "resource_type": "training_dataset",
       "catalog_status": "related",
+      "description_en": "Reasoning-based moderation data spanning three guardrail tasks and 13 benchmarks.",
       "description_zh": "护栏审核（推理型安全防护，3类护栏任务/13个基准）",
       "languages": [
         "en"
@@ -13182,6 +13255,7 @@
       "topic": "prompt_injection",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Prompt attacks and jailbreak challenges targeting instruction-following models.",
       "description_zh": "提示攻击与越狱",
       "languages": [
         "英文(含少量多语言混淆)"
@@ -13423,6 +13497,7 @@
       "topic": "general",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Human-agent interaction sandbox for assessing ethical and safety behavior.",
       "description_zh": "人机交互伦理安全沙盒",
       "languages": [
         "en"
@@ -13548,6 +13623,7 @@
       "topic": "reliability",
       "resource_type": "evaluation_dataset",
       "catalog_status": "related",
+      "description_en": "Hallucination generation and detection benchmark.",
       "description_zh": "幻觉识别与生成",
       "languages": [
         "en"
@@ -13774,6 +13850,7 @@
       "topic": "jailbreak",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Harmful-behavior prompts and jailbreak attacks for evaluating model safety.",
       "description_zh": "有害行为与越狱",
       "languages": [
         "en"
@@ -14030,6 +14107,7 @@
       "topic": "training_data",
       "resource_type": "training_dataset",
       "catalog_status": "related",
+      "description_en": "Red-team harmful question-answering data with direct and jailbreak-style prompts.",
       "description_zh": "有害问答红队（直接+越狱提问，10主题）",
       "languages": [
         "en"
@@ -14155,6 +14233,7 @@
       "topic": "harmful_content",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Hate speech and offensive language classification data.",
       "description_zh": "仇恨言论",
       "languages": [
         "en"
@@ -14280,6 +14359,7 @@
       "topic": "harmful_content",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Functional tests for hate-speech detection across 29 phenomena.",
       "description_zh": "仇恨言论功能性诊断测试（29项功能）",
       "languages": [
         "en"
@@ -14405,6 +14485,7 @@
       "topic": "domain_capability",
       "resource_type": "benchmark",
       "catalog_status": "related",
+      "description_en": "Healthcare tasks probing unsafe responses, emergency referrals, and contextual judgment.",
       "description_zh": "医疗安全（急诊转诊/不安全响应/情境理解等）",
       "languages": [
         "en"
@@ -14530,6 +14611,7 @@
       "topic": "training_data",
       "resource_type": "training_dataset",
       "catalog_status": "related",
+      "description_en": "Harmlessness preference data with human red-team conversations.",
       "description_zh": "无害性偏好数据+人工红队对话",
       "languages": [
         "en"
@@ -14655,6 +14737,7 @@
       "topic": "bias_fairness",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Fine-grained identity descriptors for measuring bias across demographic axes.",
       "description_zh": "群体公平与偏见风险（细粒度身份描述词，13个人口学轴）",
       "languages": [
         "en"
@@ -14782,6 +14865,7 @@
       "topic": "bias_fairness",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Sentence completions for measuring hurtful language and social bias.",
       "description_zh": "群体公平与偏见风险（hurtful句子补全）",
       "languages": [
         "other"
@@ -14915,6 +14999,7 @@
       "topic": "prompt_injection",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Tests instruction hierarchy and resistance to lower-priority conflicting instructions.",
       "description_zh": "Instruction hierarchy",
       "languages": [
         "en"
@@ -15118,6 +15203,7 @@
       "topic": "harmful_content",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Corpus of implicit hate speech examples and annotations.",
       "description_zh": "仇恨言论（隐性仇恨）",
       "languages": [
         "en"
@@ -15243,6 +15329,7 @@
       "topic": "jailbreak",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Collection of real-world jailbreak prompts gathered in the wild.",
       "description_zh": "野外真实越狱提示库",
       "languages": [
         "en"
@@ -15368,7 +15455,8 @@
       "topic": "prompt_injection",
       "resource_type": "benchmark",
       "catalog_status": "listed",
-      "description_zh": "测试任务是：用户先提出一个正常请求，Agent 需要调用某个工具读取外部内容；外部内容中被植入攻击者指令，诱导 Agent 调用其他工具执行有害行为。攻击分两大类：Direct Harm Attack 和 Data Stealing Attack。Direct Harm 包括金融伤害、物理伤害、数据安全破坏等，例如转账、开门、移动私人文件；Data Stealing 包括金融数据、医疗/物理相关数据、搜索历史等隐私外泄，例如读取支付方式、医疗记录、搜索历史并发送给攻击者邮箱。",
+      "description_en": "Tool-output prompt injections aiming for direct harm or private-data theft.",
+      "description_zh": "利用工具输出提示注入，诱导直接伤害或窃取隐私数据",
       "languages": [
         "en"
       ],
@@ -15791,7 +15879,8 @@
       "topic": "comprehensive",
       "resource_type": "benchmark_suite",
       "catalog_status": "listed",
-      "description_zh": null,
+      "description_en": "Chinese multi-domain jailbreak risk evaluation data",
+      "description_zh": "中文多领域越狱攻击风险评测数据",
       "languages": [
         "zh"
       ],
@@ -15916,6 +16005,7 @@
       "topic": "jailbreak",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Benchmark of jailbreak attempts and refusal behavior.",
       "description_zh": "越狱攻击与拒绝",
       "languages": [
         "en"
@@ -16187,6 +16277,7 @@
       "topic": "jailbreak",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Jailbreak attack examples for safety testing.",
       "description_zh": "Jailbreak攻击",
       "languages": [
         "en"
@@ -16312,6 +16403,7 @@
       "topic": "suite_components",
       "resource_type": "suite_component",
       "catalog_status": "related",
+      "description_en": "Harmful-behavior prompts used for jailbreak attack evaluation.",
       "description_zh": "Jailbreak攻击",
       "languages": [
         "en"
@@ -16437,6 +16529,7 @@
       "topic": "values_ethics",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Value-alignment questions for language model evaluation.",
       "description_zh": "价值观",
       "languages": [
         "other"
@@ -16562,6 +16655,7 @@
       "topic": "attack_methods",
       "resource_type": "attack_method",
       "catalog_status": "related",
+      "description_en": "Implicit and latent jailbreak prompts targeting model safeguards.",
       "description_zh": "隐式/潜在越狱",
       "languages": [
         "英文+中文"
@@ -16765,6 +16859,7 @@
       "topic": "domain_capability",
       "resource_type": "benchmark",
       "catalog_status": "related",
+      "description_en": "Legal knowledge and reasoning tasks including statute and sentencing predictions.",
       "description_zh": "法律安全（法条/罪名/刑期预测、犯罪金额计算等20任务）",
       "languages": [
         "zh"
@@ -16890,7 +16985,8 @@
       "topic": "frameworks",
       "resource_type": "framework",
       "catalog_status": "related",
-      "description_zh": null,
+      "description_en": "Dynamic Chinese-context safety benchmarking with paired model evaluation",
+      "description_zh": "中文语境下的动态安全题库与模型对战评测框架",
       "languages": [
         "zh"
       ],
@@ -17011,6 +17107,7 @@
       "topic": "attack_data",
       "resource_type": "evaluation_dataset",
       "catalog_status": "related",
+      "description_en": "Email-based indirect prompt-injection attacks against agents.",
       "description_zh": "邮件场景间接提示注入",
       "languages": [
         "en"
@@ -17262,6 +17359,7 @@
       "topic": "privacy",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Personally identifiable information leakage from language models.",
       "description_zh": "PII泄露",
       "languages": [
         "en"
@@ -17387,6 +17485,7 @@
       "topic": "comprehensive",
       "resource_type": "benchmark_suite",
       "catalog_status": "listed",
+      "description_en": "Long-context, open-ended tasks testing model safety.",
       "description_zh": "长上下文开放任务安全",
       "languages": [
         "en"
@@ -17512,6 +17611,7 @@
       "topic": "jailbreak",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Malicious instructions and jailbreak attacks against safety-trained language models.",
       "description_zh": "越狱攻击/恶意指令",
       "languages": [
         "en"
@@ -17637,6 +17737,7 @@
       "topic": "prompt_injection",
       "resource_type": "benchmark",
       "catalog_status": "needs_review",
+      "description_en": null,
       "description_zh": "多层指令冲突",
       "languages": [
         "en"
@@ -17847,6 +17948,7 @@
       "topic": "attack_methods",
       "resource_type": "attack_method",
       "catalog_status": "related",
+      "description_en": "Multi-turn automated red-teaming with iterative attacker-defender updates.",
       "description_zh": "多轮自动红队攻防迭代",
       "languages": [
         "en"
@@ -17974,6 +18076,7 @@
       "topic": "tool_mcp",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Safety evaluation of MCP-based agent tool calls.",
       "description_zh": "MCP工具调用安全",
       "languages": [
         "en"
@@ -18104,6 +18207,7 @@
       "topic": "tool_mcp",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "MCP-stage attacks targeting planning, tool invocation, and response handling.",
       "description_zh": "覆盖 MCP 规划、工具调用、响应处理等阶段的攻击，如工具名碰撞、描述注入、越界参数、错误升级、检索注入等。",
       "languages": [
         "en"
@@ -18416,6 +18520,7 @@
       "topic": "tool_mcp",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Poisoned MCP tool descriptions and documentation targeting agent behavior.",
       "description_zh": "工具描述/手册投毒",
       "languages": [
         "en"
@@ -18652,7 +18757,8 @@
       "topic": "tool_mcp",
       "resource_type": "benchmark",
       "catalog_status": "listed",
-      "description_zh": "测试任务是：用户提出一个正常请求，Agent 接入包含正常工具和被投毒工具描述的 MCP 工具列表；攻击者在某个恶意工具的 description 中嵌入规则，诱导 Agent 在完成正常任务时调用另一个“合法高权限工具”执行恶意动作。攻击范式包括三类：Explicit Trigger - Function Hijacking、Implicit Trigger - Function Hijacking、Implicit Trigger - Parameter Tampering。例子包括在执行文件操作前读取 SSH 私钥、发送邮件时偷偷篡改收件人为攻击者邮箱等。",
+      "description_en": "Poisoned MCP descriptions induce agents to misuse high-privilege tools or tamper with call parameters.",
+      "description_zh": "投毒 MCP 工具描述，诱导 Agent 滥用高权限工具或篡改参数",
       "languages": [
         "en"
       ],
@@ -18978,6 +19084,7 @@
       "topic": "harmful_content",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Hate-speech annotations with continuous intensity scores.",
       "description_zh": "仇恨言论（连续hate score）",
       "languages": [
         "en"
@@ -19103,6 +19210,7 @@
       "topic": "values_ethics",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Evaluates model ethical judgments in medical scenarios.",
       "description_zh": "价值观",
       "languages": [
         "zh"
@@ -19228,6 +19336,7 @@
       "topic": "domain_risk",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Evaluates model responses to harmful medical requests.",
       "description_zh": "医疗安全（有害医疗请求应答）",
       "languages": [
         "en"
@@ -19353,6 +19462,7 @@
       "topic": "attack_methods",
       "resource_type": "attack_method",
       "catalog_status": "related",
+      "description_en": "Tests persistent agent behavior shifts after poisoned experiences enter long-term memory.",
       "description_zh": "经验检索投毒与持久行为漂移",
       "languages": [
         "en"
@@ -19629,6 +19739,7 @@
       "topic": "jailbreak",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Human-authored multi-turn jailbreak conversations for red-team evaluation.",
       "description_zh": "人类红队真实多轮越狱",
       "languages": [
         "en"
@@ -19754,6 +19865,7 @@
       "topic": "web_computer_mobile",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Evaluates mobile agent safety and indirect prompt injection in app workflows.",
       "description_zh": "移动设备操作安全 / 间接提示注入",
       "languages": [
         "en"
@@ -20053,7 +20165,8 @@
       "topic": "harmful_content",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
-      "description_zh": null,
+      "description_en": "Undesired-content detection set covering hate, violence and sexual content",
+      "description_zh": "不良内容检测评测集，涵盖仇恨、暴力、色情等类别",
       "languages": [
         "en"
       ],
@@ -20178,6 +20291,7 @@
       "topic": "values_ethics",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Contextual moral reasoning over norms, intentions, actions, and consequences.",
       "description_zh": "价值观/社会规范情境推理（规范-意图-情境-行动-后果）",
       "languages": [
         "en"
@@ -20303,6 +20417,7 @@
       "topic": "values_ethics",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Question-answering benchmark for moral values.",
       "description_zh": "价值观",
       "languages": [
         "en"
@@ -20434,6 +20549,7 @@
       "topic": "jailbreak",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Diverse, large-scale multi-turn jailbreak attacks for safety evaluation.",
       "description_zh": "大规模多样化多轮越狱",
       "languages": [
         "en"
@@ -20561,6 +20677,7 @@
       "topic": "jailbreak",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Multilingual harmful prompts for jailbreak evaluation.",
       "description_zh": "多语言越狱",
       "languages": [
         "en",
@@ -20687,6 +20804,7 @@
       "topic": "harmful_content",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Functional tests for hate-speech detection across multiple languages.",
       "description_zh": "仇恨言论（多语言功能性测试）",
       "languages": [
         "other"
@@ -20812,7 +20930,8 @@
       "topic": "privacy",
       "resource_type": "benchmark",
       "catalog_status": "listed",
-      "description_zh": "PII泄露",
+      "description_en": "Multilingual, multimodal PII entities and prompts for privacy-risk research.",
+      "description_zh": "多语言、多模态 PII 实体与提示数据，用于隐私风险研究",
       "languages": [
         "zh",
         "en"
@@ -20938,7 +21057,8 @@
       "topic": "autonomy_alignment",
       "resource_type": "benchmark_suite",
       "catalog_status": "listed",
-      "description_zh": null,
+      "description_en": "Binary-choice evaluation of myopic tendencies",
+      "description_zh": "短视倾向的二选一行为评测",
       "languages": [
         "zh"
       ],
@@ -21096,7 +21216,8 @@
       "topic": "training_data",
       "resource_type": "training_dataset",
       "catalog_status": "related",
-      "description_zh": null,
+      "description_en": "Annotated content-safety data with harmfulness and risk-category labels",
+      "description_zh": "带有害性与风险类别标注的内容安全语料",
       "languages": [
         "en"
       ],
@@ -21221,6 +21342,7 @@
       "topic": "values_ethics",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Tests cultural norm adaptation across 75 countries.",
       "description_zh": "价值观对齐（文化规范适应力，75国）",
       "languages": [
         "en"
@@ -21348,6 +21470,7 @@
       "topic": "training_data",
       "resource_type": "training_dataset",
       "catalog_status": "related",
+      "description_en": "Tests resistance to malicious instructions embedded in agent tool responses.",
       "description_zh": "工具返回中的间接提示注入",
       "languages": [
         "en"
@@ -21583,7 +21706,8 @@
       "topic": "autonomy_alignment",
       "resource_type": "benchmark_suite",
       "catalog_status": "listed",
-      "description_zh": null,
+      "description_en": "Binary-choice evaluation of one-box tendency",
+      "description_zh": "单箱选择倾向的二选一行为评测",
       "languages": [
         "zh"
       ],
@@ -21743,6 +21867,7 @@
       "topic": "prompt_injection",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Benchmarks prompt injection attacks and defenses in LLM applications.",
       "description_zh": "Prompt injection",
       "languages": [
         "en"
@@ -21946,6 +22071,7 @@
       "topic": "general",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Tests agent safety while using browsers, code, files, shells, and messaging tools.",
       "description_zh": "评测 agent 使用浏览器、代码、文件系统、bash、消息平台等真实工具时的安全风险。",
       "languages": [
         "en"
@@ -22338,6 +22464,7 @@
       "topic": "prompt_injection",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Tests adherence to higher-priority instructions amid conflicting directives.",
       "description_zh": "指令优先级与提示注入",
       "languages": [
         "en"
@@ -22547,6 +22674,7 @@
       "topic": "values_ethics",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Measures alignment with opinions across issues and US demographic groups.",
       "description_zh": "价值观对齐（人类观点分布：23个粗粒度+40个细粒度议题，60个美国人口群体）",
       "languages": [
         "en"
@@ -22672,6 +22800,7 @@
       "topic": "overrefusal",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Calibrates model over-refusal on benign requests.",
       "description_zh": "过度拒答校准",
       "languages": [
         "en"
@@ -22797,6 +22926,7 @@
       "topic": "frameworks",
       "resource_type": "framework",
       "catalog_status": "related",
+      "description_en": "Uses evolutionary fuzzing to test over-refusal on benign requests.",
       "description_zh": "过度拒答校准（演化模糊测试）",
       "languages": [
         "en"
@@ -22924,6 +23054,7 @@
       "topic": "web_computer_mobile",
       "resource_type": "benchmark",
       "catalog_status": "needs_review",
+      "description_en": null,
       "description_zh": "桌面 GUI 滥用 / 提示注入 / 自发不当行为",
       "languages": [
         "en"
@@ -23260,6 +23391,7 @@
       "topic": "jailbreak",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Persuasion-based adversarial prompts for jailbreak evaluation.",
       "description_zh": "说服式越狱",
       "languages": [
         "en"
@@ -23385,6 +23517,7 @@
       "topic": "agent_trajectory",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Assesses safe next actions in critical smartphone interaction states.",
       "description_zh": "手机关键决策下一动作安全",
       "languages": [
         "中文为主"
@@ -23659,6 +23792,7 @@
       "topic": "overrefusal",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Automatically generated pseudo-harmful prompts for over-refusal evaluation.",
       "description_zh": "过度拒答校准（伪有害提示自动生成）",
       "languages": [
         "en"
@@ -23784,6 +23918,7 @@
       "topic": "training_data",
       "resource_type": "training_dataset",
       "catalog_status": "related",
+      "description_en": "Red-team prompts with safety preference comparisons and fine-grained labels.",
       "description_zh": "安全偏好标注（红队提示+细粒度安全标签）",
       "languages": [
         "en"
@@ -23909,7 +24044,8 @@
       "topic": "autonomy_alignment",
       "resource_type": "benchmark_suite",
       "catalog_status": "listed",
-      "description_zh": null,
+      "description_en": "Binary-choice evaluation of power-seeking inclination",
+      "description_zh": "权力追求倾向的二选一行为评测",
       "languages": [
         "zh"
       ],
@@ -24067,6 +24203,7 @@
       "topic": "privacy",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Tests leakage of model training data.",
       "description_zh": "训练数据泄露",
       "languages": [
         "en"
@@ -24209,6 +24346,7 @@
       "topic": "privacy_memory",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Tests contextual privacy norms and personal data leakage in agent actions.",
       "description_zh": "情境化隐私规范/PII泄露（智能体行动）",
       "languages": [
         "en"
@@ -24334,6 +24472,7 @@
       "topic": "prompt_injection",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Tests goal hijacking and prompt leakage through injected instructions.",
       "description_zh": "Prompt injection",
       "languages": [
         "en"
@@ -24537,6 +24676,7 @@
       "topic": "harmful_content",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Dialogues for prosocial responses guided by social norms.",
       "description_zh": "亲社会回应/社会规范引导（rules-of-thought）",
       "languages": [
         "en"
@@ -24662,6 +24802,7 @@
       "topic": "attack_methods",
       "resource_type": "attack_method",
       "catalog_status": "related",
+      "description_en": "Multi-turn red-teaming with social-psychological persuasion strategies.",
       "description_zh": "社会心理学说服策略多轮红队",
       "languages": [
         "en"
@@ -24787,6 +24928,7 @@
       "topic": "privacy",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Conversational data for personal information leakage evaluation.",
       "description_zh": "PII泄露",
       "languages": [
         "en"
@@ -24912,6 +25054,7 @@
       "topic": "agent_trajectory",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Judges safety risks in recorded multi-turn agent trajectories.",
       "description_zh": "既有 Agent 轨迹风险识别",
       "languages": [
         "en"
@@ -25256,6 +25399,7 @@
       "topic": "reliability",
       "resource_type": "evaluation_dataset",
       "catalog_status": "related",
+      "description_en": "Sentence-level hallucination annotations for retrieval-augmented answers.",
       "description_zh": "幻觉与事实一致性",
       "languages": [
         "en"
@@ -25460,6 +25604,7 @@
       "topic": "tool_mcp",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Transforms benign tasks into adversarial agent workflows to assess safety and completion.",
       "description_zh": "把正常任务转化为攻击任务，测试 agent 在真实或模拟工具环境中是否保持鲁棒、安全和任务完成能力。",
       "languages": [
         "en"
@@ -25776,6 +25921,7 @@
       "topic": "overrefusal",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Ambiguous safety-boundary prompts for over-refusal evaluation.",
       "description_zh": "过度拒答校准（安全决策边界模糊提示）",
       "languages": [
         "other"
@@ -25901,6 +26047,7 @@
       "topic": "harmful_content",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Web text prompts that can trigger toxic continuations.",
       "description_zh": "自然网页语料的毒性触发补全",
       "languages": [
         "en"
@@ -26026,6 +26173,7 @@
       "topic": "attack_methods",
       "resource_type": "attack_method",
       "catalog_status": "related",
+      "description_en": "Nested-scenario and rewriting strategies for jailbreak evaluation.",
       "description_zh": "嵌套提示越狱（提示改写+56种场景嵌套）",
       "languages": [
         "en"
@@ -26151,6 +26299,7 @@
       "topic": "web_computer_mobile",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "High-risk GUI tasks assessing unsafe intentions and actions by computer agents.",
       "description_zh": "真实 GUI 高风险操作",
       "languages": [
         "en"
@@ -26412,7 +26561,8 @@
       "topic": "harmful_content",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
-      "description_zh": null,
+      "description_en": "Toxic prompts and passages across 38 languages for multilingual evaluation",
+      "description_zh": "跨 38 种语言的毒性提示与文本评测数据",
       "languages": [
         "zh",
         "en",
@@ -26539,6 +26689,7 @@
       "topic": "web_computer_mobile",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Tests coding-agent safety under malicious workspace content and risky choices.",
       "description_zh": "评测编码 agent 在项目工作区中面对恶意环境内容、风险自选择、上下文警告时是否执行有害命令或传播风险。",
       "languages": [
         "中英混合",
@@ -26856,6 +27007,7 @@
       "topic": "embodied",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Assesses embodied task planning and refusal of physically unsafe actions.",
       "description_zh": "具身任务规划与物理安全",
       "languages": [
         "en"
@@ -27131,6 +27283,7 @@
       "topic": "web_computer_mobile",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Multi-turn malicious web tasks for agent safety evaluation.",
       "description_zh": "网页智能体恶意任务多轮执行",
       "languages": [
         "en"
@@ -27256,6 +27409,7 @@
       "topic": "jailbreak",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Fine-grained safety assessment in multi-turn jailbreak conversations.",
       "description_zh": "多轮越狱对话细粒度安全评测",
       "languages": [
         "zh",
@@ -27382,6 +27536,7 @@
       "topic": "training_data",
       "resource_type": "training_dataset",
       "catalog_status": "related",
+      "description_en": "Multi-turn attack data under natural conversation distribution shifts.",
       "description_zh": "自然分布偏移多轮攻击",
       "languages": [
         "en"
@@ -27507,7 +27662,8 @@
       "topic": "general",
       "resource_type": "benchmark",
       "catalog_status": "listed",
-      "description_zh": "评测专业工作场景中 agent 是否执行不安全专业行为，例如误导性金融/法律/医疗/工程操作或危险文件/代码处理。",
+      "description_en": "Tests unsafe professional actions by agents across high-stakes work domains.",
+      "description_zh": "高风险专业场景中 Agent 不安全操作的评测",
       "languages": [
         "en"
       ],
@@ -27871,7 +28027,8 @@
       "topic": "domain_risk",
       "resource_type": "benchmark",
       "catalog_status": "listed",
-      "description_zh": null,
+      "description_en": "Safety evaluation and training resources for scientific contexts",
+      "description_zh": "面向科学场景的安全评测与增强数据资源",
       "languages": [
         "en"
       ],
@@ -27992,6 +28149,7 @@
       "topic": "agent_trajectory",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Tests risk detection before planned tool calls execute.",
       "description_zh": "执行前风险识别",
       "languages": [
         "en"
@@ -28272,6 +28430,7 @@
       "topic": "harmful_content",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Prompts covering seven safety scenarios and six instruction attacks.",
       "description_zh": "7类典型安全场景+6类指令攻击",
       "languages": [
         "zh"
@@ -28397,7 +28556,8 @@
       "topic": "comprehensive",
       "resource_type": "benchmark_suite",
       "catalog_status": "listed",
-      "description_zh": null,
+      "description_en": "Chinese-English multiple-choice evaluation across safety risk categories",
+      "description_zh": "覆盖多类安全风险的中英双语选择题评测",
       "languages": [
         "zh",
         "en"
@@ -28523,7 +28683,8 @@
       "topic": "comprehensive",
       "resource_type": "benchmark_suite",
       "catalog_status": "listed",
-      "description_zh": null,
+      "description_en": "Hierarchical safety evaluation with attack- and defense-enhanced examples",
+      "description_zh": "含攻击增强与防御增强样本的分层安全评测",
       "languages": [
         "en"
       ],
@@ -28654,6 +28815,7 @@
       "topic": "domain_risk",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Scientific language safety across text, molecules, proteins, and genomes.",
       "description_zh": "科学语言安全对齐（文本/分子/蛋白/基因组）",
       "languages": [
         "en"
@@ -28781,6 +28943,7 @@
       "topic": "domain_capability",
       "resource_type": "benchmark",
       "catalog_status": "related",
+      "description_en": "Cybersecurity knowledge questions across nine technical domains.",
       "description_zh": "网络安全知识（系统/Web/渗透/漏洞/密码学等9子领域）",
       "languages": [
         "en"
@@ -28906,7 +29069,8 @@
       "topic": "autonomy_alignment",
       "resource_type": "benchmark_suite",
       "catalog_status": "listed",
-      "description_zh": null,
+      "description_en": "Binary-choice evaluations of AI identity, architecture and capability awareness",
+      "description_zh": "AI 身份、架构与能力自我认知的二选一评测",
       "languages": [
         "zh"
       ],
@@ -29064,6 +29228,7 @@
       "topic": "harmful_content",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Functional hate-speech tests for low-resource languages in Singapore.",
       "description_zh": "仇恨言论（新加坡低资源语言功能性测试）",
       "languages": [
         "other"
@@ -29189,6 +29354,7 @@
       "topic": "frameworks",
       "resource_type": "framework",
       "catalog_status": "related",
+      "description_en": "Bilingual guardrail classification of safe, unsafe, and controversial content.",
       "description_zh": "护栏审核（中英双语安全检测，safe/unsafe/controversial三分类）",
       "languages": [
         "zh",
@@ -29315,6 +29481,7 @@
       "topic": "reliability",
       "resource_type": "evaluation_dataset",
       "catalog_status": "related",
+      "description_en": "Short factual questions for answer accuracy evaluation.",
       "description_zh": "事实问答准确性",
       "languages": [
         "en"
@@ -29543,6 +29710,7 @@
       "topic": "capability_environments",
       "resource_type": "benchmark",
       "catalog_status": "related",
+      "description_en": "Tests agent skill use and resulting task-performance gains.",
       "description_zh": "Skill 使用与能力增益",
       "languages": [
         "en"
@@ -29785,6 +29953,7 @@
       "topic": "agent_trajectory",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Malicious coding-agent traces for evaluating monitoring blind spots.",
       "description_zh": "恶意编码轨迹监控与规避检测",
       "languages": [
         "en"
@@ -30040,6 +30209,7 @@
       "topic": "bias_fairness",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Structured labels for social bias and offensive implications.",
       "description_zh": "结构性偏见与冒犯（group-offense框架）",
       "languages": [
         "en"
@@ -30165,6 +30335,7 @@
       "topic": "bias_fairness",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Tests amplification of stigma across US social identities.",
       "description_zh": "社会污名偏见放大（93个美国污名身份）",
       "languages": [
         "en"
@@ -30290,7 +30461,8 @@
       "topic": "harmful_content",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
-      "description_zh": null,
+      "description_en": "Evaluation of LLM safety refusal on harmful requests",
+      "description_zh": "有害请求下的模型安全拒答行为评测",
       "languages": [
         "en"
       ],
@@ -30415,6 +30587,7 @@
       "topic": "web_computer_mobile",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Tests policy compliance during enterprise web workflows.",
       "description_zh": "在企业 Web 工作流中测试 agent 是否既完成任务又遵守安全可信策略，例如权限、隐私、合规和风险约束。",
       "languages": [
         "en"
@@ -30812,6 +30985,7 @@
       "topic": "bias_fairness",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Measures stereotypical preferences in sentence continuation choices.",
       "description_zh": "刻板印象/反刻板印象/无关注续写选择",
       "languages": [
         "en"
@@ -30937,7 +31111,8 @@
       "topic": "comprehensive",
       "resource_type": "benchmark_suite",
       "catalog_status": "listed",
-      "description_zh": null,
+      "description_en": "Multi-turn Chinese LLM safety across harms, responsibility and attacks",
+      "description_zh": "中文大模型多轮对抗安全评测，覆盖传统安全、责任与指令攻击",
       "languages": [
         "zh"
       ],
@@ -31062,7 +31237,8 @@
       "topic": "bias_fairness",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
-      "description_zh": "伤害类型7：群体公平与偏见风险",
+      "description_en": "Chinese Weibo posts and lexicon for detecting online sexism.",
+      "description_zh": "用于识别网络性别歧视的中文微博语料与词表",
       "languages": [
         "zh"
       ],
@@ -31222,6 +31398,7 @@
       "topic": "attack_methods",
       "resource_type": "attack_method",
       "catalog_status": "needs_review",
+      "description_en": null,
       "description_zh": "自动化越狱树搜索",
       "languages": [
         "en"
@@ -31353,6 +31530,7 @@
       "topic": "capability_environments",
       "resource_type": "benchmark",
       "catalog_status": "related",
+      "description_en": "Multi-turn retail and airline tasks with tool calls and policy constraints.",
       "description_zh": "规则遵循、任务完成与稳定性",
       "languages": [
         "en"
@@ -31708,6 +31886,7 @@
       "topic": "prompt_injection",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Human-generated prompt injection attacks and defenses from an online game.",
       "description_zh": "直接提示注入与防御",
       "languages": [
         "en"
@@ -31953,6 +32132,7 @@
       "topic": "capability_environments",
       "resource_type": "benchmark",
       "catalog_status": "related",
+      "description_en": "Simulated workplace tasks spanning coding, browsing, communication, and collaboration.",
       "description_zh": "办公、编码和协作任务完成",
       "languages": [
         "en"
@@ -32234,7 +32414,8 @@
       "topic": "harmful_content",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
-      "description_zh": "伤害类型8：攻击性与有害表达风险",
+      "description_en": "Chinese social-media sentences annotated for profanity identification and rephrasing.",
+      "description_zh": "用于粗俗用语识别与改写的中文社交媒体句子语料",
       "languages": [
         "zh"
       ],
@@ -32392,6 +32573,7 @@
       "topic": "capability_environments",
       "resource_type": "benchmark",
       "catalog_status": "related",
+      "description_en": "Long-horizon tasks requiring coordinated use of many real software tools.",
       "description_zh": "多工具任务完成与效率",
       "languages": [
         "en"
@@ -32650,7 +32832,8 @@
       "topic": "tool_mcp",
       "resource_type": "benchmark",
       "catalog_status": "listed",
-      "description_zh": "任务关注 instruction underspecification，即用户请求本身是善意的，但存在关键信息缺失或歧义，如果 Agent 不澄清就直接执行，可能造成风险。例如：删除文件释放空间、支付账单、授予门锁权限、分享机密笔记、控制交通灯、操控室内机器人等。风险类型包括 隐私泄露、财务损失、执行错误/低效、物理伤害与安全隐患、声誉损害、计算机安全破坏、法律合规违规、数据丢失/损坏、其他风险",
+      "description_en": "Tests risky agent actions when benign user requests omit critical details.",
+      "description_zh": "善意请求缺少关键信息时，Agent 仓促执行的风险评测",
       "languages": [
         "en"
       ],
@@ -33056,6 +33239,7 @@
       "topic": "agent_trajectory",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Classifies candidate tool calls by risk before execution.",
       "description_zh": "候选工具调用安全分类",
       "languages": [
         "en"
@@ -33314,6 +33498,7 @@
       "topic": "training_data",
       "resource_type": "training_dataset",
       "catalog_status": "related",
+      "description_en": "Training data for safe multi-step tool use and risky-use scenarios.",
       "description_zh": "安全工具调用数据与微调",
       "languages": [
         "en"
@@ -33559,6 +33744,7 @@
       "topic": "capability_environments",
       "resource_type": "benchmark",
       "catalog_status": "related",
+      "description_en": "Stateful, multi-turn tool-use tasks with missing information and dependencies.",
       "description_zh": "多轮有状态工具调用能力",
       "languages": [
         "en"
@@ -33814,6 +34000,7 @@
       "topic": "tool_mcp",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Evaluates safety throughout tool input, execution, and output stages.",
       "description_zh": "工具学习全流程安全（输入/执行/输出三阶段六场景）",
       "languages": [
         "en"
@@ -33939,6 +34126,7 @@
       "topic": "agent_trajectory",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Tests privacy leakage inferred from combining otherwise benign tool outputs.",
       "description_zh": "跨工具组合推断导致的隐私泄露",
       "languages": [
         "en"
@@ -34219,6 +34407,7 @@
       "topic": "harmful_content",
       "resource_type": "evaluation_dataset",
       "catalog_status": "needs_review",
+      "description_en": null,
       "description_zh": "仇恨言论",
       "languages": [
         "en"
@@ -34347,6 +34536,7 @@
       "topic": "harmful_content",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Fine-grained Chinese hate-speech and toxicity classification.",
       "description_zh": "仇恨言论/毒性（中文细粒度）",
       "languages": [
         "zh"
@@ -34472,6 +34662,7 @@
       "topic": "harmful_content",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Chinese multimodal data for harmful meme detection.",
       "description_zh": "有害迷因（多模态中文）",
       "languages": [
         "zh"
@@ -34597,6 +34788,7 @@
       "topic": "harmful_content",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Implicit toxicity targeting minority groups in generated text.",
       "description_zh": "仇恨言论（13个少数群体隐性毒性）",
       "languages": [
         "en"
@@ -34722,6 +34914,7 @@
       "topic": "reliability",
       "resource_type": "evaluation_dataset",
       "catalog_status": "related",
+      "description_en": "Locates responsible components and decisive failure steps in agent traces.",
       "description_zh": "责任组件与关键失败步骤定位",
       "languages": [
         "en"
@@ -34998,6 +35191,7 @@
       "topic": "agent_trajectory",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Detects risks in multi-step tool trajectories before unsafe calls execute.",
       "description_zh": "多步工具轨迹风险检测",
       "languages": [
         "en"
@@ -35275,6 +35469,7 @@
       "topic": "reliability",
       "resource_type": "evaluation_dataset",
       "catalog_status": "related",
+      "description_en": "Classifies errors and pinpoints faulty spans in long agent traces.",
       "description_zh": "错误分类与 trace span 定位",
       "languages": [
         "en"
@@ -35556,6 +35751,7 @@
       "topic": "frameworks",
       "resource_type": "framework",
       "catalog_status": "related",
+      "description_en": "Safety rules for agent planning across multi-turn interactions.",
       "description_zh": "智能体规划安全宪法",
       "languages": [
         "en"
@@ -35683,6 +35879,7 @@
       "topic": "comprehensive",
       "resource_type": "benchmark_suite",
       "catalog_status": "listed",
+      "description_en": "Evaluates trustworthiness across truthfulness, safety, fairness, robustness, privacy, and ethics.",
       "description_zh": "可信性六维综合评测（真实性/安全/公平/鲁棒/隐私/机器伦理）",
       "languages": [
         "en"
@@ -35808,7 +36005,8 @@
       "topic": "harmful_content",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
-      "description_zh": null,
+      "description_en": "Chinese underground-market jargon corpus from Telegram",
+      "description_zh": "Telegram 地下市场中文黑话识别语料",
       "languages": [
         "zh"
       ],
@@ -35972,6 +36170,7 @@
       "topic": "comprehensive",
       "resource_type": "benchmark_suite",
       "catalog_status": "listed",
+      "description_en": "Evaluates model safety against user-specific standards.",
       "description_zh": "用户特定安全标准评测",
       "languages": [
         "en"
@@ -36097,6 +36296,7 @@
       "topic": "values_ethics",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Measures value orientations using psychometric scales and value dimensions.",
       "description_zh": "价值取向探测（44个心理测量量表/453个价值维度）",
       "languages": [
         "en"
@@ -36222,6 +36422,7 @@
       "topic": "web_computer_mobile",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Tests web-agent hijacking through attacker-controlled page content.",
       "description_zh": "测试网页中的恶意内容是否能劫持 Web agent，使其偏离用户目标并执行攻击者目标。",
       "languages": [
         "en"
@@ -36560,6 +36761,7 @@
       "topic": "capability_environments",
       "resource_type": "benchmark",
       "catalog_status": "related",
+      "description_en": "Self-hosted websites for web navigation and task completion.",
       "description_zh": "网页导航与任务完成",
       "languages": [
         "en"
@@ -36841,6 +37043,7 @@
       "topic": "agent_trajectory",
       "resource_type": "evaluation_dataset",
       "catalog_status": "listed",
+      "description_en": "Classifies risk levels in web-agent actions.",
       "description_zh": "网页操作风险分级护栏",
       "languages": [
         "en"
@@ -36966,6 +37169,7 @@
       "topic": "content_guardrail",
       "resource_type": "benchmark_suite",
       "catalog_status": "listed",
+      "description_en": "Guardrail data for harmful intent, response safety, and refusal detection.",
       "description_zh": "护栏审核（用户意图识别/回复有害性判定/拒答检测，13风险类）",
       "languages": [
         "en"
@@ -37091,6 +37295,7 @@
       "topic": "frameworks",
       "resource_type": "framework",
       "catalog_status": "related",
+      "description_en": "Jailbreak strategy discovery and adversarial safety training data.",
       "description_zh": "越狱策略挖掘与对抗安全训练",
       "languages": [
         "en"
@@ -37216,6 +37421,7 @@
       "topic": "domain_risk",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Multiple-choice questions on hazardous biological, chemical, and cyber knowledge.",
       "description_zh": "生物/化学/网络危险知识测量",
       "languages": [
         "en"
@@ -37341,6 +37547,7 @@
       "topic": "capability_environments",
       "resource_type": "benchmark",
       "catalog_status": "related",
+      "description_en": "Enterprise tasks on ServiceNow-style knowledge, forms, and workflows.",
       "description_zh": "ServiceNow 任务完成",
       "languages": [
         "en"
@@ -37628,6 +37835,7 @@
       "topic": "values_ethics",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Conversational evaluation of model value orientations.",
       "description_zh": "价值观",
       "languages": [
         "en"
@@ -37749,6 +37957,7 @@
       "topic": "training_data",
       "resource_type": "training_dataset",
       "catalog_status": "related",
+      "description_en": "Automated discovery of multi-turn-to-single-turn jailbreak templates.",
       "description_zh": "多轮到单轮越狱模板自动发现",
       "languages": [
         "en"
@@ -37874,6 +38083,7 @@
       "topic": "training_data",
       "resource_type": "training_dataset",
       "catalog_status": "related",
+      "description_en": "Training data for adaptive multi-agent, multi-turn jailbreaks.",
       "description_zh": "多智能体自适应多轮越狱训练集",
       "languages": [
         "en"
@@ -37999,6 +38209,7 @@
       "topic": "training_data",
       "resource_type": "training_dataset",
       "catalog_status": "related",
+      "description_en": "Multilingual guardrail training data across safety risk categories.",
       "description_zh": "护栏审核训练数据（9大风险维度/28细分类别，多语言）",
       "languages": [
         "other"
@@ -38124,6 +38335,7 @@
       "topic": "overrefusal",
       "resource_type": "benchmark",
       "catalog_status": "listed",
+      "description_en": "Tests over-refusal on safe prompts that resemble harmful requests.",
       "description_zh": "过度拒答校准",
       "languages": [
         "en"
