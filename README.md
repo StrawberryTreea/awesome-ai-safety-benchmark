@@ -1,18 +1,36 @@
-# Awesome LLM & Agent Safety Benchmarks | LLM 与 Agent 安全 Benchmark
+<div align="center">
 
-[English](README.md) · [简体中文](README.zh-CN.md)
+<h1>🛡️ Awesome LLM &amp; Agent Safety Benchmarks</h1>
 
-A curated collection of benchmarks, datasets and evaluation resources for LLM and agent safety.
+<h3>LLM 与 Agent 安全评测资源精选</h3>
 
-Find the right benchmark for your research or application. Explore harmful content, jailbreaks, prompt injection, privacy, tool use, agent behavior and guardrails, with papers, code and datasets organized by topic.
+A curated, bilingual map of benchmarks, datasets and evaluation tools for safer language models and agents.
 
-Updated weekly. [Contributions and recommendations](CONTRIBUTING.md) are welcome!
+<a href="https://github.com/StrawberryTreea/awesome-ai-safety-benchmark"><img src="https://img.shields.io/github/stars/StrawberryTreea/awesome-ai-safety-benchmark?style=flat-square&logo=github&label=Stars" alt="GitHub stars"></a>
+<a href="https://github.com/StrawberryTreea/awesome-ai-safety-benchmark/actions/workflows/validate.yml"><img src="https://img.shields.io/github/actions/workflow/status/StrawberryTreea/awesome-ai-safety-benchmark/validate.yml?style=flat-square&label=Checks" alt="Validation status"></a>
+<img src="https://img.shields.io/badge/catalog-201%20resources-2563eb?style=flat-square" alt="Public catalog size">
+<img src="https://img.shields.io/badge/links-321%20checked-0891b2?style=flat-square" alt="Checked links">
 
-汇集 LLM 与 Agent 安全领域的 benchmark、数据集与评测资源。
+</div>
 
-为你的研究或应用找到合适的安全评测基准。按主题探索有害内容、越狱、提示注入、隐私、工具使用、Agent 行为与护栏评测，快速找到相关论文、代码和数据。
+> **Find the right benchmark faster.** Browse harmful content, jailbreaks, prompt injection, privacy, tool use, agent behavior, guardrails and related resources, with papers, code and data links organized by topic.
+>
+> **快速找到合适的评测。** 按主题浏览有害内容、越狱、提示注入、隐私、工具使用、Agent 行为、护栏及相关资源，并直接进入论文、代码和数据页面。
 
-每周更新，欢迎[补充与推荐](CONTRIBUTING.md)！
+<sub>Last catalog update: 2026-10-15 · Updated weekly · <a href="CONTRIBUTING.md">Suggest a resource or correction</a></sub>
+
+## Explore | 快速浏览
+
+<table width="100%">
+<tr>
+<td width="25%" align="center"><a href="#llm_safety"><strong>🧩 LLM Safety</strong></a><br><sub>LLM 安全 · 102</sub></td>
+<td width="25%" align="center"><a href="#agent_safety"><strong>🤖 Agent Safety</strong></a><br><sub>Agent 安全 · 30</sub></td>
+<td width="25%" align="center"><a href="#safety_judging"><strong>⚖️ Guardrails</strong></a><br><sub>安全审查与护栏 · 11</sub></td>
+<td width="25%" align="center"><a href="#related_resources"><strong>🧰 Related</strong></a><br><sub>相关资源 · 58</sub></td>
+</tr>
+</table>
+
+<p align="center"><sub><a href="data/benchmarks.csv">Download CSV · 下载目录</a> · <a href="docs/taxonomy.md">Taxonomy · 分类说明</a> · <a href="CONTRIBUTING.md">Contribute · 参与共建</a></sub></p>
 
 ## Catalog | 目录
 
