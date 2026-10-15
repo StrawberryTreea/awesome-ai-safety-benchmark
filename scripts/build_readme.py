@@ -230,17 +230,19 @@ def make_readme(catalog, stats):
     ]
     entries = [e for e in catalog["entries"] if e["catalog_status"] != "needs_review"]
     topic_order = {key: index for index, key in enumerate(TOPICS)}
+    track_number = 0
     for track, track_labels in TRACKS.items():
         track_entries = [e for e in entries if e["track"] == track]
         if not track_entries:
             continue
-        intro.append(catalog_section(2, f"{track_labels[0]} | {track_labels[1]}", track))
+        track_number += 1
+        intro.append(catalog_section(2, f"{track_number}. {track_labels[0]} | {track_labels[1]}", track))
         topics = defaultdict(list)
         for entry in track_entries:
             topics[entry["topic"]].append(entry)
-        for topic in sorted(topics, key=lambda key: topic_order.get(key, 99)):
+        for topic_number, topic in enumerate(sorted(topics, key=lambda key: topic_order.get(key, 99)), 1):
             topic_labels = TOPICS[topic]
-            intro.append(catalog_section(3, f"{topic_labels[0]} | {topic_labels[1]}", f"{track}-{topic}"))
+            intro.append(catalog_section(3, f"{track_number}.{topic_number} {topic_labels[0]} | {topic_labels[1]}", f"{track}-{topic}"))
             intro.extend(catalog_rows(topics[topic]))
     intro += ["</tbody>", "</table>", ""]
     return "\n".join(intro)
