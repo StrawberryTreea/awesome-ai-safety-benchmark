@@ -11,6 +11,7 @@ from collections import Counter, defaultdict
 import html
 import json
 from pathlib import Path
+import re
 from curate import effective_url, navigation_links
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -151,38 +152,59 @@ def catalog_links_html(entry):
     return "<br>".join(parts) or "Source pending"
 
 
-def catalog_table(entries):
-    """Render every topic with the same fixed five-column HTML table."""
-    # Keep these widths identical for every subsection so a short topic cannot
-    # produce a different visual layout from a long one.  Widths are repeated
-    # on header and body cells because GitHub removes <colgroup> from README
-    # HTML and Markdown tables size themselves from their content.
+def catalog_name(name):
+    parts = re.split(r"(?<=[a-z])(?=[A-Z])|(?<=[_/-])", str(name))
+    return "&#8203;".join(html.escape(part) for part in parts)
+
+
+def catalog_year(value):
+    original = "—" if value is None else str(value)
+    years = list(dict.fromkeys(re.findall(r"(?<!\d)(?:19|20)\d{2}(?!\d)", original)))
+    display = ", ".join(years) or original
+    return f'<span title="{html.escape(original, quote=True)}">{html.escape(display)}</span>'
+
+
+def catalog_languages(values):
+    mappings = {
+        "英语为主": ["en"],
+        "多语言函数调用场景": ["other"],
+        "英文(含少量多语言混淆)": ["en", "other"],
+        "英文+中文": ["zh", "en"],
+        "中文为主": ["zh"],
+        "中英混合": ["zh", "en"],
+    }
+    normalized = {code for value in values for code in mappings.get(value, [value])}
+    ordered = [code for code in ("zh", "en", "other") if code in normalized]
+    ordered.extend(sorted(normalized - {"zh", "en", "other"}))
+    display = ", ".join(ordered) or "—"
+    original = ", ".join(values) or "—"
+    return f'<span title="{html.escape(original, quote=True)}">{html.escape(display)}</span>'
+
+
+def catalog_rows(entries):
+    """Render catalog entries into the shared five-column table."""
     widths = ["18%", "46%", "10%", "10%", "16%"]
-    headers = ["Resource", "Description", "Year", "Language", "Links"]
-    lines = [
-        '<table width="100%">',
-        "<thead>",
-        "<tr>" + "".join(f'<th width="{width}">{header}</th>' for width, header in zip(widths, headers)) + "</tr>",
-        "</thead>",
-        "<tbody>",
-    ]
+    lines = []
     for entry in sorted(entries, key=lambda e: e["name"].casefold()):
-        year = entry["reported_metadata"]["year"]["value"]
-        languages = ", ".join(entry["languages"]) or "—"
         full_description = " ".join(str(entry.get("description_zh") or "—").split())
         description = full_description if len(full_description) <= 80 else full_description[:80].rstrip() + "…"
         description = html.escape(description)
         description_title = html.escape(full_description, quote=True)
         cells = [
-            html.escape(str(entry["name"])),
+            catalog_name(entry["name"]),
             f'<span title="{description_title}">{description}</span>',
-            html.escape(str(year)),
-            html.escape(str(languages)),
+            catalog_year(entry["reported_metadata"]["year"]["value"]),
+            catalog_languages(entry["languages"]),
             catalog_links_html(entry),
         ]
         lines.append("<tr>" + "".join(f'<td width="{width}">{cell}</td>' for width, cell in zip(widths, cells)) + "</tr>")
-    lines += ["</tbody>", "</table>"]
-    return "\n".join(lines)
+    return lines
+
+
+def catalog_section(level, label, section_id):
+    tag = "th" if level == 2 else "td"
+    return (f'<tr><{tag} colspan="5" align="left" id="{section_id}">'
+            f'<strong>{html.escape(label)}</strong></{tag}></tr>')
 
 
 def make_readme(catalog, stats):
@@ -192,14 +214,19 @@ def make_readme(catalog, stats):
         "",
         "[English](README.md) · [简体中文](README.zh-CN.md)",
         "",
-        "| English | 中文 |",
-        "| --- | --- |",
-        "| A continuously updated collection of benchmarks, evaluation datasets and supporting resources for LLM and agent safety. | 持续收集 LLM 与 Agent 安全相关的 benchmark、评测数据和配套资源。 |",
-        "| The catalog covers model safety, agent safety and security, safety judging, guardrails, attack methods, training data and related research resources. | 内容覆盖模型安全、Agent 安全与安全防护、安全审查、护栏、攻击方法、训练数据及相关研究资源。 |",
-        "| Entries are organized by evaluation target and topic, with direct links to papers, code, datasets and project pages. | 条目按评测对象与主题导航，并提供论文、代码、数据和项目页面的直接链接。 |",
+        "A continuously updated collection of benchmarks, evaluation datasets and supporting resources for LLM and agent safety. | 持续收集 LLM 与 Agent 安全相关的 benchmark、评测数据和配套资源。",
+        "",
+        "The catalog covers model safety, agent safety and security, safety judging, guardrails, attack methods, training data and related research resources. | 内容覆盖模型安全、Agent 安全与安全防护、安全审查、护栏、攻击方法、训练数据及相关研究资源。",
+        "",
+        "Entries are organized by evaluation target and topic, with direct links to papers, code, datasets and project pages. | 条目按评测对象与主题导航，并提供论文、代码、数据和项目页面的直接链接。",
         "",
         "## Catalog | 目录",
         "",
+        '<table width="100%">',
+        '<thead>',
+        '<tr><th width="18%">Resource</th><th width="46%">Description</th><th width="10%">Year</th><th width="10%">Language</th><th width="16%">Links</th></tr>',
+        '</thead>',
+        '<tbody>',
     ]
     entries = [e for e in catalog["entries"] if e["catalog_status"] != "needs_review"]
     topic_order = {key: index for index, key in enumerate(TOPICS)}
@@ -207,13 +234,15 @@ def make_readme(catalog, stats):
         track_entries = [e for e in entries if e["track"] == track]
         if not track_entries:
             continue
-        intro += [f"## {track_labels[0]} | {track_labels[1]}", ""]
+        intro.append(catalog_section(2, f"{track_labels[0]} | {track_labels[1]}", track))
         topics = defaultdict(list)
         for entry in track_entries:
             topics[entry["topic"]].append(entry)
         for topic in sorted(topics, key=lambda key: topic_order.get(key, 99)):
             topic_labels = TOPICS[topic]
-            intro += [f"### {topic_labels[0]} | {topic_labels[1]}", "", catalog_table(topics[topic]), ""]
+            intro.append(catalog_section(3, f"{topic_labels[0]} | {topic_labels[1]}", f"{track}-{topic}"))
+            intro.extend(catalog_rows(topics[topic]))
+    intro += ["</tbody>", "</table>", ""]
     return "\n".join(intro)
 
 
