@@ -23,12 +23,17 @@ A curated, bilingual map of benchmarks, datasets and evaluation tools for safer 
 
 <table width="100%">
 <tr>
-<td width="25%" align="center"><a href="#llm_safety"><strong>🧩 LLM Safety</strong></a><br><sub>LLM 安全 · 102</sub></td>
-<td width="25%" align="center"><a href="#agent_safety"><strong>🤖 Agent Safety</strong></a><br><sub>Agent 安全 · 30</sub></td>
-<td width="25%" align="center"><a href="#safety_judging"><strong>⚖️ Guardrails</strong></a><br><sub>安全审查与护栏 · 11</sub></td>
-<td width="25%" align="center"><a href="#related_resources"><strong>🧰 Related</strong></a><br><sub>相关资源 · 58</sub></td>
+<td width="50%" valign="top"><a href="#llm_safety"><strong>🧩 LLM Safety</strong></a><br><sub>LLM 安全 · 102 resources</sub><br><br>Model-level safety, harms, jailbreaks, privacy and alignment.<br>模型安全、有害内容、越狱、隐私与对齐。</td>
+<td width="50%" valign="top"><a href="#agent_safety"><strong>🤖 Agent Safety</strong></a><br><sub>Agent 安全 · 30 resources</sub><br><br>Tool use, memory, web/computer interaction and agent misuse.<br>工具调用、记忆、网页/桌面交互与 Agent 滥用。</td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="#safety_judging"><strong>⚖️ Guardrails & Judging</strong></a><br><sub>安全审查与护栏 · 11 resources</sub><br><br>Trajectory-level evaluation, content moderation and safety judging.<br>轨迹级评测、内容审核与安全判定。</td>
+<td width="50%" valign="top"><a href="#related_resources"><strong>🧰 Related Resources</strong></a><br><sub>相关资源 · 58 resources</sub><br><br>Training data, attack methods, environments and diagnostics.<br>训练数据、攻击方法、环境与诊断资源。</td>
 </tr>
 </table>
+
+<p><strong>Start with a question · 按问题进入</strong></p>
+<p><a href="#llm_safety-jailbreak">🧨 Jailbreaks · 越狱</a> · <a href="#llm_safety-prompt_injection">🧱 Prompt injection · 提示注入</a> · <a href="#llm_safety-privacy">🔒 Privacy · 隐私</a> · <a href="#agent_safety-tool_mcp">🛠️ Tools/MCP · 工具/MCP</a> · <a href="#safety_judging-agent_trajectory">🧭 Trajectories · 轨迹</a> · <a href="#safety_judging-content_guardrail">🛡️ Guardrails · 护栏</a></p>
 
 <p align="center"><sub><a href="data/benchmarks.csv">Download CSV · 下载目录</a> · <a href="docs/taxonomy.md">Taxonomy · 分类说明</a> · <a href="CONTRIBUTING.md">Contribute · 参与共建</a></sub></p>
 

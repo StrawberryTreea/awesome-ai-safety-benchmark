@@ -21,6 +21,28 @@ TRACKS = {
     "safety_judging": ("Safety Judging & Guardrails", "安全审查与护栏"),
     "related_resources": ("Related Resources", "相关资源"),
 }
+EXPLORE_CARDS = (
+    ("llm_safety", "🧩", "LLM Safety", "LLM 安全",
+     "Model-level safety, harms, jailbreaks, privacy and alignment.",
+     "模型安全、有害内容、越狱、隐私与对齐。", "listed_by_track", "llm_safety"),
+    ("agent_safety", "🤖", "Agent Safety", "Agent 安全",
+     "Tool use, memory, web/computer interaction and agent misuse.",
+     "工具调用、记忆、网页/桌面交互与 Agent 滥用。", "listed_by_track", "agent_safety"),
+    ("safety_judging", "⚖️", "Guardrails & Judging", "安全审查与护栏",
+     "Trajectory-level evaluation, content moderation and safety judging.",
+     "轨迹级评测、内容审核与安全判定。", "listed_by_track", "safety_judging"),
+    ("related_resources", "🧰", "Related Resources", "相关资源",
+     "Training data, attack methods, environments and diagnostics.",
+     "训练数据、攻击方法、环境与诊断资源。", "by_catalog_status", "related"),
+)
+EXPLORE_PATHS = (
+    ("#llm_safety-jailbreak", "🧨 Jailbreaks · 越狱"),
+    ("#llm_safety-prompt_injection", "🧱 Prompt injection · 提示注入"),
+    ("#llm_safety-privacy", "🔒 Privacy · 隐私"),
+    ("#agent_safety-tool_mcp", "🛠️ Tools/MCP · 工具/MCP"),
+    ("#safety_judging-agent_trajectory", "🧭 Trajectories · 轨迹"),
+    ("#safety_judging-content_guardrail", "🛡️ Guardrails · 护栏"),
+)
 TOPICS = {
     "comprehensive": ("Comprehensive safety", "综合安全"),
     "harmful_content": ("Harmful content and toxicity", "有害内容与毒性"),
@@ -209,6 +231,30 @@ def catalog_section(level, label, section_id):
             f'<strong>{html.escape(label)}</strong></{tag}></tr>')
 
 
+def explore_section(stats):
+    lines = [
+        '<table width="100%">',
+        '<tr>',
+    ]
+    for index, (anchor, icon, title_en, title_zh, description_en, description_zh, count_group, count_key) in enumerate(EXPLORE_CARDS):
+        if index and index % 2 == 0:
+            lines.extend(['</tr>', '<tr>'])
+        count = stats[count_group].get(count_key, 0)
+        lines.append(
+            f'<td width="50%" valign="top"><a href="#{anchor}"><strong>{icon} {title_en}</strong></a>'
+            f'<br><sub>{title_zh} · {count} resources</sub>'
+            f'<br><br>{description_en}<br>{description_zh}</td>'
+        )
+    lines += [
+        '</tr>',
+        '</table>',
+        '',
+        '<p><strong>Start with a question · 按问题进入</strong></p>',
+        '<p>' + ' · '.join(f'<a href="{href}">{label}</a>' for href, label in EXPLORE_PATHS) + '</p>',
+    ]
+    return lines
+
+
 def make_readme(catalog, stats):
     listed = stats["by_catalog_status"].get("listed", 0)
     related = stats["by_catalog_status"].get("related", 0)
@@ -242,14 +288,7 @@ def make_readme(catalog, stats):
         "",
         "## Explore | 快速浏览",
         "",
-        "<table width=\"100%\">",
-        "<tr>",
-        f"<td width=\"25%\" align=\"center\"><a href=\"#llm_safety\"><strong>🧩 LLM Safety</strong></a><br><sub>LLM 安全 · {stats['listed_by_track'].get('llm_safety', 0)}</sub></td>",
-        f"<td width=\"25%\" align=\"center\"><a href=\"#agent_safety\"><strong>🤖 Agent Safety</strong></a><br><sub>Agent 安全 · {stats['listed_by_track'].get('agent_safety', 0)}</sub></td>",
-        f"<td width=\"25%\" align=\"center\"><a href=\"#safety_judging\"><strong>⚖️ Guardrails</strong></a><br><sub>安全审查与护栏 · {stats['listed_by_track'].get('safety_judging', 0)}</sub></td>",
-        f"<td width=\"25%\" align=\"center\"><a href=\"#related_resources\"><strong>🧰 Related</strong></a><br><sub>相关资源 · {related}</sub></td>",
-        "</tr>",
-        "</table>",
+        *explore_section(stats),
         "",
         "<p align=\"center\"><sub><a href=\"data/benchmarks.csv\">Download CSV · 下载目录</a> · <a href=\"docs/taxonomy.md\">Taxonomy · 分类说明</a> · <a href=\"CONTRIBUTING.md\">Contribute · 参与共建</a></sub></p>",
         "",
