@@ -37,6 +37,16 @@ A curated, bilingual map of benchmarks, datasets and evaluation tools for safer 
 
 <p align="center"><sub><a href="data/benchmarks.csv">Download CSV · 下载目录</a> · <a href="docs/taxonomy.md">Taxonomy · 分类说明</a> · <a href="CONTRIBUTING.md">Contribute · 参与共建</a></sub></p>
 
+## Taxonomy & Evidence | 分类与依据
+
+| 🧭 Understand the catalog | 🔎 Examine the design | 📚 Trace the evidence |
+| --- | --- | --- |
+| [**分类总览 · Overview**](docs/taxonomy.md)<br>评测主轨与资源实例 | [**设计依据 · Rationale**](docs/taxonomy-rationale.md)<br>多轴结构的依据与分类边界 | [**来源与映射 · Sources**](docs/taxonomy-research-2026-10-16.md#source-matrix)<br>标准、研究框架与版本范围 |
+
+[Candidate taxonomy · 候选分类](docs/taxonomy-proposal.md) · [Validation roadmap · 验证计划](docs/taxonomy-validation.md) · [JSON definition · 机器定义](docs/taxonomy-proposal-v0.1.json)
+
+> **Proposal status · 提案状态：** The 12-domain / 39-subtype risk taxonomy is under review. 当前 12／39 风险分类为待验证提案；目录仍按评测对象与主题导航。类别数量与边界将根据验证结果调整。
+
 ## Catalog | 目录
 
 <table width="100%">

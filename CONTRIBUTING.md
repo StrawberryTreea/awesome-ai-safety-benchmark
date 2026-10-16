@@ -39,3 +39,18 @@ Distinguish agent tool-call selection, synthetic tool execution, LM-emulated too
 Historical screening conclusions refer to the earlier evaluator and its environment. They are evidence to consider, not instructions governing this collection. A GUI safety benchmark can be relevant even when the maintainer cannot run its environment locally.
 
 Do not include collector names, local machine paths, raw attack examples, credentials or original private workbooks in contributions. Public provenance uses source IDs, worksheet names and row/cell references.
+
+<a id="taxonomy-feedback"></a>
+
+## Improve the taxonomy | 改进分类
+
+The [candidate risk taxonomy](docs/taxonomy-proposal.md) is under validation. See the [design rationale](docs/taxonomy-rationale.md) and [validation roadmap](docs/taxonomy-validation.md) before proposing changes. Current catalog navigation continues to use evaluation tracks and topics.
+
+建议提交可裁决的具体问题：
+
+1. **对象与版本：** 标签 ID、资源／任务组件及版本。
+2. **证据定位：** 官方 URL、来源版本、章节／任务 ID 和简短证据摘要。内部材料注明未公开，保留原文权限。
+3. **边界问题：** 当前定义为何不适用？与哪个近邻标签混淆？风险、机制、场景或协议是否混在一起？
+4. **修改建议：** 合并、拆分、改名或移轴，以及对现有映射的影响。附一个正例和一个近邻反例的概述。
+
+维护者修改候选标签时，编辑 `docs/taxonomy-proposal-v0.1.json`，同步记录 `docs/taxonomy-validation.md` 的变更理由，再运行上方生成与检查命令。`docs/taxonomy-proposal.md` 由 JSON 自动生成。公开贡献只引用可公开的来源定位；详细证据缓存保留在维护者本地。

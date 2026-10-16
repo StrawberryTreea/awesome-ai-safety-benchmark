@@ -1,0 +1,1443 @@
+{
+  "version": "0.1.0-proposal",
+  "as_of": "2026-10-16",
+  "status": "candidate_unvalidated",
+  "scope": "AI safety resource coverage taxonomy; not a legal compliance verdict or model safety score",
+  "counting_unit": "deduplicated_resource_version_or_task_component; report denominators separately; multi-label counts may overlap",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "大模型安全评测白皮书-V1.0",
+      "kind": "internal_whitepaper",
+      "verification": "local_docx_xml_excerpts",
+      "checked_at": "2026-10-16",
+      "cache_sha256": {},
+      "source_files": [
+        "大模型安全评测白皮书-V1.0.docx"
+      ],
+      "source_files_availability": "maintainer_local_not_distributed"
+    },
+    {
+      "id": "S02",
+      "title": "GB/T 45654—2025 网络安全技术 生成式人工智能服务安全基本要求",
+      "kind": "recommended_national_standard",
+      "published": "2025-04-25",
+      "effective": "2025-11-01",
+      "verification": "local_pdf_text; preflight_unavailable",
+      "cache": "GBT+45654-2025.txt",
+      "caches": [
+        "GBT+45654-2025.txt"
+      ],
+      "checked_at": "2026-10-16",
+      "cache_sha256": {
+        "GBT+45654-2025.txt": "dd9bc62c6a796e145e33a57cffe5c4b5419b045c3dea38439119b5853433aa23"
+      },
+      "source_files": [
+        "GBT+45654-2025.pdf"
+      ],
+      "source_files_availability": "maintainer_local_not_distributed",
+      "discovery_url": "https://std.samr.gov.cn/",
+      "discovery_note": "Search by the exact GB/T identifier; this is the official catalog entry point, not a verified full-text URL.",
+      "cache_availability": "maintainer_local_not_distributed"
+    },
+    {
+      "id": "S03",
+      "title": "人工智能安全治理框架3.0",
+      "kind": "governance_framework",
+      "published": "2026-09-14",
+      "url": "https://www.tc260.org.cn/tc260/xwdt1/202609/e879077a3caa4722b2206d1bcaed5a6c.shtml",
+      "verification": "official_page_and_pdf; preflight_pass",
+      "cache": "cn-framework3-full.txt",
+      "checked_at": "2026-10-16",
+      "cache_sha256": {
+        "cn-framework3-full.txt": "46b26d2a7926e038759f7eb8b64a73cfe358b868baa835187e8b5d39fcebee9e"
+      },
+      "cache_availability": "maintainer_local_not_distributed"
+    },
+    {
+      "id": "S04",
+      "title": "网络安全标准实践指南——智能体系统开发安全指南（征求意见稿）",
+      "kind": "draft_practice_guide",
+      "published": "2026-09-18",
+      "url": "https://www.tc260.org.cn/tc260/tzgg/202609/e5b82ae7aca244d19d36b39575cbb458.shtml",
+      "verification": "official_draft_and_pdf; preflight_pass",
+      "cache": "tc260-agent-guide-full.txt",
+      "checked_at": "2026-10-16",
+      "cache_sha256": {
+        "tc260-agent-guide-full.txt": "523b955fd4a452ca39a9fa3e65499b48590585c76e801079b69a5e8b412d53f2"
+      },
+      "cache_availability": "maintainer_local_not_distributed"
+    },
+    {
+      "id": "S05",
+      "title": "GB/T 45288.1—2025 与 GB/T 45288.2—2025 人工智能 大模型",
+      "kind": "recommended_national_standards",
+      "verification": "local_pdf_text",
+      "caches": [
+        "GBT+45288.1-2025.txt",
+        "GBT+45288.2-2025.txt"
+      ],
+      "checked_at": "2026-10-16",
+      "cache_sha256": {
+        "GBT+45288.1-2025.txt": "3740988a3ef3bf1c4882dcdd70407ee7aa5d466bfaa6c2e378b5077afb78de26",
+        "GBT+45288.2-2025.txt": "1132b1bb19860e4a7cf0c101d62ba3ada1f1efa17634d8c19564750850946420"
+      },
+      "source_files": [
+        "GBT+45288.1-2025.pdf",
+        "GBT+45288.2-2025.pdf"
+      ],
+      "source_files_availability": "maintainer_local_not_distributed",
+      "discovery_url": "https://std.samr.gov.cn/",
+      "discovery_note": "Search by the exact GB/T identifier; this is the official catalog entry point, not a verified full-text URL.",
+      "cache_availability": "maintainer_local_not_distributed"
+    },
+    {
+      "id": "S06",
+      "title": "GB/T 46800—2025 生成式人工智能技术应用社会影响评估指南",
+      "kind": "recommended_national_standard",
+      "published": "2025-12-02",
+      "effective": "2025-12-02",
+      "verification": "local_pdf_text; preflight_unavailable",
+      "cache": "GBT+46800-2025.txt",
+      "caches": [
+        "GBT+46800-2025.txt"
+      ],
+      "checked_at": "2026-10-16",
+      "cache_sha256": {
+        "GBT+46800-2025.txt": "143f2ab287936f7b0cd46863dd21386010dfc04c4689ebe396d07f304e5ae891"
+      },
+      "source_files": [
+        "GBT+46800-2025.pdf"
+      ],
+      "source_files_availability": "maintainer_local_not_distributed",
+      "discovery_url": "https://std.samr.gov.cn/",
+      "discovery_note": "Search by the exact GB/T identifier; this is the official catalog entry point, not a verified full-text URL.",
+      "cache_availability": "maintainer_local_not_distributed"
+    },
+    {
+      "id": "S07",
+      "title": "NIST AI 600-1 Generative Artificial Intelligence Profile",
+      "kind": "voluntary_government_technical_framework",
+      "published": "2024-07-26",
+      "url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence",
+      "verification": "official_page_and_local_pdf; preflight_pass",
+      "cache": "nist-ai600-full.txt",
+      "checked_at": "2026-10-16",
+      "cache_sha256": {
+        "nist-ai600-full.txt": "9910fff84a2167628f29dfb7470268995e5adec6f9e8bc1b651207e31ebdaf8b"
+      },
+      "cache_availability": "maintainer_local_not_distributed"
+    },
+    {
+      "id": "S08",
+      "title": "NIST AI 100-2 E2025 Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations",
+      "kind": "government_technical_taxonomy",
+      "published": "2025-03-24",
+      "url": "https://csrc.nist.gov/pubs/ai/100/2/e2025/final",
+      "verification": "official_metadata_only; full_text_not_reviewed",
+      "cache": "nist-adversarial.txt",
+      "checked_at": "2026-10-16",
+      "cache_sha256": {
+        "nist-adversarial.txt": "8b37a5d343da4d8fd65e810d662c247e068eee24f85be979c5e4892bae238bca"
+      },
+      "cache_availability": "maintainer_local_not_distributed"
+    },
+    {
+      "id": "S09",
+      "title": "MIT AI Risk Repository",
+      "kind": "research_taxonomy",
+      "url": "https://airisk.mit.edu/risks",
+      "observed_domain_count": 7,
+      "observed_subdomain_count": 24,
+      "verification": "official_web_taxonomy",
+      "cache": "mit-risks.txt",
+      "checked_at": "2026-10-16",
+      "cache_sha256": {
+        "mit-risks.txt": "fd914f4573d9012b53a1b5ea2035f0ea7054c509b24b97553cbae0b4a5fcdc6e"
+      },
+      "cache_availability": "maintainer_local_not_distributed"
+    },
+    {
+      "id": "S10",
+      "title": "International AI Safety Report 2026",
+      "kind": "international_scientific_report",
+      "published": "2026-02-03",
+      "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
+      "verification": "official_full_html_selected_sections",
+      "cache": "international-report2026.txt",
+      "checked_at": "2026-10-16",
+      "cache_sha256": {
+        "international-report2026.txt": "b224b561867ef2f127060f74b5dad2dd49f651f8f39e3f2a7a4e4c0a4b7bb984"
+      },
+      "cache_availability": "maintainer_local_not_distributed"
+    },
+    {
+      "id": "S11",
+      "title": "MLCommons AILuminate v1.0 demo",
+      "kind": "industry_benchmark_taxonomy",
+      "url": "https://raw.githubusercontent.com/mlcommons/ailuminate/main/README.md",
+      "verification": "official_repository_readme",
+      "cache": "mlcommons-github.txt",
+      "checked_at": "2026-10-16",
+      "cache_sha256": {
+        "mlcommons-github.txt": "9d426794ba8ff9d312d63d4f65aabc01b412c27d76a218cea0d5818b8a0cd078"
+      },
+      "cache_availability": "maintainer_local_not_distributed"
+    },
+    {
+      "id": "S12",
+      "title": "OWASP Top 10 for LLM Applications 2025",
+      "kind": "engineering_vulnerability_catalog",
+      "url": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/tree/main/2_0_vulns",
+      "verification": "official_repository_inventory_and_injection_agency_full_text",
+      "caches": [
+        "owasp-tree.txt",
+        "owasp-injection.txt",
+        "owasp-agency.txt"
+      ],
+      "checked_at": "2026-10-16",
+      "cache_sha256": {
+        "owasp-tree.txt": "bbdbc11a79fcc50cb458225e3d651065f9e8b0a91a7c10f17c4f3c5179eda6f0",
+        "owasp-injection.txt": "c458b4d21424e63b89a82a3bd6f7e48041bdc67cafa7cdcbdc67e1ed987dacb9",
+        "owasp-agency.txt": "4bb3ee33d648d53d7e9ec7aba08562fcb1229173b1aeb5bf2c143a0330ac84d0"
+      },
+      "cache_availability": "maintainer_local_not_distributed"
+    },
+    {
+      "id": "S13",
+      "title": "OECD Framework for the Classification of AI Systems",
+      "kind": "intergovernmental_system_classification",
+      "url": "https://oecd.ai/en/classification",
+      "verification": "official_overview_webpage",
+      "cache": "oecd.txt",
+      "checked_at": "2026-10-16",
+      "cache_sha256": {
+        "oecd.txt": "529983c3a0f300976de21406fffe04b8a4396a850707e855410a4d6421db7a96"
+      },
+      "cache_availability": "maintainer_local_not_distributed"
+    },
+    {
+      "id": "S14",
+      "title": "BS EN ISO/IEC 42001:2026 Information technology. Artificial intelligence. Management system",
+      "kind": "british_and_european_adoption_of_international_standard",
+      "published": "2026-03-31",
+      "url": "https://knowledge.bsigroup.com/products/information-technology-artificial-intelligence-management-system-1",
+      "verification": "official_publisher_abstract_only; paywalled_full_text_not_reviewed",
+      "cache": "bsi-42001-2026.txt",
+      "checked_at": "2026-10-16",
+      "cache_sha256": {
+        "bsi-42001-2026.txt": "0ce68f67a150ca940fdd34c526fc2eb81facf34e5f2462f96159c2ae48eb62fb"
+      },
+      "cache_availability": "maintainer_local_not_distributed"
+    },
+    {
+      "id": "S15",
+      "title": "生成式人工智能网络安全等级保护与检测技术白皮书",
+      "kind": "external_technical_whitepaper",
+      "verification": "existing_three_mineru_html_artifacts",
+      "caches": [
+        "MinerU_html_ai_whitepaper_p001-050_2063637847002062848.txt",
+        "MinerU_html_ai_whitepaper_p051-100_2063637902031331328.txt",
+        "MinerU_html_ai_whitepaper_p101-139_2063637762369400832.txt"
+      ],
+      "checked_at": "2026-10-16",
+      "cache_sha256": {
+        "MinerU_html_ai_whitepaper_p001-050_2063637847002062848.txt": "b009f2119981e5bedf210cb181d9ad26991d523d9dd9e8701d0693fe9ced0d69",
+        "MinerU_html_ai_whitepaper_p051-100_2063637902031331328.txt": "bb517b12d415b495ca74415ec65d6bc4748bed0947d071b09a3d09c002410fc6",
+        "MinerU_html_ai_whitepaper_p101-139_2063637762369400832.txt": "f162feb1abf778b73d2c9684e1500e703366a5a32360b3a636f5cd35c5ec764d"
+      },
+      "source_files": [
+        "MinerU_html_ai_whitepaper_p001-050_2063637847002062848.html",
+        "MinerU_html_ai_whitepaper_p051-100_2063637902031331328.html",
+        "MinerU_html_ai_whitepaper_p101-139_2063637762369400832.html"
+      ],
+      "source_files_availability": "maintainer_local_not_distributed",
+      "cache_availability": "maintainer_local_not_distributed"
+    },
+    {
+      "id": "S16",
+      "title": "历史 safety_dimension_taxonomy.json",
+      "kind": "internal_legacy_taxonomy",
+      "verification": "local_json_8_l1_19_l2",
+      "checked_at": "2026-10-16",
+      "cache_sha256": {},
+      "source_files": [
+        "safety_dimension_taxonomy.json"
+      ],
+      "source_files_availability": "maintainer_local_not_distributed"
+    },
+    {
+      "id": "E01",
+      "title": "AgentDojo",
+      "kind": "benchmark_primary_source",
+      "url": "https://raw.githubusercontent.com/ethz-spylab/agentdojo/main/README.md",
+      "verification": "official_repository_readme",
+      "cache": "agentdojo-readme.txt",
+      "checked_at": "2026-10-16",
+      "cache_sha256": {
+        "agentdojo-readme.txt": "b6616a39351841b10c68d6806741c5302ee15d8fc5517ff58fa7c7586ce24ca8"
+      },
+      "cache_availability": "maintainer_local_not_distributed"
+    },
+    {
+      "id": "E02",
+      "title": "R-Judge",
+      "kind": "benchmark_primary_source",
+      "url": "https://raw.githubusercontent.com/Lordog/R-Judge/main/README.md",
+      "verification": "official_repository_readme",
+      "cache": "rjudge-readme.txt",
+      "checked_at": "2026-10-16",
+      "cache_sha256": {
+        "rjudge-readme.txt": "e16da43665ebaf2b033d828b310cecc650da36ad56205190f656379fc24df549"
+      },
+      "cache_availability": "maintainer_local_not_distributed"
+    },
+    {
+      "id": "E03",
+      "title": "WMDP",
+      "kind": "benchmark_primary_source",
+      "url": "https://raw.githubusercontent.com/centerforaisafety/wmdp/main/README.md",
+      "verification": "official_repository_readme",
+      "cache": "wmdp-readme.txt",
+      "checked_at": "2026-10-16",
+      "cache_sha256": {
+        "wmdp-readme.txt": "f01aaebc284ea64a6e5c2795131020f52f87097c0920e75f9127b94e3bc2aef4"
+      },
+      "cache_availability": "maintainer_local_not_distributed"
+    },
+    {
+      "id": "E04",
+      "title": "XSTest",
+      "kind": "benchmark_primary_source",
+      "url": "https://github.com/paul-rottger/xstest/blob/main/readme.md",
+      "verification": "official_github_readme_api",
+      "cache": "xstest-readme-confirmed.txt",
+      "checked_at": "2026-10-16",
+      "cache_sha256": {
+        "xstest-readme-confirmed.txt": "660750efd76d50d4f39c0ee0c158439b99b8d36fb73ff992e3a0b2c8bc903dd1"
+      },
+      "cache_availability": "maintainer_local_not_distributed"
+    }
+  ],
+  "axes": [
+    {
+      "id": "track",
+      "cardinality": "one_primary",
+      "values": [
+        "llm_safety",
+        "agent_safety",
+        "safety_judging",
+        "related_resources"
+      ],
+      "note": "Retain current navigation tracks; secondary targets may be recorded separately"
+    },
+    {
+      "id": "resource_type",
+      "cardinality": "one_primary",
+      "note": "Retain current resource identity; do not count attacks or training data as independent benchmarks"
+    },
+    {
+      "id": "risk_domains",
+      "cardinality": "many",
+      "note": "Risk coverage must be supported by actual tasks or stated evaluation scope"
+    },
+    {
+      "id": "mechanisms",
+      "cardinality": "many",
+      "values": [
+        "direct_jailbreak",
+        "indirect_prompt_injection",
+        "multimodal_injection",
+        "data_or_model_poisoning",
+        "extraction_or_inference_attack",
+        "supply_chain_compromise",
+        "tool_or_permission_misuse",
+        "memory_or_retrieval_contamination",
+        "goal_misgeneralization",
+        "oversight_evasion",
+        "multi_agent_interaction",
+        "distribution_shift_or_perturbation",
+        "unknown"
+      ]
+    },
+    {
+      "id": "actors",
+      "cardinality": "many_or_unknown",
+      "note": "Record actor roles and evidence; intent is attributed per actor, not inferred from attack presence"
+    },
+    {
+      "id": "intent",
+      "cardinality": "per_actor_or_unknown",
+      "values": [
+        "intentional",
+        "unintentional",
+        "unknown"
+      ]
+    },
+    {
+      "id": "system_context",
+      "cardinality": "many",
+      "note": "Separate sector, modality, language, tool environment, autonomy, multi-agent and embodied form"
+    },
+    {
+      "id": "evaluation_protocol",
+      "cardinality": "many",
+      "values": [
+        "mcq_knowledge_proxy",
+        "generation_response_scoring",
+        "static_trajectory_judgment",
+        "next_action_or_plan_judgment",
+        "dynamic_agent_execution",
+        "human_or_system_impact_study",
+        "governance_document_audit"
+      ]
+    },
+    {
+      "id": "measurement_targets",
+      "cardinality": "many",
+      "values": [
+        "unsafe_compliance",
+        "safe_helpfulness",
+        "overrefusal",
+        "factuality",
+        "risk_recognition",
+        "authorization_compliance",
+        "control_retention",
+        "task_utility",
+        "other_documented"
+      ]
+    },
+    {
+      "id": "execution_environment",
+      "cardinality": "per_task_or_unknown",
+      "values": [
+        "none_static",
+        "synthetic_tools",
+        "lm_simulated",
+        "stateful_sandbox",
+        "external_live_system",
+        "unknown"
+      ]
+    },
+    {
+      "id": "lifecycle",
+      "cardinality": "many",
+      "values": [
+        "data",
+        "training",
+        "evaluation",
+        "deployment",
+        "inference",
+        "monitoring",
+        "retirement",
+        "unknown"
+      ]
+    },
+    {
+      "id": "normative_profiles",
+      "cardinality": "many_versioned",
+      "note": "Keep jurisdiction, standard identifier, version, clause, mapping relation, evidence and applicability separate"
+    },
+    {
+      "id": "impact_scope",
+      "cardinality": "many_or_unknown",
+      "values": [
+        "individual",
+        "organization",
+        "society",
+        "environment",
+        "unknown"
+      ],
+      "note": "Keep measured impacts separate from hypothesized potential impacts"
+    }
+  ],
+  "risk_domains": [
+    {
+      "id": "D01",
+      "name_zh": "暴力、犯罪与公共安全",
+      "definition": "人身暴力、常规武器、暴力内容暴露，以及非数字犯罪与公共安全风险。",
+      "children": [
+        {
+          "id": "D01.1",
+          "name_zh": "人身暴力与一般武器",
+          "definition": "对他人的身体伤害、常规武器有害协助，或对暴力血腥内容的不当暴露。",
+          "boundary": "按意图、语境、受众区分有害协助、暴力呈现与正常教育；自伤用D02.1，CBRN用D07。",
+          "source_ids": [
+            "S02",
+            "S07",
+            "S11"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        },
+        {
+          "id": "D01.2",
+          "name_zh": "恐怖主义与暴力极端化",
+          "definition": "恐怖活动或暴力极端化的招募、煽动、准备与实施支持。",
+          "boundary": "政治或宗教主题本身不构成此类；法律特定禁止范围另记profile。",
+          "source_ids": [
+            "S02",
+            "S10",
+            "S11"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        },
+        {
+          "id": "D01.3",
+          "name_zh": "非数字犯罪与违禁活动协助",
+          "definition": "对非数字、非经济型犯罪及违禁活动的具体有害协助。",
+          "boundary": "需说明具体行为与法域；网络入侵用D06，诈骗用D08.1，CBRN用D07。",
+          "source_ids": [
+            "S02",
+            "S10",
+            "S11"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        }
+      ],
+      "include": [
+        "对他人的暴力伤害",
+        "危险常规武器协助",
+        "毒品或违禁品制造交易协助",
+        "对暴力血腥内容的不当暴露"
+      ],
+      "exclude": [
+        "CBRN专属风险用D07",
+        "网络攻击用D06",
+        "纯诈骗与侵权用D08",
+        "仅因法域禁止的政治表达不自动推定暴力危害"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S07",
+        "S10",
+        "S11"
+      ]
+    },
+    {
+      "id": "D02",
+      "name_zh": "身心健康与自伤",
+      "definition": "模型或系统引发、加剧对自身的伤害、身心健康损害及危险健康决策。",
+      "children": [
+        {
+          "id": "D02.1",
+          "name_zh": "自伤、自杀与危机应对",
+          "definition": "自伤自杀的鼓励、方法协助，或对危机求助的不当处置。",
+          "boundary": "自伤求助不是应一律拒绝的内容，按支持性干预与危险促进分别评分。",
+          "source_ids": [
+            "S07",
+            "S11"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        },
+        {
+          "id": "D02.2",
+          "name_zh": "医疗心理建议与健康决策伤害",
+          "definition": "不安全医疗心理建议及健康决策支持造成身心伤害的风险。",
+          "boundary": "普通医学知识与安全求助不自动有害；若测事实错误可同时标D09.1。",
+          "source_ids": [
+            "S02",
+            "S06",
+            "S11"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        },
+        {
+          "id": "D02.3",
+          "name_zh": "危险行为与物质滥用",
+          "definition": "危险挑战、非自杀性不安全行为与物质滥用的促进。",
+          "boundary": "对他人的暴力用D01；物质滥用健康伤害与违禁制造交易可多标签。",
+          "source_ids": [
+            "S02",
+            "S07",
+            "S11"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        }
+      ],
+      "include": [
+        "鼓励自伤",
+        "导致健康风险的专业建议",
+        "危险恶作剧和药物滥用诱导"
+      ],
+      "exclude": [
+        "普通医学知识答题不自动等同伤害评测",
+        "对他人的暴力用D01",
+        "互动依赖机制另标D10"
+      ],
+      "source_ids": [
+        "S02",
+        "S06",
+        "S07",
+        "S11"
+      ]
+    },
+    {
+      "id": "D03",
+      "name_zh": "性安全、剥削与儿童保护",
+      "definition": "性剥削、非自愿性内容、儿童性伤害及与受众和使用条件相关的露骨内容风险。",
+      "children": [
+        {
+          "id": "D03.1",
+          "name_zh": "儿童性剥削与性化伤害",
+          "definition": "涉及儿童的性剥削、性化、诱骗及相关内容生成或协助。",
+          "boundary": "正常性教育、保护性讨论与举报求助不据关键词判有害。",
+          "source_ids": [
+            "S02",
+            "S11"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        },
+        {
+          "id": "D03.2",
+          "name_zh": "非自愿性内容与性犯罪协助",
+          "definition": "非自愿性影像、性侵及其他侵害性自主与同意的行为或协助。",
+          "boundary": "区分同意、身份与侵害行为；可按隐私后果叠加D05。",
+          "source_ids": [
+            "S02",
+            "S07",
+            "S11"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        },
+        {
+          "id": "D03.3",
+          "name_zh": "露骨性内容与年龄适宜性",
+          "definition": "露骨性内容的生成与暴露，以及与年龄或受众不相符的性内容。",
+          "boundary": "记录受众及内容政策；成人自愿内容与儿童剥削不可合并判据。",
+          "source_ids": [
+            "S02",
+            "S07",
+            "S11"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        }
+      ],
+      "include": [
+        "儿童性剥削",
+        "性胁迫和非自愿亲密影像",
+        "按明确受众和政策定义评测的露骨内容"
+      ],
+      "exclude": [
+        "性教育和求助不因含性词语自动有害",
+        "儿童作为受影响群体须同时记录受众标签",
+        "D03.3的政策差异必须注明"
+      ],
+      "source_ids": [
+        "S02",
+        "S07",
+        "S11"
+      ]
+    },
+    {
+      "id": "D04",
+      "name_zh": "歧视、公平与人格尊严",
+      "definition": "基于群体属性的不公平、仇恨，以及针对群体或个人的骚扰羞辱和人格贬损。",
+      "children": [
+        {
+          "id": "D04.1",
+          "name_zh": "群体歧视与表现不公平",
+          "definition": "针对群体的刻板印象、歧视性待遇或与安全利益有关的表现不公平。",
+          "boundary": "需指明群体、比较对象及构念；一般模型能力差距不足以自动成立。",
+          "source_ids": [
+            "S02",
+            "S07",
+            "S09"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        },
+        {
+          "id": "D04.2",
+          "name_zh": "仇恨、去人格化与污名",
+          "definition": "针对群体的仇恨、去人格化和污名化表达或行为。",
+          "boundary": "身份提及与批评观点不自动构成仇恨；个人定向骚扰主要用D04.3。",
+          "source_ids": [
+            "S02",
+            "S07",
+            "S11"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        },
+        {
+          "id": "D04.3",
+          "name_zh": "骚扰、欺凌与侮辱",
+          "definition": "针对个人或特定对象的骚扰、欺凌、威胁性羞辱与侮辱。",
+          "boundary": "粗俗词需结合对象、语境和伤害；身体暴力威胁可叠加D01。",
+          "source_ids": [
+            "S02",
+            "S07",
+            "S11"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        }
+      ],
+      "include": [
+        "决策差别待遇",
+        "有证据的跨群体或语言性能差异",
+        "仇恨和定向骚扰"
+      ],
+      "exclude": [
+        "提及身份不等同歧视",
+        "可核查的虚假指控另标D09与D08",
+        "一般能力差距需说明与安全的关系"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S07",
+        "S09",
+        "S11"
+      ]
+    },
+    {
+      "id": "D05",
+      "name_zh": "隐私、机密与数据权益",
+      "definition": "个人、组织或公共机构数据被不当获取、推断、使用或披露的风险。",
+      "children": [
+        {
+          "id": "D05.1",
+          "name_zh": "个人信息与敏感个人信息",
+          "definition": "未经授权收集、暴露或使用个人信息及敏感个人信息。",
+          "boundary": "公开性、授权与数据主体需记录；合成占位数据不等于真实泄露。",
+          "source_ids": [
+            "S02",
+            "S03",
+            "S07"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        },
+        {
+          "id": "D05.2",
+          "name_zh": "组织机密、凭证与商业秘密",
+          "definition": "组织机密、访问凭证和商业秘密的未经授权泄露或使用。",
+          "boundary": "系统提示是否属于机密需证据；知识产权侵权用D08.3。",
+          "source_ids": [
+            "S02",
+            "S07",
+            "S12"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        },
+        {
+          "id": "D05.3",
+          "name_zh": "推断、去匿名化与不当数据使用",
+          "definition": "通过推断、关联、去匿名化或超范围使用侵犯数据权益。",
+          "boundary": "与直接披露可共存；需明确原有授权与具体数据处理行为。",
+          "source_ids": [
+            "S02",
+            "S07",
+            "S09"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        }
+      ],
+      "include": [
+        "隐私泄露",
+        "数据外传",
+        "无授权监控和身份推断"
+      ],
+      "exclude": [
+        "系统提示泄露只有涉及机密或控制后果时才加本域",
+        "知识产权另用D08",
+        "国家秘密另记录CN政策适用条款"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S07",
+        "S09"
+      ]
+    },
+    {
+      "id": "D06",
+      "name_zh": "网络与数字系统安全",
+      "definition": "对数字系统机密性、完整性、可用性或访问边界造成破坏的风险。",
+      "children": [
+        {
+          "id": "D06.1",
+          "name_zh": "入侵、恶意代码与网络攻击能力",
+          "definition": "有害网络入侵、恶意代码、漏洞利用等数字攻击能力的获取与支持。",
+          "boundary": "区分防御研究、知识代理与实际攻击结果；注入只是可能机制。",
+          "source_ids": [
+            "S03",
+            "S07",
+            "S10"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        },
+        {
+          "id": "D06.2",
+          "name_zh": "未授权访问与数字资产篡改",
+          "definition": "未经授权访问、控制或篡改数字系统、账户及数据资产。",
+          "boundary": "记录权限主体与资产；数据外传可叠加D05，审批失守可加D11.1。",
+          "source_ids": [
+            "S03",
+            "S07",
+            "S12"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        },
+        {
+          "id": "D06.3",
+          "name_zh": "可用性破坏与资源滥耗",
+          "definition": "数字服务可用性破坏、拒绝服务及资源滥耗。",
+          "boundary": "普通延迟与成本不自动构成破坏；能源生态后果用D12.4。",
+          "source_ids": [
+            "S03",
+            "S07",
+            "S12"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        }
+      ],
+      "include": [
+        "恶意网络能力",
+        "越权访问",
+        "删除篡改数字资产",
+        "拒绝服务"
+      ],
+      "exclude": [
+        "提示注入本身属于机制轴",
+        "正常运维和防御不因涉及网络技术自动有害",
+        "通用任务失败用D11且需安全构念"
+      ],
+      "source_ids": [
+        "S03",
+        "S07",
+        "S09",
+        "S10",
+        "S12"
+      ]
+    },
+    {
+      "id": "D07",
+      "name_zh": "生物、化学、放射与核风险",
+      "definition": "降低危险生物、化学、放射或核材料与能力获取和实施门槛的风险。",
+      "children": [
+        {
+          "id": "D07.1",
+          "name_zh": "生物安全与生物滥用",
+          "definition": "生物安全相关的危险知识、能力支持及滥用风险。",
+          "boundary": "普通生物知识不自动有害；标明代理测量、计划或操作证据层级。",
+          "source_ids": [
+            "S07",
+            "S10",
+            "S11"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        },
+        {
+          "id": "D07.2",
+          "name_zh": "化学危险能力与滥用",
+          "definition": "危险化学物质相关的有害能力获取与使用风险。",
+          "boundary": "记录毒性、使用场景和能力层级；非操作性化学教育不自动有害。",
+          "source_ids": [
+            "S07",
+            "S10",
+            "S11"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        },
+        {
+          "id": "D07.3",
+          "name_zh": "放射、核及相关高后果能力",
+          "definition": "放射性、核及相关高后果技术的有害能力获取与使用风险。",
+          "boundary": "不将一般武器或任意高科技都放入本类；缺乏任务证据时保持unknown。",
+          "source_ids": [
+            "S07"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        }
+      ],
+      "include": [
+        "危险材料能力",
+        "相关知识和规划代理指标"
+      ],
+      "exclude": [
+        "普通科学知识不自动属于危险协助",
+        "知识选择题必须注明proxy",
+        "爆炸物按实际材料与任务在D01或D07分类"
+      ],
+      "source_ids": [
+        "S07",
+        "S10",
+        "S11"
+      ]
+    },
+    {
+      "id": "D08",
+      "name_zh": "财产、商业与知识产权",
+      "definition": "欺诈、经济利益损害、商业不当行为和知识产权及相关权利侵害。",
+      "children": [
+        {
+          "id": "D08.1",
+          "name_zh": "诈骗、身份冒用与经济犯罪",
+          "definition": "诈骗、身份冒用及侵占财产等经济犯罪的协助或实施。",
+          "boundary": "身份冒用的财产目标与个人数据泄露分别标；需记录具体行为。",
+          "source_ids": [
+            "S02",
+            "S09",
+            "S11"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        },
+        {
+          "id": "D08.2",
+          "name_zh": "金融法律建议与权益损害",
+          "definition": "不安全金融法律建议及相关决策造成财产或法律权益损害。",
+          "boundary": "一般专业信息不自动有害；是否为错误建议与是否有害分开记录。",
+          "source_ids": [
+            "S02",
+            "S07",
+            "S11"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        },
+        {
+          "id": "D08.3",
+          "name_zh": "知识产权、肖像与名誉权益",
+          "definition": "知识产权、肖像、名誉和荣誉等权利被不当使用或侵害。",
+          "boundary": "具体权利与法域另记；商业秘密用D05.2，虚假指控可加D09。",
+          "source_ids": [
+            "S02",
+            "S07",
+            "S11"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        },
+        {
+          "id": "D08.4",
+          "name_zh": "商业道德、竞争与市场行为",
+          "definition": "商业道德、竞争与市场行为中的不当协助及权益损害。",
+          "boundary": "需具体化受保护利益和规范，不能作为一切商业风险的兜底。",
+          "source_ids": [
+            "S02"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        }
+      ],
+      "include": [
+        "欺诈损失",
+        "专业建议导致权益风险",
+        "版权侵权和有政策依据的姓名肖像名誉侵害"
+      ],
+      "exclude": [
+        "所有违法行为不能都归入本域",
+        "商业秘密用D05",
+        "虚假事实同时用D09",
+        "权利与违法判定须记录适用profile"
+      ],
+      "source_ids": [
+        "S02",
+        "S07",
+        "S09",
+        "S11"
+      ]
+    },
+    {
+      "id": "D09",
+      "name_zh": "事实可靠性与信息完整性",
+      "definition": "不实、失真、伪造或来源混淆的信息影响理解和决策的风险。",
+      "children": [
+        {
+          "id": "D09.1",
+          "name_zh": "虚构、事实错误与不当确定性",
+          "definition": "虚构、事实错误、无依据断言及与证据不相称的确定性。",
+          "boundary": "主观价值差异不等于事实错误；危害后果按任务另标，记录能力诊断身份。",
+          "source_ids": [
+            "S02",
+            "S07",
+            "S09"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        },
+        {
+          "id": "D09.2",
+          "name_zh": "来源、引用与生成身份伪造",
+          "definition": "引用、证据来源或内容生成身份的伪造及不当呈现。",
+          "boundary": "区分虚构作品与伪造来源；单纯识别评测状态不用本类。",
+          "source_ids": [
+            "S07",
+            "S09"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        },
+        {
+          "id": "D09.3",
+          "name_zh": "虚假信息传播、深伪与语境篡改",
+          "definition": "虚假传播、深度伪造或语境篡改造成的信息完整性风险。",
+          "boundary": "真实信息的操纵性使用也可能成立；主体意图另记，不据错误自动猜恶意。",
+          "source_ids": [
+            "S03",
+            "S07",
+            "S09",
+            "S10"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        }
+      ],
+      "include": [
+        "事实性失败",
+        "虚假引用",
+        "信息真实性和来源完整性"
+      ],
+      "exclude": [
+        "主观价值差异不直接判为事实错误",
+        "有意和无意用intent轴区分",
+        "安全危害与通用知识准确率需分别说明"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S07",
+        "S09",
+        "S10"
+      ]
+    },
+    {
+      "id": "D10",
+      "name_zh": "人类自主性与交互安全",
+      "definition": "人机交互削弱自主判断、形成不当依赖或操纵用户决策的风险。",
+      "children": [
+        {
+          "id": "D10.1",
+          "name_zh": "过度依赖、情感依附与拟人化误信",
+          "definition": "过度依赖、情感依附及拟人化误信带来的人机交互风险。",
+          "boundary": "模型被描述成人格并不自动证明伤害，需要依赖或互动目标证据。",
+          "source_ids": [
+            "S07",
+            "S09",
+            "S10"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        },
+        {
+          "id": "D10.2",
+          "name_zh": "操纵、说服与自主决策受损",
+          "definition": "操纵、欺骗性说服或行为引导损害人的自主判断与决策。",
+          "boundary": "事实正确的信息也可能被操纵性使用；正常劝说需按构念区别。",
+          "source_ids": [
+            "S07",
+            "S09",
+            "S10"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        },
+        {
+          "id": "D10.3",
+          "name_zh": "脆弱人群交互保护与人机责任边界",
+          "definition": "交互中对儿童等脆弱群体的保护失守，或系统责任边界不清造成风险。",
+          "boundary": "出现脆弱群体不足以成立；要有交互方式、依赖或责任边界证据。",
+          "source_ids": [
+            "S03",
+            "S06",
+            "S07"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        }
+      ],
+      "include": [
+        "操纵决策",
+        "过度信任",
+        "有明确测量目标的脆弱群体互动风险"
+      ],
+      "exclude": [
+        "单次不准确回答优先D09",
+        "过拒属于measurement_targets不是固有伤害域",
+        "内容中出现儿童不自动构成D10"
+      ],
+      "source_ids": [
+        "S03",
+        "S06",
+        "S07",
+        "S09",
+        "S10"
+      ]
+    },
+    {
+      "id": "D11",
+      "name_zh": "系统可控性与安全运行",
+      "definition": "系统偏离授权目标、突破控制约束或安全执行失败所产生的风险。",
+      "children": [
+        {
+          "id": "D11.1",
+          "name_zh": "授权、审批与目标边界失守",
+          "definition": "系统突破授权、审批或任务目标边界而采取行动。",
+          "boundary": "需要预期约束与实际行为证据；静态判题只能测该风险的识别。",
+          "source_ids": [
+            "S03",
+            "S04",
+            "S12"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        },
+        {
+          "id": "D11.2",
+          "name_zh": "安全关键规划与执行失效",
+          "definition": "安全关键规划与执行未保持约束，造成或可能造成物理或数字危害。",
+          "boundary": "一般格式错误或工具失败不自动成立；说明安全关键性与后果。",
+          "source_ids": [
+            "S03",
+            "S04",
+            "S10"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        },
+        {
+          "id": "D11.3",
+          "name_zh": "监督规避、欺骗与不可中断",
+          "definition": "规避监督、隐瞒关键行为、阻止中断等损害系统可控性的行为。",
+          "boundary": "情境感知、自述动机及资源寻求本身不足以证明有害欺骗或失控。",
+          "source_ids": [
+            "S03",
+            "S09",
+            "S10"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        },
+        {
+          "id": "D11.4",
+          "name_zh": "组件集成与多智能体控制失效",
+          "definition": "组件集成、供应链或多智能体交互导致整体安全控制失效。",
+          "boundary": "组件或多Agent身份不是危害；需说明边界、协调和控制失效目标。",
+          "source_ids": [
+            "S03",
+            "S04",
+            "S07",
+            "S09"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        }
+      ],
+      "include": [
+        "自主越权",
+        "安全约束失效",
+        "对监督的策略规避",
+        "安全相关多智能体级联失败"
+      ],
+      "exclude": [
+        "Agent或多轮对话只是系统形态",
+        "识别测试环境本身不构成欺骗",
+        "普通任务成功率和格式错误不自动等于安全失败"
+      ],
+      "source_ids": [
+        "S03",
+        "S04",
+        "S07",
+        "S09",
+        "S10",
+        "S12"
+      ]
+    },
+    {
+      "id": "D12",
+      "name_zh": "社会、文化与环境影响",
+      "definition": "超出单次交互的组织、制度、群体、文化与生态层面的系统性影响。",
+      "children": [
+        {
+          "id": "D12.1",
+          "name_zh": "劳动、分配与权力集中",
+          "definition": "AI应用对劳动、机会或收益分配和权力集中的系统性不利影响。",
+          "boundary": "资源层影响研究与单题能力表现分开，需说明群体、时间与识别方法。",
+          "source_ids": [
+            "S06",
+            "S09",
+            "S10"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        },
+        {
+          "id": "D12.2",
+          "name_zh": "公共制度、公民参与与社会信任",
+          "definition": "对公共制度、公民参与及社会信任的系统性不利影响。",
+          "boundary": "公共事务内容本身不构成此类；法域政策要求单独记录。",
+          "source_ids": [
+            "S03",
+            "S06",
+            "S09",
+            "S10"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        },
+        {
+          "id": "D12.3",
+          "name_zh": "文化多样性、同质化与社会伦理",
+          "definition": "文化多样性流失、内容同质化及具有明确构念的社会伦理影响。",
+          "boundary": "需指定文化群体、被保护利益及测量方式，不作为泛化伦理兜底。",
+          "source_ids": [
+            "S03",
+            "S06",
+            "S07"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        },
+        {
+          "id": "D12.4",
+          "name_zh": "能源、资源与生态影响",
+          "definition": "能源、资源使用及排放等造成的生态环境不利影响。",
+          "boundary": "需要测量边界、运行规模及环境证据；文本安全率不能作替代指标。",
+          "source_ids": [
+            "S03",
+            "S06",
+            "S07",
+            "S09"
+          ],
+          "mapping_status": "project_synthesis_not_source_equivalence"
+        }
+      ],
+      "include": [
+        "劳动与制度影响研究",
+        "环境资源测量",
+        "文化多样性与系统性不平等"
+      ],
+      "exclude": [
+        "不能用提示级安全率替代宏观影响测量",
+        "政治主题数据不自动构成制度性风险评估",
+        "社会价值政策判定另记录normative_profiles"
+      ],
+      "source_ids": [
+        "S03",
+        "S06",
+        "S07",
+        "S09",
+        "S10",
+        "S13"
+      ]
+    }
+  ],
+  "legacy_migration": [
+    {
+      "old_id": "T1",
+      "risk_candidates": [
+        "D05.1",
+        "D05.2",
+        "D05.3",
+        "D06"
+      ],
+      "rule": "Split personal data, organizational confidentiality and digital attacks; A.3 only partially supports commercial secrets"
+    },
+    {
+      "old_id": "T2",
+      "risk_candidates": [
+        "D05.1",
+        "D05.3"
+      ],
+      "rule": "Retain privacy focus; distinguish data subject and authorization"
+    },
+    {
+      "old_id": "T3",
+      "risk_candidates": [
+        "D01",
+        "D03",
+        "D06",
+        "D08"
+      ],
+      "rule": "Reclassify by actual harm, retain jurisdiction and intentional-use evidence"
+    },
+    {
+      "old_id": "T4",
+      "risk_candidates": [
+        "D01",
+        "D02",
+        "D04",
+        "D08"
+      ],
+      "rule": "Split dangerous behaviors, substance misuse, harassment and defamation"
+    },
+    {
+      "old_id": "T5",
+      "risk_candidates": [
+        "D09.3",
+        "D10.2",
+        "D12.2"
+      ],
+      "rule": "Distinguish false information, manipulation and demonstrated societal impact; scale is a separate attribute"
+    },
+    {
+      "old_id": "T6",
+      "risk_candidates": [
+        "D01.1",
+        "D07"
+      ],
+      "rule": "Separate conventional weapons from CBRN; preserve knowledge-proxy protocol"
+    },
+    {
+      "old_id": "T7",
+      "risk_candidates": [
+        "D04.1",
+        "D04.2"
+      ],
+      "rule": "Retain group and measured unfairness construct"
+    },
+    {
+      "old_id": "T8",
+      "risk_candidates": [
+        "D04.2",
+        "D04.3"
+      ],
+      "rule": "Separate hate, targeted harassment and contextual profanity"
+    },
+    {
+      "old_id": "T9",
+      "risk_candidates": [
+        "D03",
+        "D01"
+      ],
+      "rule": "Split sexual content and violent content; add audience and normative profile"
+    },
+    {
+      "old_id": "T10",
+      "risk_candidates": [
+        "D09"
+      ],
+      "rule": "Separate factual reliability from harmful consequence and intentional dissemination"
+    },
+    {
+      "old_id": "T11",
+      "risk_candidates": [
+        "D02.2",
+        "D08.2",
+        "D09.1"
+      ],
+      "rule": "Record professional sector and actual evaluation target; avoid counting every professional answer as misinformation"
+    },
+    {
+      "old_id": "T12",
+      "risk_candidates": [
+        "D01",
+        "D05",
+        "D12.2"
+      ],
+      "profile_candidates": [
+        "CN-GBT45654-2025:A.1(a-c)"
+      ],
+      "rule": "Keep CN policy construct explicit; only add generic harm labels supported by the sample"
+    },
+    {
+      "old_id": "T13",
+      "risk_candidates": [
+        "D09",
+        "D12.3"
+      ],
+      "profile_candidates": [
+        "CN-GBT45654-2025:A.1(a)"
+      ],
+      "rule": "Profile-first for jurisdictional value requirements; do not infer factual falsity or harm solely from value disagreement"
+    },
+    {
+      "old_id": "T14",
+      "risk_candidates": [
+        "D01.2",
+        "D04.2",
+        "D12"
+      ],
+      "profile_candidates": [
+        "CN-GBT45654-2025:A.1(d-e)"
+      ],
+      "rule": "Split violent extremism, hate and policy-specific value statements"
+    },
+    {
+      "old_id": "T15",
+      "risk_candidates": [],
+      "mechanism_candidates": [
+        "direct_jailbreak"
+      ],
+      "rule": "Move to mechanism axis; determine harm from attack target; legacy A.5 d is unsupported for GB/T45654"
+    },
+    {
+      "old_id": "T16",
+      "risk_candidates": [
+        "D06.3",
+        "D09.1",
+        "D11.2"
+      ],
+      "mechanism_candidates": [
+        "distribution_shift_or_perturbation"
+      ],
+      "rule": "Split availability, hallucination and safety execution; generic capability failures may stay related; A.5 d unsupported"
+    },
+    {
+      "old_id": "T17",
+      "risk_candidates": [
+        "D11.1",
+        "D06.2",
+        "D06.3",
+        "D05"
+      ],
+      "rule": "Separate control boundary and resulting digital/data harm; legacy A.6 unsupported for GB/T45654"
+    },
+    {
+      "old_id": "T18",
+      "risk_candidates": [
+        "D11.1",
+        "D11.2",
+        "D11.3"
+      ],
+      "mechanism_candidates": [
+        "goal_misgeneralization"
+      ],
+      "rule": "Require authorization, objective and consequence evidence; resource seeking alone is insufficient"
+    },
+    {
+      "old_id": "T19",
+      "risk_candidates": [
+        "D11.3",
+        "D09.2"
+      ],
+      "mechanism_candidates": [
+        "oversight_evasion"
+      ],
+      "rule": "Situational awareness alone is not harmful deception; separate belief/intention claims from observed behavior"
+    }
+  ],
+  "annotation_contract": {
+    "unit": "resource_version_or_task_component",
+    "label_statuses": [
+      "supported",
+      "pending_review",
+      "unknown",
+      "not_applicable"
+    ],
+    "required_evidence_fields": [
+      "source_url_or_path",
+      "source_version",
+      "section_or_task_id",
+      "evidence_summary",
+      "checked_at"
+    ],
+    "mapping_relations": [
+      "equivalent",
+      "narrower",
+      "broader",
+      "overlap",
+      "profile_only",
+      "no_direct_match"
+    ],
+    "mapping_direction": "proposal_relative_to_source; equivalent requires same scope and construct",
+    "coverage_levels": [
+      "resource_claim",
+      "task_confirmed",
+      "sample_observed"
+    ],
+    "verification_is_separate": [
+      "link_access",
+      "source_content",
+      "dataset_download",
+      "execution_reproduction"
+    ],
+    "notes": [
+      "Do not inherit all suite labels into every component",
+      "No forced risk label for mechanism-only or policy-only resources",
+      "Unknown is not safe or unmeasured absence",
+      "No grand total score across incompatible protocols"
+    ]
+  },
+  "documentation": {
+    "overview": "taxonomy.md",
+    "rationale": "taxonomy-rationale.md",
+    "definitions": "taxonomy-proposal.md",
+    "validation": "taxonomy-validation.md",
+    "research_appendix": "taxonomy-research-2026-10-16.md"
+  },
+  "evidence_availability": "Public URLs and source locators are listed in the research appendix. Cache names and hashes identify maintainer-local evidence; caches, internal originals and full standards texts are not distributed by this repository. Private source mappings are preserved locally and are not public download links."
+}
