@@ -3,11 +3,11 @@
   "scope": "page_reachability_only",
   "dataset_files_downloaded": false,
   "paper_files_downloaded": false,
-  "total_unique_urls": 581,
-  "completed_urls": 581,
+  "total_unique_urls": 620,
+  "completed_urls": 620,
   "by_status": {
     "server_error": 1,
-    "accessible": 547,
+    "accessible": 586,
     "redirected": 27,
     "skipped_placeholder": 3,
     "restricted": 1,
@@ -10709,6 +10709,396 @@
       "redirects": [],
       "error": null,
       "page_title": "ToxicChat: Unveiling Hidden Challenges of Toxicity Detection in Real-World User-AI Conversation"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.30188",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2608.30188",
+      "redirects": [],
+      "error": null,
+      "page_title": "GPAgentBench-2K: Benchmarking Large Language Model Agents in Complex Clinical Action Space"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.03731",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2608.03731",
+      "redirects": [],
+      "error": null,
+      "page_title": "CARE-Bench: Benchmarking Patient-Facing LLM Triage"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.19409",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2607.19409",
+      "redirects": [],
+      "error": null,
+      "page_title": "FORCE-Bench: A Benchmark, Dataset, and Evaluation Harness for Agentic AI in Enterprise Finance"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.03203",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2606.03203",
+      "redirects": [],
+      "error": null,
+      "page_title": "MedCUA-Bench: A Screenshot-Only Benchmark for Clinical Computer-Use Agents"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34535",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2610.34535",
+      "redirects": [],
+      "error": null,
+      "page_title": "SentryBench: A Cost-Sensitive Benchmark for Adversarial Robustness of Tool-Using LLM Agents in Public-Safety Deployments"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.25485",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2607.25485",
+      "redirects": [],
+      "error": null,
+      "page_title": "PatientAgentBench: A Benchmark Framework for Evaluating Patient-Facing Health AI Agents"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.28381",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2610.28381",
+      "redirects": [],
+      "error": null,
+      "page_title": "CAPSafe: A Benchmark for Contextual Action and Plan Safety Reasoning in Embodied Agents"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.09294",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2610.09294",
+      "redirects": [],
+      "error": null,
+      "page_title": "RT-Safe: Benchmarking Agent Safety in Real-Time Embodied Environment"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.21928",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2608.21928",
+      "redirects": [],
+      "error": null,
+      "page_title": "GuardianBench: A Same-Scene Instruction-Contrastive Benchmark for Latent Contextual Risk in Embodied AI"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.14543",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2607.14543",
+      "redirects": [],
+      "error": null,
+      "page_title": "SafeRelBench: A Spatial-Relation-Aware Benchmark for Process-Level Safety in VLM-Driven Embodied Agents"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.06122",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2610.06122",
+      "redirects": [],
+      "error": null,
+      "page_title": "Benchmarking Jailbreak Guardrails for Embodied Agents"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34674",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2610.34674",
+      "redirects": [],
+      "error": null,
+      "page_title": "Benchmarking Obstacle-Conditioned Safety in Household Robot Navigation"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34640",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2610.34640",
+      "redirects": [],
+      "error": null,
+      "page_title": "InferPriv: Evaluating Inferential Privacy Leakage in LLM Assistants"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.19158",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2610.19158",
+      "redirects": [],
+      "error": null,
+      "page_title": "AgentCIScope: Grounded Contextual Integrity Evaluation for LLM Agents"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.13873",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2609.13873",
+      "redirects": [],
+      "error": null,
+      "page_title": "PriMobiBench: Characterizing Visual Privacy Leakage in VLM-Driven Mobile GUI Agents"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.03700",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2608.03700",
+      "redirects": [],
+      "error": null,
+      "page_title": "When Agents Learn to Be You: Benchmarking Privacy Leakage, Impersonation Risk, and Defenses in Persona Skills"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.03499",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2608.03499",
+      "redirects": [],
+      "error": null,
+      "page_title": "WeClawArena: An Auditable Sandbox and Benchmark for Cross-User Agents Collaboration and Security in Human-Centered Agent Networks"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.27548",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2610.27548",
+      "redirects": [],
+      "error": null,
+      "page_title": "Act on Your Behalf, Beyond Your Authorization: Benchmarking LLM Agent Authorization Alignment"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.24264",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2610.24264",
+      "redirects": [],
+      "error": null,
+      "page_title": "AM-Bench: A Unified Taxonomy and Evaluation Suite for Agentic Misalignment"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30325",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2609.30325",
+      "redirects": [],
+      "error": null,
+      "page_title": "ScopeBench: Do Agents Preserve Engagement Boundaries Under Goal Pressure?"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.18423",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2605.18423",
+      "redirects": [],
+      "error": null,
+      "page_title": "REBAR: Reference Ethical Benchmark for Autonomy Readiness"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.07805",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2606.07805",
+      "redirects": [],
+      "error": null,
+      "page_title": "Beyond Goodhart&#39;s Law: A Dynamic Benchmark for Evaluating Compliance in Multi-Agent Systems"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.31713",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2610.31713",
+      "redirects": [],
+      "error": null,
+      "page_title": "Omni-UBench: Benchmarking Omni-Modal LLM-based Guardrails Across Safety, Utility, and Reliability"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.18095",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2610.18095",
+      "redirects": [],
+      "error": null,
+      "page_title": "CompanionSafe: From Multi-turn Safety Evaluation to Guardrails for AI Companions"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.16426",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2610.16426",
+      "redirects": [],
+      "error": null,
+      "page_title": "AuthGateBench: Benchmarking LLMs as Authorization Gate"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.25924",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2610.25924",
+      "redirects": [],
+      "error": null,
+      "page_title": "UtilityBench: Measuring Language Model Utility When Errors Have Different Costs"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.28982",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2610.28982",
+      "redirects": [],
+      "error": null,
+      "page_title": "Behavior Beyond Text: Evaluating Refusal Transfer Failure in LLM Agents"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.32024",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2610.32024",
+      "redirects": [],
+      "error": null,
+      "page_title": "BARC-Bench: Benign Asks, Risky Consequences"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.01497",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2610.01497",
+      "redirects": [],
+      "error": null,
+      "page_title": "OpenMTB-Audit: Exposing Over-Refusal and Clinical Expert Perspectives in LLM-Based Molecular Tumor Board Safety Evaluation"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.25352",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2609.25352",
+      "redirects": [],
+      "error": null,
+      "page_title": "SSP-Bench: A Hybrid Data Generation Framework for Safety, Security, and Privacy Evaluation"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.02207",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2609.02207",
+      "redirects": [],
+      "error": null,
+      "page_title": "LeakageBench: Document-Level Leakage Risk for Redacting Personally Identifiable Information in Document Images"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.22200",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2609.22200",
+      "redirects": [],
+      "error": null,
+      "page_title": "PII-TRACE: A Benchmark for Context-Aware PII Detection in Multi-Turn LLM Conversations"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.06784",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2606.06784",
+      "redirects": [],
+      "error": null,
+      "page_title": "What Your Posts Reveal: A Benchmark and Agentic Framework for User-Level Privacy Leakage on Social Media"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.06783",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2609.06783",
+      "redirects": [],
+      "error": null,
+      "page_title": "AURA-Eval: Evaluation Framework for Acting Under Risk Awareness in LLM Agent Trajectories"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.33658",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2609.33658",
+      "redirects": [],
+      "error": null,
+      "page_title": "AgentBoundary: Counterfactual Evaluation of Safety in Tool-Using LLM Agents"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.35188",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2610.35188",
+      "redirects": [],
+      "error": null,
+      "page_title": "V$^3$AST-Bench: Verifiable, Valid, and Versatile Safety Evaluation for Coding Agents"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.04378",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2610.04378",
+      "redirects": [],
+      "error": null,
+      "page_title": "COPEX: Benchmarking LLM Robustness to Adversarial Context Across Model Context Protocol (MCP) Layers"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.03153",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2610.03153",
+      "redirects": [],
+      "error": null,
+      "page_title": "EvoRiskBench: An Evolving Benchmark for Runtime Security Risks in Workspace Agents"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.37722",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2610.37722",
+      "redirects": [],
+      "error": null,
+      "page_title": "FVH-Bench: Evaluating Image Generator Safety Beyond Overtly Harmful Imagery"
     }
   ]
 }

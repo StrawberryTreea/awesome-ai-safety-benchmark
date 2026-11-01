@@ -31146,6 +31146,747 @@
           "url": "https://arxiv.org/abs/1909.01326"
         }
       ]
+    },
+    {
+      "record_id": "web-collection-2026-11:253",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 253,
+      "name": "GPAgentBench-2K",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2608.30188",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2608.30188"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:254",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 254,
+      "name": "CARE-Bench",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2608.03731",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2608.03731"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:255",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 255,
+      "name": "FORCE-Bench",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2607.19409",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2607.19409"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:256",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 256,
+      "name": "MedCUA-Bench",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2606.03203",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2606.03203"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:257",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 257,
+      "name": "SentryBench",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2610.34535",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2610.34535"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:258",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 258,
+      "name": "PatientAgentBench",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2607.25485",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2607.25485"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:259",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 259,
+      "name": "CAPSafe",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2610.28381",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2610.28381"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:260",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 260,
+      "name": "RT-Safe",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2610.09294",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2610.09294"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:261",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 261,
+      "name": "GuardianBench",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2608.21928",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2608.21928"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:262",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 262,
+      "name": "SafeRelBench",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2607.14543",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2607.14543"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:263",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 263,
+      "name": "Embodied Jailbreak Guardrail Evaluation",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2610.06122",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2610.06122"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:264",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 264,
+      "name": "OSMA-Bench",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2610.34674",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2610.34674"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:265",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 265,
+      "name": "InferPriv",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2610.34640",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2610.34640"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:266",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 266,
+      "name": "AgentCIScope",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2610.19158",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2610.19158"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:267",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 267,
+      "name": "PriMobiBench",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2609.13873",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2609.13873"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:268",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 268,
+      "name": "AntiSkillBench",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2608.03700",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2608.03700"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:269",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 269,
+      "name": "WeClawArena",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2608.03499",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2608.03499"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:270",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 270,
+      "name": "AuthorizationBench",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2610.27548",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2610.27548"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:271",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 271,
+      "name": "AM-Bench",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2610.24264",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2610.24264"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:272",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 272,
+      "name": "ScopeBench",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2609.30325",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2609.30325"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:273",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 273,
+      "name": "REBAR",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2605.18423",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2605.18423"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:274",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 274,
+      "name": "MAC-Bench",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2606.07805",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2606.07805"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:275",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 275,
+      "name": "Omni-UBench",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2610.31713",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2610.31713"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:276",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 276,
+      "name": "CompanionSafe",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2610.18095",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2610.18095"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:277",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 277,
+      "name": "AuthGateBench",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2610.16426",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2610.16426"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:278",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 278,
+      "name": "UtilityBench",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2610.25924",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2610.25924"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:279",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 279,
+      "name": "Refusal Transfer Benchmark",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2610.28982",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2610.28982"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:280",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 280,
+      "name": "BARC-Bench",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2610.32024",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2610.32024"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:281",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 281,
+      "name": "OpenMTB-Audit",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2610.01497",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2610.01497"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:282",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 282,
+      "name": "SSP-Bench",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2609.25352",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2609.25352"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:283",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 283,
+      "name": "LeakageBench",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2609.02207",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2609.02207"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:284",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 284,
+      "name": "PII-TRACE",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2609.22200",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2609.22200"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:285",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 285,
+      "name": "SopriBench",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2606.06784",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2606.06784"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:286",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 286,
+      "name": "AURA-Eval",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2609.06783",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2609.06783"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:287",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 287,
+      "name": "AgentBound",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2609.33658",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2609.33658"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:288",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 288,
+      "name": "V3AST-Bench",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2610.35188",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2610.35188"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:289",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 289,
+      "name": "COPEX",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2610.04378",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2610.04378"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:290",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 290,
+      "name": "EvoRiskBench",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2610.03153",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2610.03153"
+        }
+      ]
+    },
+    {
+      "record_id": "web-collection-2026-11:291",
+      "source_id": "web-collection-2026-11",
+      "sheet": "web",
+      "row": 291,
+      "name": "FVH-Bench",
+      "fields": {
+        "evidence_url": "https://arxiv.org/abs/2610.37722",
+        "retrieved_on": "2026-11-01",
+        "note": "2026 AI safety benchmark, description grounded in paper abstract; link verified 2026-11-01"
+      },
+      "cells": {},
+      "hyperlinks": [
+        {
+          "cell": "web",
+          "url": "https://arxiv.org/abs/2610.37722"
+        }
+      ]
     }
   ]
 }

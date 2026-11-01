@@ -2,43 +2,43 @@
   "updated_on": "2026-11-01",
   "source_files": 7,
   "collection_source_files": 5,
-  "source_rows_including_repeated_views": 944,
+  "source_rows_including_repeated_views": 983,
   "base_collection_rows": 241,
-  "unique_catalog_entries": 464,
+  "unique_catalog_entries": 503,
   "by_catalog_status": {
     "needs_review": 10,
-    "listed": 370,
+    "listed": 409,
     "related": 84
   },
   "listed_by_track": {
-    "llm_safety": 276,
-    "agent_safety": 75,
-    "safety_judging": 19
+    "llm_safety": 289,
+    "agent_safety": 94,
+    "safety_judging": 26
   },
   "all_entries_by_track": {
     "related_resources": 88,
-    "llm_safety": 279,
-    "agent_safety": 78,
-    "safety_judging": 19
+    "llm_safety": 292,
+    "agent_safety": 97,
+    "safety_judging": 26
   },
   "by_resource_type": {
-    "framework": 18,
-    "benchmark": 270,
+    "framework": 23,
+    "benchmark": 301,
     "training_dataset": 16,
     "attack_method": 28,
-    "benchmark_suite": 31,
-    "evaluation_dataset": 99,
+    "benchmark_suite": 32,
+    "evaluation_dataset": 101,
     "suite_component": 2
   },
   "entries_with_metadata_variants": 67,
   "entries_with_placeholder_links": 3,
   "entries_with_only_aggregator_or_no_direct_link": 0,
   "entries_with_paper_only": 18,
-  "entries_with_link_checks": 462,
+  "entries_with_link_checks": 501,
   "last_link_check": "2026-11-01",
   "unique_link_statuses": {
     "skipped_placeholder": 3,
-    "accessible": 547,
+    "accessible": 586,
     "redirected": 27,
     "not_found": 2,
     "server_error": 1,
