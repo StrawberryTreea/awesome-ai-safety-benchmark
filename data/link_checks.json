@@ -3,11 +3,11 @@
   "scope": "page_reachability_only",
   "dataset_files_downloaded": false,
   "paper_files_downloaded": false,
-  "total_unique_urls": 495,
-  "completed_urls": 495,
+  "total_unique_urls": 581,
+  "completed_urls": 581,
   "by_status": {
     "server_error": 1,
-    "accessible": 461,
+    "accessible": 547,
     "redirected": 27,
     "skipped_placeholder": 3,
     "restricted": 1,
@@ -9849,6 +9849,866 @@
       "redirects": [],
       "error": null,
       "page_title": "OSGuard: A Benchmark for Safety in Computer-Use Agents"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.12030",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2406.12030",
+      "redirects": [],
+      "error": null,
+      "page_title": "SPA-VL: A Comprehensive Safety Preference Alignment Dataset for Vision Language Model"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.07243",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2406.07243",
+      "redirects": [],
+      "error": null,
+      "page_title": "MBBQ: A Dataset for Cross-Lingual Comparison of Stereotypes in Generative LLMs"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.11456",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2403.11456",
+      "redirects": [],
+      "error": null,
+      "page_title": "HateCOT: An Explanation-Enhanced Dataset for Generalizable Offensive Speech Detection via Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.19559",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2403.19559",
+      "redirects": [],
+      "error": null,
+      "page_title": "Improving Adversarial Data Collection by Supporting Annotators: Lessons from GAHD, a German Hate Speech Dataset"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.19349",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2406.19349",
+      "redirects": [],
+      "error": null,
+      "page_title": "IndoToxic2024: A Demographically-Enriched Dataset of Hate Speech and Toxicity Types for Indonesian Language"
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.15462",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2411.15462",
+      "redirects": [],
+      "error": null,
+      "page_title": "HateDay: Insights from a Global Hate Speech Dataset Representative of a Day on Twitter"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.02271",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2412.02271",
+      "redirects": [],
+      "error": null,
+      "page_title": "The MediaSpin Dataset: Post-Publication News Headline Edits Annotated for Media Bias"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.13281",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2410.13281",
+      "redirects": [],
+      "error": null,
+      "page_title": "BanTH: A Multi-label Hate Speech Detection Dataset for Transliterated Bangla"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.19687",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2410.19687",
+      "redirects": [],
+      "error": null,
+      "page_title": "ProvocationProbe: Instigating Hate Speech Dataset from Twitter"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.02472",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2403.02472",
+      "redirects": [],
+      "error": null,
+      "page_title": "OffensiveLang: A Community Based Implicit Offensive Language Dataset"
+    },
+    {
+      "url": "https://arxiv.org/abs/2409.05005",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2409.05005",
+      "redirects": [],
+      "error": null,
+      "page_title": "Towards Patronizing and Condescending Language in Chinese Videos: A Multimodal Dataset and Detector"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.07594",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2406.07594",
+      "redirects": [],
+      "error": null,
+      "page_title": "MLLMGuard: A Multi-dimensional Safety Evaluation Suite for Multimodal Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2405.14191",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2405.14191",
+      "redirects": [],
+      "error": null,
+      "page_title": "S-Eval: Towards Automated and Comprehensive Safety Evaluation for Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.05668",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2402.05668",
+      "redirects": [],
+      "error": null,
+      "page_title": "JailbreakRadar: Comprehensive Assessment of Jailbreak Attacks Against LLMs"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.10260",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2402.10260",
+      "redirects": [],
+      "error": null,
+      "page_title": "A StrongREJECT for Empty Jailbreaks"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.09017",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2403.09017",
+      "redirects": [],
+      "error": null,
+      "page_title": "AraTrust: An Evaluation of Trustworthiness for LLMs in Arabic"
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.12915",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2401.12915",
+      "redirects": [],
+      "error": null,
+      "page_title": "Red Teaming Visual Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.06172",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2410.06172",
+      "redirects": [],
+      "error": null,
+      "page_title": "Multimodal Situational Safety"
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.17453",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2411.17453",
+      "redirects": [],
+      "error": null,
+      "page_title": "PEFTGuard: Detecting Backdoor Attacks Against Parameter-Efficient Fine-Tuning"
+    },
+    {
+      "url": "https://arxiv.org/abs/2408.04811",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2408.04811",
+      "redirects": [],
+      "error": null,
+      "page_title": "h4rm3l: A language for Composable Jailbreak Attack Synthesis"
+    },
+    {
+      "url": "https://arxiv.org/abs/2405.20413",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2405.20413",
+      "redirects": [],
+      "error": null,
+      "page_title": "Jailbreaking Large Language Models Against Moderation Guardrails via Cipher Characters"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.06007",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2406.06007",
+      "redirects": [],
+      "error": null,
+      "page_title": "CARES: A Comprehensive Benchmark of Trustworthiness in Medical Vision Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.05250",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2407.05250",
+      "redirects": [],
+      "error": null,
+      "page_title": "CLIMB: A Benchmark of Clinical Bias in Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.19317",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2410.19317",
+      "redirects": [],
+      "error": null,
+      "page_title": "FairMT-Bench: Benchmarking Fairness for Multi-turn Dialogue in Conversational LLMs"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.21159",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2410.21159",
+      "redirects": [],
+      "error": null,
+      "page_title": "CURATe: Benchmarking Personalised Alignment of Conversational AI Assistants"
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.07781",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2411.07781",
+      "redirects": [],
+      "error": null,
+      "page_title": "RedCode: Risky Code Execution and Generation Benchmark for Code Agents"
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.16736",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2411.16736",
+      "redirects": [],
+      "error": null,
+      "page_title": "ChemSafetyBench: Benchmarking LLM Safety on Chemistry Domain"
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.14842",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2411.14842",
+      "redirects": [],
+      "error": null,
+      "page_title": "Who Can Withstand Chat-Audio Attacks? An Evaluation Benchmark for Large Audio-Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.22770",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2410.22770",
+      "redirects": [],
+      "error": null,
+      "page_title": "InjecGuard: Benchmarking and Mitigating Over-defense in Prompt Injection Guardrail Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.08715",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2307.08715",
+      "redirects": [],
+      "error": null,
+      "page_title": "MasterKey: Automated Jailbreak Across Multiple Large Language Model Chatbots"
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.13213",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2306.13213",
+      "redirects": [],
+      "error": null,
+      "page_title": "Visual Adversarial Examples Jailbreak Aligned Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.17436",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2407.17436",
+      "redirects": [],
+      "error": null,
+      "page_title": "AIR-Bench 2024: A Safety Benchmark Based on Risk Categories from Regulations and Policies"
+    },
+    {
+      "url": "https://arxiv.org/abs/2408.08926",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2408.08926",
+      "redirects": [],
+      "error": null,
+      "page_title": "Cybench: A Framework for Evaluating Cybersecurity Capabilities and Risks of Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/1804.06876",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/1804.06876",
+      "redirects": [],
+      "error": null,
+      "page_title": "Gender Bias in Coreference Resolution: Evaluation and Debiasing Methods"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.17696",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2305.17696",
+      "redirects": [],
+      "error": null,
+      "page_title": "SQuARe: A Large-Scale Dataset of Sensitive Questions and Acceptable Responses Created Through Human-Machine Collaboration"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.00905",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2310.00905",
+      "redirects": [],
+      "error": null,
+      "page_title": "All Languages Matter: On the Multilingual Safety of Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.09662",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2308.09662",
+      "redirects": [],
+      "error": null,
+      "page_title": "Red-Teaming Large Language Models using Chain of Utterances for Safety-Alignment"
+    },
+    {
+      "url": "https://arxiv.org/abs/2311.05915",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2311.05915",
+      "redirects": [],
+      "error": null,
+      "page_title": "Fake Alignment: Are LLMs Really Aligned Well?"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.10012",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2310.10012",
+      "redirects": [],
+      "error": null,
+      "page_title": "Ring-A-Bell! How Reliable are Concept Removal Methods for Diffusion Models?"
+    },
+    {
+      "url": "https://arxiv.org/abs/2303.12734",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2303.12734",
+      "redirects": [],
+      "error": null,
+      "page_title": "MultiModal Bias: Introducing a Framework for Stereotypical Bias Assessment beyond Gender and Race in Vision Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.04313",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2310.04313",
+      "redirects": [],
+      "error": null,
+      "page_title": "KoMultiText: Large-Scale Korean Text Dataset for Classifying Biased Speech in Real-World Online Services"
+    },
+    {
+      "url": "https://arxiv.org/abs/2304.00913",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2304.00913",
+      "redirects": [],
+      "error": null,
+      "page_title": "LAHM : Large Annotated Dataset for Multi-Domain and Multilingual Hate Speech Identification"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.13985",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2310.13985",
+      "redirects": [],
+      "error": null,
+      "page_title": "HateRephrase: Zero- and Few-Shot Reduction of Hate Intensity in Online Posts using Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2311.09641",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2311.09641",
+      "redirects": [],
+      "error": null,
+      "page_title": "RLHFPoison: Reward Poisoning Attack for Reinforcement Learning with Human Feedback in Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.17194",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2306.17194",
+      "redirects": [],
+      "error": null,
+      "page_title": "On the Exploitability of Instruction Tuning"
+    },
+    {
+      "url": "https://arxiv.org/abs/2409.19521",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2409.19521",
+      "redirects": [],
+      "error": null,
+      "page_title": "GenTel-Safe: A Unified Benchmark and Shielding Framework for Defending Against Prompt Injection Attacks"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.09324",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2406.09324",
+      "redirects": [],
+      "error": null,
+      "page_title": "Bag of Tricks: Benchmarking of Jailbreak Attacks on LLMs"
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.00827",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2411.00827",
+      "redirects": [],
+      "error": null,
+      "page_title": "IDEATOR: Jailbreaking and Benchmarking Large Vision-Language Models Using Themselves"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.19496",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2412.19496",
+      "redirects": [],
+      "error": null,
+      "page_title": "Multi-PA: A Multi-perspective Benchmark on Privacy Assessment for Large Vision-Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.14889",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2402.14889",
+      "redirects": [],
+      "error": null,
+      "page_title": "COBIAS: Assessing the Contextual Reliability of Bias Benchmarks for Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.20147",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2403.20147",
+      "redirects": [],
+      "error": null,
+      "page_title": "IndiBias: A Benchmark Dataset to Measure Social Biases in Language Models for Indian Context"
+    },
+    {
+      "url": "https://arxiv.org/abs/2409.15154",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2409.15154",
+      "redirects": [],
+      "error": null,
+      "page_title": "RMCBench: Benchmarking Large Language Models&#39; Resistance to Malicious Code"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.08388",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2410.08388",
+      "redirects": [],
+      "error": null,
+      "page_title": "Responsible AI in NLP: GUS-Net Span-Level Bias Detection Dataset and Benchmark for Generalizations, Unfairness, and Stereotypes"
+    },
+    {
+      "url": "https://arxiv.org/abs/2404.08676",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2404.08676",
+      "redirects": [],
+      "error": null,
+      "page_title": "ALERT: A Comprehensive Benchmark for Assessing Large Language Models&#39; Safety through Red Teaming"
+    },
+    {
+      "url": "https://arxiv.org/abs/2404.10508",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2404.10508",
+      "redirects": [],
+      "error": null,
+      "page_title": "White Men Lead, Black Women Help? Benchmarking and Mitigating Language Agency Social Biases in LLMs"
+    },
+    {
+      "url": "https://arxiv.org/abs/2404.12241",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2404.12241",
+      "redirects": [],
+      "error": null,
+      "page_title": "Introducing v0.5 of the AI Safety Benchmark from MLCommons"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.02050",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2406.02050",
+      "redirects": [],
+      "error": null,
+      "page_title": "JBBQ: Japanese Bias Benchmark for Analyzing Social Biases in Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.15484",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2406.15484",
+      "redirects": [],
+      "error": null,
+      "page_title": "JobFair: A Framework for Benchmarking Gender Hiring Bias in Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.15240",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2407.15240",
+      "redirects": [],
+      "error": null,
+      "page_title": "BIGbench: A Unified Benchmark for Evaluating Multi-dimensional Social Biases in Text-to-Image Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2109.07958",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2109.07958",
+      "redirects": [],
+      "error": null,
+      "page_title": "TruthfulQA: Measuring How Models Mimic Human Falsehoods"
+    },
+    {
+      "url": "https://arxiv.org/abs/2010.00133",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2010.00133",
+      "redirects": [],
+      "error": null,
+      "page_title": "CrowS-Pairs: A Challenge Dataset for Measuring Social Biases in Masked Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2211.09110",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2211.09110",
+      "redirects": [],
+      "error": null,
+      "page_title": "Holistic Evaluation of Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2311.05608",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2311.05608",
+      "redirects": [],
+      "error": null,
+      "page_title": "FigStep: Jailbreaking Large Vision-Language Models via Typographic Visual Prompts"
+    },
+    {
+      "url": "https://arxiv.org/abs/2311.17600",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2311.17600",
+      "redirects": [],
+      "error": null,
+      "page_title": "MM-SafetyBench: A Benchmark for Safety Evaluation of Multimodal Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.02483",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2307.02483",
+      "redirects": [],
+      "error": null,
+      "page_title": "Jailbroken: How Does LLM Safety Training Fail?"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.14303",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2310.14303",
+      "redirects": [],
+      "error": null,
+      "page_title": "Language Model Unalignment: Parametric Red-Teaming to Expose Hidden Harms and Biases"
+    },
+    {
+      "url": "https://arxiv.org/abs/2303.18190",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2303.18190",
+      "redirects": [],
+      "error": null,
+      "page_title": "Assessing Language Model Deployment with Risk Cards"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.02224",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2310.02224",
+      "redirects": [],
+      "error": null,
+      "page_title": "Can Language Models be Instructed to Protect Personal Information?"
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.14764",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2306.14764",
+      "redirects": [],
+      "error": null,
+      "page_title": "Uncovering Political Hate Speech During Indian Election Campaign: A New Low-Resource Dataset and Baselines"
+    },
+    {
+      "url": "https://arxiv.org/abs/2311.00286",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2311.00286",
+      "redirects": [],
+      "error": null,
+      "page_title": "JADE: A Linguistics-based Safety Evaluation Platform for Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2312.11523",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2312.11523",
+      "redirects": [],
+      "error": null,
+      "page_title": "ToViLaG: Your Visual-Language Generative Model is Also An Evildoer"
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.12418",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2307.12418",
+      "redirects": [],
+      "error": null,
+      "page_title": "HateModerate: Testing Hate Speech Detectors against Content Moderation Policies"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.11053",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2310.11053",
+      "redirects": [],
+      "error": null,
+      "page_title": "Denevil: Towards Deciphering and Navigating the Ethical Values of Large Language Models via Instruction Learning"
+    },
+    {
+      "url": "https://arxiv.org/abs/2312.06632",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2312.06632",
+      "redirects": [],
+      "error": null,
+      "page_title": "Controlling risks of AI in chemical science with agents"
+    },
+    {
+      "url": "https://arxiv.org/abs/2309.06135",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2309.06135",
+      "redirects": [],
+      "error": null,
+      "page_title": "Prompting4Debugging: Red-Teaming Text-to-Image Diffusion Models by Finding Problematic Prompts"
+    },
+    {
+      "url": "https://arxiv.org/abs/2202.03286",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2202.03286",
+      "redirects": [],
+      "error": null,
+      "page_title": "Red Teaming Language Models with Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2012.10289",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2012.10289",
+      "redirects": [],
+      "error": null,
+      "page_title": "HateXplain: A Benchmark Dataset for Explainable Hate Speech Detection"
+    },
+    {
+      "url": "https://arxiv.org/abs/2006.08328",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2006.08328",
+      "redirects": [],
+      "error": null,
+      "page_title": "ETHOS: an Online Hate Speech Detection Dataset"
+    },
+    {
+      "url": "https://arxiv.org/abs/1909.04251",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/1909.04251",
+      "redirects": [],
+      "error": null,
+      "page_title": "A Benchmark Dataset for Learning to Intervene in Online Hate Speech"
+    },
+    {
+      "url": "https://arxiv.org/abs/2210.10045",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2210.10045",
+      "redirects": [],
+      "error": null,
+      "page_title": "SafeText: A Benchmark for Exploring Physical Safety in Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2006.00998",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2006.00998",
+      "redirects": [],
+      "error": null,
+      "page_title": "Toxicity Detection: Does Context Really Matter?"
+    },
+    {
+      "url": "https://arxiv.org/abs/2108.05921",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2108.05921",
+      "redirects": [],
+      "error": null,
+      "page_title": "Hatemoji: A Test Suite and Adversarially-Generated Dataset for Benchmarking and Detecting Emoji-based Hate"
+    },
+    {
+      "url": "https://arxiv.org/abs/2011.00620",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2011.00620",
+      "redirects": [],
+      "error": null,
+      "page_title": "Social Chemistry 101: Learning to Reason about Social and Moral Norms"
+    },
+    {
+      "url": "https://arxiv.org/abs/1809.04444",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/1809.04444",
+      "redirects": [],
+      "error": null,
+      "page_title": "Hate Speech Dataset from a White Supremacy Forum"
+    },
+    {
+      "url": "https://arxiv.org/abs/1909.01326",
+      "status": "accessible",
+      "checked_at": "2026-11-01T14:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/1909.01326",
+      "redirects": [],
+      "error": null,
+      "page_title": "The Woman Worked as a Babysitter: On Biases in Language Generation"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.17389",
+      "status": "accessible",
+      "checked_at": "2026-11-01T15:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2310.17389",
+      "redirects": [],
+      "error": null,
+      "page_title": "ToxicChat: Unveiling Hidden Challenges of Toxicity Detection in Real-World User-AI Conversation"
     }
   ]
 }

@@ -364,6 +364,7 @@ def catalog_overview_svg(catalog):
         n = len(years)
         slot = chart_w / n
         bw = min(slot * 0.56, 30)
+        label_fs = 10 if n <= 8 else (9 if n <= 11 else 8)
         parts.append(f"<line x1='{bx0}' y1='{base_y}' x2='{bx1}' y2='{base_y}' stroke='#e2e8f0' stroke-width='1'/>")
         for i, yr in enumerate(years):
             v = year_counter[yr]
@@ -371,8 +372,8 @@ def catalog_overview_svg(catalog):
             x = bx0 + i * slot + (slot - bw) / 2
             y_top = base_y - bh
             parts.append(bar(x, y_top, bw, bh, 4, "url(#barGrad)"))
-            parts.append(f"<text x='{x+bw/2:.1f}' y='{y_top-6:.1f}' {FONT} font-size='10' fill='#475569' text-anchor='middle'>{v}</text>")
-            parts.append(f"<text x='{x+bw/2:.1f}' y='{base_y+16:.1f}' {FONT} font-size='10' fill='#64748b' text-anchor='middle'>{yr}</text>")
+            parts.append(f"<text x='{x+bw/2:.1f}' y='{y_top-6:.1f}' {FONT} font-size='{label_fs}' fill='#475569' text-anchor='middle'>{v}</text>")
+            parts.append(f"<text x='{x+bw/2:.1f}' y='{base_y+16:.1f}' {FONT} font-size='{label_fs}' fill='#64748b' text-anchor='middle'>{yr}</text>")
     parts.append("</svg>")
     return "\n".join(parts)
 

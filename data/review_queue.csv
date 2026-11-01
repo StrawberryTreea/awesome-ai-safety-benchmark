@@ -32,4 +32,3 @@ agent-screen:第二阶段详表:8
 link-repair-2026-10-14:web:12
 llm-increment:原始统计表:96"
 tap-pair,TAP/PAIR,needs_review,related_resources,attack_methods,attack_method,2023,2023,en,,自动化越狱树搜索,内置有害目标集(goals)+攻击生成提示,ASR,,是,https://github.com/RICommunity/TAP,,,,2026-10-14,accessible:1,bundled_projects,原表把 TAP 与 PAIR 合写，所给链接指向 TAP。待拆分并补齐 PAIR 的独立来源。,,llm-increment:原始统计表:110
-toxicchat,ToxicChat,needs_review,llm_safety,harmful_content,evaluation_dataset,2023,2023,en,,仇恨言论,10K,Precision / Recall / F1、Accuracy,,是,https://github.com/abaheti95/ToxiChat,,,,2026-10-14,accessible:1,identity_or_scope_needs_review; name_link_mismatch,原表项目名为 ToxicChat，链接指向 abaheti95/ToxiChat。两种拼写可能对应不同数据集，需核对身份后收录。,,llm-increment:原始统计表:22
