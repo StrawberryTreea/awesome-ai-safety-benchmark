@@ -47327,6 +47327,4300 @@
         "web-collection-2026-11:112"
       ],
       "metadata_variant_fields": []
+    },
+    {
+      "id": "labshield",
+      "name": "LABSHIELD",
+      "aliases": [],
+      "track": "agent_safety",
+      "topic": "embodied",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "164 lab-safety tasks grounded in OSHA and GHS standards, testing hazard identification and safety-critical planning by embodied MLLM agents.",
+      "description_zh": "164 个依 OSHA/GHS 标准构建的实验室安全任务，考查具身多模态智能体的危险识别与安全规划。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:113",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "164 operational tasks; multi-view lab scenes; 20 proprietary + 9 open-source + 3 embodied models evaluated",
+          "source_ref": "web-collection-2026-11:113",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Hazard-identification accuracy and safety-critical planning success under a dual-track protocol",
+          "source_ref": "web-collection-2026-11:113",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Dual-track evaluation of MLLMs on multi-view laboratory scenes",
+          "source_ref": "web-collection-2026-11:113",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:113",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2603.11987",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:113"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2603.11987",
+            "redirects": [],
+            "error": null,
+            "page_title": "LABSHIELD: A Multimodal Benchmark for Safety-Critical Reasoning and Planning in Scientific Laboratories"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:113"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "manta",
+      "name": "MANTA",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "values_ethics",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "1,088 five-turn conversations escalating from implicit to adversarial pressure, scoring animal-welfare value stability and moral sensitivity.",
+      "description_zh": "1,088 组五轮对话，从隐含提问逐步加压到对抗施压，评动物福利价值稳定性与道德敏感度。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:114",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "1,088 five-turn conversations; 5-type adversarial pressure taxonomy; 7 frontier models",
+          "source_ref": "web-collection-2026-11:114",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Animal Welfare Value Stability (AWVS, primary) and Animal Welfare Moral Sensitivity (AWMS, diagnostic)",
+          "source_ref": "web-collection-2026-11:114",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Multi-turn adversarial dialogue against 7 frontier models",
+          "source_ref": "web-collection-2026-11:114",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:114",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2605.16301",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:114"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2605.16301",
+            "redirects": [],
+            "error": null,
+            "page_title": "Do LLMs Hold Their Values? MANTA: A Multi-Turn Adversarial Benchmark for Animal Welfare Reasoning"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:114"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "stepjack",
+      "name": "StepJack",
+      "aliases": [],
+      "track": "agent_safety",
+      "topic": "prompt_injection",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "480 computer-use-agent cases where one injected goal is split into innocuous sub-steps distributed along the agent's page-navigation chain.",
+      "description_zh": "把注入目标拆成多个看似无害的子步骤、分散在导航页面链上的基准，含 480 个计算机操作智能体用例。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:115",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "480 test examples; adversarial goals decomposed to depth 1-3",
+          "source_ref": "web-collection-2026-11:115",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Attack success rate (ASR) as a function of decomposition depth",
+          "source_ref": "web-collection-2026-11:115",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "6 state-of-the-art computer-use agents navigating live pages",
+          "source_ref": "web-collection-2026-11:115",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:115",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2608.06477",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:115"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2608.06477",
+            "redirects": [],
+            "error": null,
+            "page_title": "StepJack: Benchmarking Computer-Use Agent Safety Against Multi-Step Indirect Prompt Injection"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:115"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "av-safetybench",
+      "name": "AV-SafetyBench",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "comprehensive",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "5,200 reviewed prompts for text-to-audio-video generation, attributing unsafe output to video, audio, or joint audio-visual interpretation.",
+      "description_zh": "5,200 条人工复核提示，面向文生音视频模型，并区分危害源自画面、声音还是二者交互。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:116",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "5,200 manually reviewed prompts; four-axis, 13-category taxonomy",
+          "source_ref": "web-collection-2026-11:116",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Full-AV / Video-Only / Audio-Only unsafe rates plus four-way risk-source attribution",
+          "source_ref": "web-collection-2026-11:116",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Five open-source T2AV models, judged by an automated protocol validated against human annotation",
+          "source_ref": "web-collection-2026-11:116",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:116",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2609.06991",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:116"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2609.06991",
+            "redirects": [],
+            "error": null,
+            "page_title": "AV-SafetyBench: A Safety Benchmark for Text-to-Audio-Video Generation"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:116"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "swe-cc",
+      "name": "SWE-CC",
+      "aliases": [],
+      "track": "agent_safety",
+      "topic": "general",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "823 machine-checkable repository policies across 12 repos, testing whether coding agents follow contribution rules rather than only passing tests.",
+      "description_zh": "823 条可机检的仓库贡献规范（覆盖 12 个仓库），考查编码智能体是否守规，而非只通过单元测试。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:117",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "823 atomic policies from 12 open-source repositories; 500 end-to-end contribution tasks",
+          "source_ref": "web-collection-2026-11:117",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Policy compliance rate plus audit of runtime behaviour and final deliverables",
+          "source_ref": "web-collection-2026-11:117",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "End-to-end software contribution tasks extended from SWE-bench Verified",
+          "source_ref": "web-collection-2026-11:117",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:117",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2610.06193",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:117"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2610.06193",
+            "redirects": [],
+            "error": null,
+            "page_title": "Correct Code, Broken Contributions? SWE-CC: Benchmarking Repository Policy Compliance for Coding Agents"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:117"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "jmedethicbench",
+      "name": "JMedEthicBench",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "domain_risk",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "50,000+ adversarial Japanese medical conversations built from 67 Japan Medical Association guidelines, scoring safety turn by turn.",
+      "description_zh": "依日本医学会 67 条指南生成 5 万余组日语医疗对抗对话，按对话轮次评估安全性衰减。",
+      "languages": [
+        "ja",
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:118",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "67 JMA guidelines; 50,000+ adversarial conversations from 7 discovered jailbreak strategies; 27 models",
+          "source_ref": "web-collection-2026-11:118",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Dual-LLM safety score per conversation turn (median falls 9.5 to 5.0, p<0.001)",
+          "source_ref": "web-collection-2026-11:118",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Single- and multi-turn scoring of 27 models in Japanese and English",
+          "source_ref": "web-collection-2026-11:118",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:118",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2601.01627",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:118"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2601.01627",
+            "redirects": [],
+            "error": null,
+            "page_title": "JMedEthicBench: A Multi-Turn Conversational Benchmark for Evaluating Medical Safety in Japanese Large Language Models"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:118"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "threatcore",
+      "name": "ThreatCore",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "harmful_content",
+      "resource_type": "evaluation_dataset",
+      "catalog_status": "listed",
+      "description_en": "Re-annotated public corpora plus validated synthetic cases, separating explicit threats, implicit threats and non-threats under one definition.",
+      "description_zh": "对公开语料重新标注并补充经验证的合成样本，在统一定义下区分显式威胁、隐式威胁与非威胁。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:119",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "Aggregated public corpora re-annotated under one threat definition, augmented with manually validated synthetic implicit-threat cases",
+          "source_ref": "web-collection-2026-11:119",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Threat-detection F1 split by explicit vs implicit threat",
+          "source_ref": "web-collection-2026-11:119",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Benchmarks Perspective API, zero-shot classifiers and recent LLMs",
+          "source_ref": "web-collection-2026-11:119",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文声明公开数据集）",
+          "source_ref": "web-collection-2026-11:119",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2605.10563",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:119"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2605.10563",
+            "redirects": [],
+            "error": null,
+            "page_title": "ThreatCore: A Benchmark for Explicit and Implicit Threat Detection"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:119"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "preactbench",
+      "name": "PreActBench",
+      "aliases": [],
+      "track": "safety_judging",
+      "topic": "agent_trajectory",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "1,000 paired ethical and unethical action trajectories; given only a prefix, predict whether the trajectory will end in harm.",
+      "description_zh": "1,000 组「道德/不道德」配对动作轨迹：只给前缀，判断轨迹最终是否会走向危害。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:120",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "1,000 paired trajectories across five domains",
+          "source_ref": "web-collection-2026-11:120",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Prefix Foresight F1 at varying fractions of observed trajectory",
+          "source_ref": "web-collection-2026-11:120",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Compares LLMs, safety guardrail models and latent probing methods",
+          "source_ref": "web-collection-2026-11:120",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:120",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2606.09890",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:120"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2606.09890",
+            "redirects": [],
+            "error": null,
+            "page_title": "PreAct-Bench: Benchmarking Predictive Monitoring in LLMs"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:120"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "harmvideobench",
+      "name": "HarmVideoBench",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "harmful_content",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "1,379 harmful videos with 4,137 multiple-choice questions probing observable evidence, clip-internal meaning and beyond-clip reasoning.",
+      "description_zh": "1,379 段有害视频配 4,137 道选择题，分「可见证据／片段内含义／跨片段推理」三层考察理解。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:121",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "1,379 videos and 4,137 multiple-choice questions; 19 leading models evaluated",
+          "source_ref": "web-collection-2026-11:121",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Multiple-choice accuracy across three hierarchical understanding dimensions",
+          "source_ref": "web-collection-2026-11:121",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Zero-shot video question answering over curated harmful clips",
+          "source_ref": "web-collection-2026-11:121",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:121",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2606.27187",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:121"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2606.27187",
+            "redirects": [],
+            "error": null,
+            "page_title": "HarmVideoBench: Benchmarking Harmful Video Understanding in Large Multimodal Models"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:121"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "safepyramid",
+      "name": "SafePyramid",
+      "aliases": [],
+      "track": "safety_judging",
+      "topic": "content_guardrail",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "1,000 multi-turn conversations with 3,000 application-specific policies (61,699 rules), testing in-context policy guardrailing at three levels.",
+      "description_zh": "1,000 组多轮对话配 3,000 条应用专属策略（共 61,699 条规则），按三个难度层级测上下文策略护栏。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:122",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "1,000 conversations; 3,000 policies containing 61,699 distinct natural-language rules; 10 domains",
+          "source_ref": "web-collection-2026-11:122",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Violation-detection accuracy at L0 (single rule), L1 (rule dependencies), L2 (novel policy framework)",
+          "source_ref": "web-collection-2026-11:122",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Evaluates 10 frontier LLMs and 5 policy-configurable guardrails",
+          "source_ref": "web-collection-2026-11:122",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:122",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2606.29887",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:122"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2606.29887",
+            "redirects": [],
+            "error": null,
+            "page_title": "SafePyramid: A Hierarchical Benchmark for In-context Policy Guardrailing"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:122"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "unisafe",
+      "name": "UniSAFE",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "comprehensive",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "6,802 instances across 7 I/O modality combinations, projecting the same risk scenarios onto text- and image-output tasks.",
+      "description_zh": "6,802 个样本覆盖 7 种输入输出模态组合，把同一风险场景投射到文本与图像输出任务上比较。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:123",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "6,802 curated instances; 7 I/O modality combinations; 15 unified multimodal models evaluated",
+          "source_ref": "web-collection-2026-11:123",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Safety-violation rate per task and modality under a shared-target design",
+          "source_ref": "web-collection-2026-11:123",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Evaluates 15 proprietary and open-source unified multimodal models",
+          "source_ref": "web-collection-2026-11:123",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:123",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2603.17476",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:123"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2603.17476",
+            "redirects": [],
+            "error": null,
+            "page_title": "UniSAFE: A Comprehensive Benchmark for Safety Evaluation of Unified Multimodal Models"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:123"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "indicsafe",
+      "name": "IndicSafe",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "comprehensive",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "6,000 culturally grounded prompts across 12 Indic languages, measuring how LLM safety verdicts drift when a prompt is translated.",
+      "description_zh": "6,000 条提示覆盖 12 种印度语言，测量同一提示翻译后安全判定的漂移（跨语言一致率仅 12.8%）。",
+      "languages": [
+        "multilingual"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:124",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "6,000 culturally grounded prompts; 12 Indic languages; 10 leading LLMs",
+          "source_ref": "web-collection-2026-11:124",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "SAFE rate, cross-language agreement (12.8%), prompt entropy, category-bias score, consistency index",
+          "source_ref": "web-collection-2026-11:124",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Translated prompt variants evaluated across 10 LLMs",
+          "source_ref": "web-collection-2026-11:124",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文声明发布 IndicSafe）",
+          "source_ref": "web-collection-2026-11:124",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2603.17915",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:124"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2603.17915",
+            "redirects": [],
+            "error": null,
+            "page_title": "IndicSafe: A Benchmark for Evaluating Multilingual LLM Safety in South Asia"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:124"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "babelsafe",
+      "name": "BabelSafe",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "comprehensive",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "Policy-grounded multilingual safety benchmark over 13 language settings, with risk rules extracted from jurisdiction-specific regulatory documents.",
+      "description_zh": "覆盖 13 种语言环境的多语言安全基准，风险规则直接取自各司法辖区的监管文件。",
+      "languages": [
+        "multilingual"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:125",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "13 language settings; risk categories and rules extracted from regional regulatory documents",
+          "source_ref": "web-collection-2026-11:125",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Policy-grounded violation detection per language; comparison against the BabelGuard guardrail",
+          "source_ref": "web-collection-2026-11:125",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Evaluates LLMs plus the released BabelGuard diffusion-LM guardrail",
+          "source_ref": "web-collection-2026-11:125",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开，并释出 BabelGuard）",
+          "source_ref": "web-collection-2026-11:125",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2605.00689",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:125"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2605.00689",
+            "redirects": [],
+            "error": null,
+            "page_title": "BabelSafe: A Policy-Grounded Multilingual Safety Benchmark for LLMs"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:125"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "trojan-hippo-bench",
+      "name": "Trojan Hippo Bench",
+      "aliases": [],
+      "track": "agent_safety",
+      "topic": "privacy_memory",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "Plants a dormant payload in agent long-term memory via one untrusted tool call, activating when the user later discusses sensitive topics.",
+      "description_zh": "通过一次不可信工具调用在智能体长期记忆中埋下休眠载荷，只在用户再谈敏感话题时激活。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:126",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "Adaptive OpenEvolve-based red-teaming benchmark plus a capability-aware security-utility evaluation",
+          "source_ref": "web-collection-2026-11:126",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Post-activation attack success and security-utility trade-off across memory backends",
+          "source_ref": "web-collection-2026-11:126",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Stress-tests heterogeneous agent memory architectures and memory-layer defenses",
+          "source_ref": "web-collection-2026-11:126",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:126",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2605.01970",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:126"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2605.01970",
+            "redirects": [],
+            "error": null,
+            "page_title": "Trojan Hippo Bench: A Dynamic Benchmark for Persistent Memory Attacks and Defenses in LLM Agents"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:126"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "safegen-bench",
+      "name": "SafeGen-Bench",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "comprehensive",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "Tests image-conditioned text-to-video models with safe-looking text and start frames that still yield harmful video.",
+      "description_zh": "用看似安全的文本与首帧测图像条件文生视频模型，考察其仍产出有害视频的 10 类情形。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:127",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "10 malicious categories; curated start frames paired with safe text prompts",
+          "source_ref": "web-collection-2026-11:127",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Harmful-video rate for image-conditioned T2V models",
+          "source_ref": "web-collection-2026-11:127",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Evaluates conditional T2V models on selected start frames",
+          "source_ref": "web-collection-2026-11:127",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:127",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2606.01481",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:127"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2606.01481",
+            "redirects": [],
+            "error": null,
+            "page_title": "SafeGen-Bench: Benchmarking Safety in Image-Conditioned Text-to-Video Generation"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:127"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "figsim",
+      "name": "FigSIM",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "harmful_content",
+      "resource_type": "evaluation_dataset",
+      "catalog_status": "listed",
+      "description_en": "1,049 suicide memes annotated for severity, figurative language and method depiction; benchmarks 16 unimodal and multimodal models.",
+      "description_zh": "1,049 条自杀模因，标注严重程度、修辞手法与具体方式，用于评测 16 个单模态与多模态模型。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:128",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "1,049 memes annotated for suicide severity, figurative phenomena and suicide-related content",
+          "source_ref": "web-collection-2026-11:128",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Accuracy on figurative-language, severity and content-detection tasks",
+          "source_ref": "web-collection-2026-11:128",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Benchmarks 16 unimodal and multimodal models",
+          "source_ref": "web-collection-2026-11:128",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:128",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2606.02523",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:128"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2606.02523",
+            "redirects": [],
+            "error": null,
+            "page_title": "FigSIM: A Dataset for Fine-grained Suicide Severity and Figurative Language in Suicide Memes"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:128"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "aicompanionbench",
+      "name": "AICompanionBench",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "harmful_content",
+      "resource_type": "evaluation_dataset",
+      "catalog_status": "listed",
+      "description_en": "2,123 real Replika conversations annotated across nine risk categories, testing whether LLM judges catch unsafe companion-chat behaviour.",
+      "description_zh": "2,123 段真实 Replika 对话，按九类风险标注，检验 LLM 判官能否识别陪伴聊天中的不安全行为。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:129",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "2,123 real Replika conversations; 9 risk categories; 20 LLMs evaluated",
+          "source_ref": "web-collection-2026-11:129",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "LLM-as-judge detection accuracy per risk category",
+          "source_ref": "web-collection-2026-11:129",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "LLM-as-judge over real human-companion conversations",
+          "source_ref": "web-collection-2026-11:129",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文声明公开数据集）",
+          "source_ref": "web-collection-2026-11:129",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2606.04867",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:129"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2606.04867",
+            "redirects": [],
+            "error": null,
+            "page_title": "AICompanionBench: Benchmarking LLMs-as-Judges for AI Companion Safety"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:129"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "clinhallu",
+      "name": "ClinHallu",
+      "aliases": [],
+      "track": "related_resources",
+      "topic": "reliability",
+      "resource_type": "evaluation_dataset",
+      "catalog_status": "related",
+      "description_en": "7,031 medical instances whose reasoning traces split into visual recognition, knowledge recall and integration, locating where hallucinations originate.",
+      "description_zh": "7,031 条医学样本，推理链拆为视觉识别、知识回忆、推理整合三段，定位幻觉产生环节。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:130",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "7,031 validated instances with stage-decomposed reasoning traces",
+          "source_ref": "web-collection-2026-11:130",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Stage-wise hallucination rate and effect of stage-replacement interventions",
+          "source_ref": "web-collection-2026-11:130",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Stage-replacement interventions plus trace-supervised fine-tuning on medical MLLMs",
+          "source_ref": "web-collection-2026-11:130",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:130",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2606.14697",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:130"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2606.14697",
+            "redirects": [],
+            "error": null,
+            "page_title": "ClinHallu: A Benchmark for Diagnosing Stage-Wise Hallucinations in Medical MLLM Reasoning"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:130"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "scihazard",
+      "name": "SciHazard",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "harmful_content",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "2,400 hazardous and 600 over-safety questions across 12 disciplines, scored by executability and net-new risk rather than an LLM judge.",
+      "description_zh": "12 个学科的 2,400 条危险问题与 600 条过度安全测试问题，按可执行性与净增风险打分。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:131",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "2,400 hazardous questions + 600 over-safety questions across 12 disciplines",
+          "source_ref": "web-collection-2026-11:131",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "DeHarm-Score combining hazard severity, refusal behaviour, executability and net-new risk",
+          "source_ref": "web-collection-2026-11:131",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Dataset-agnostic evaluation with dynamic, importance-weighted checklists",
+          "source_ref": "web-collection-2026-11:131",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:131",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2607.18665",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:131"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2607.18665",
+            "redirects": [],
+            "error": null,
+            "page_title": "DeepSafe-SciHazard: A Benchmark for Measuring Scientific Safety Risks with Decomposed Harm Scoring"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:131"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "reacthuman",
+      "name": "ReactHuman",
+      "aliases": [],
+      "track": "agent_safety",
+      "topic": "embodied",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "17 event families and 1,000+ reproducible scenes from 240 Hz rigid-body simulation, testing MLLM reaction to sudden household hazards.",
+      "description_zh": "17 类事件、1,000 多个可复现场景（240 Hz 刚体仿真），测多模态模型对突发家庭危险的反应。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:132",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "17 event families; 1,000+ bit-for-bit reproducible scenes; 240 Hz rigid-body simulation",
+          "source_ref": "web-collection-2026-11:132",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Reaction correctness against annotation-free simulation ground truth",
+          "source_ref": "web-collection-2026-11:132",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Evaluated MLLM acts as the decision core of a simulated humanoid",
+          "source_ref": "web-collection-2026-11:132",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:132",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2609.10895",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:132"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2609.10895",
+            "redirects": [],
+            "error": null,
+            "page_title": "ReactHuman: A Physics-Grounded Benchmark for Human-Like Reactive Decision-Making in Embodied Multimodal LLMs"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:132"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "infuse",
+      "name": "INFUSE",
+      "aliases": [],
+      "track": "agent_safety",
+      "topic": "prompt_injection",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "40 end-to-end agent tasks and 56 attack scenarios injected through the surfaces touched during long-horizon workflow execution.",
+      "description_zh": "40 个端到端智能体任务、56 个攻击场景，注入点覆盖长程工作流执行中触达的各交互面。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:133",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "40 realistic tasks; 56 attack scenarios across five threat categories; 19 LLMs evaluated",
+          "source_ref": "web-collection-2026-11:133",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Attack success rate across workflow stages",
+          "source_ref": "web-collection-2026-11:133",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Evaluates 19 LLMs from the GPT, Claude, Gemini, Llama and Gemma families",
+          "source_ref": "web-collection-2026-11:133",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:133",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2610.20776",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:133"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2610.20776",
+            "redirects": [],
+            "error": null,
+            "page_title": "INFUSE: A Unified Surface Benchmark for Indirect Prompt Injection in Agentic Systems"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:133"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "melange",
+      "name": "Melange",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "bias_fairness",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "Extends the BBQ bias benchmark into synthetic images across seven categories, validated so the targeted attributes are visually present.",
+      "description_zh": "把 BBQ 偏见基准扩展到合成图像、覆盖七类偏见，并验证目标属性在画面中确实可见。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:134",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "Seven bias categories; synthetic visual scenarios generated from BBQ contexts",
+          "source_ref": "web-collection-2026-11:134",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Bias score from question answering over the generated images",
+          "source_ref": "web-collection-2026-11:134",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Two-stage image validation (VQA screening plus human check) before MLLM evaluation",
+          "source_ref": "web-collection-2026-11:134",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:134",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2610.29537",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:134"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2610.29537",
+            "redirects": [],
+            "error": null,
+            "page_title": "Melange: A Synthetic Visual Bias Benchmark for Multi-modal Large Language Models"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:134"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "ubuntuguard",
+      "name": "UbuntuGuard",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "comprehensive",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "Policy-based safety benchmark for African languages, turning adversarial queries authored by 155 domain experts into enforceable runtime policies.",
+      "description_zh": "面向非洲语言的政策式安全基准：155 位领域专家撰写对抗查询，再转成可运行时执行的策略。",
+      "languages": [
+        "multilingual"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:135",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "Adversarial queries and derived policies authored by 155 domain experts; 15 models evaluated",
+          "source_ref": "web-collection-2026-11:135",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Policy-aligned violation detection across African languages",
+          "source_ref": "web-collection-2026-11:135",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Evaluates 7 general-purpose LLMs and 8 guardian models",
+          "source_ref": "web-collection-2026-11:135",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:135",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2601.12696",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:135"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2601.12696",
+            "redirects": [],
+            "error": null,
+            "page_title": "UbuntuGuard: A Culturally-Grounded Policy Benchmark for Equitable AI Safety in African Languages"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:135"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "realsec-bench",
+      "name": "RealSec-bench",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "domain_risk",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "105 instances from real high-risk Java repositories spanning 19 CWE types, judging security alongside functional correctness.",
+      "description_zh": "105 个取自真实高危 Java 仓库的样本，覆盖 19 类 CWE，同时判定安全性与功能正确性。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:136",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "105 instances; 19 CWE types; interprocedural flows up to 34 hops",
+          "source_ref": "web-collection-2026-11:136",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Security correctness judged jointly with functional correctness",
+          "source_ref": "web-collection-2026-11:136",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Built via SAST scanning with CodeQL, LLM false-positive filtering and expert validation",
+          "source_ref": "web-collection-2026-11:136",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:136",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2601.22706",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:136"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2601.22706",
+            "redirects": [],
+            "error": null,
+            "page_title": "RealSec-bench: A Benchmark for Evaluating Secure Code Generation in Real-World Repositories"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:136"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "cage",
+      "name": "CAGE",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "comprehensive",
+      "resource_type": "framework",
+      "catalog_status": "listed",
+      "description_en": "Separates adversarial structure from cultural content when porting red-teaming prompts across languages; demonstrated as KoRSET for Korean.",
+      "description_zh": "把越狱提示的对抗结构与文化内容分离，实现跨文化移植；以韩语 KoRSET 作示范。",
+      "languages": [
+        "ko",
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:137",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "CAGE framework plus KoRSET, a Korean red-teaming benchmark derived from it",
+          "source_ref": "web-collection-2026-11:137",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Vulnerability revelation rate versus direct-translation baselines",
+          "source_ref": "web-collection-2026-11:137",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Prompt adaptation via a Semantic Mold, scored with the paper's evaluation rubric",
+          "source_ref": "web-collection-2026-11:137",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开，含数据集与评分细则）",
+          "source_ref": "web-collection-2026-11:137",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2602.20170",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:137"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2602.20170",
+            "redirects": [],
+            "error": null,
+            "page_title": "CAGE: A Framework for Culturally Adaptive Red-Teaming Benchmark Generation"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:137"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "mt-agentrisk",
+      "name": "MT-AgentRisk",
+      "aliases": [],
+      "track": "agent_safety",
+      "topic": "general",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "Taxonomy that turns single-turn harmful tasks into multi-turn tool-use sequences, where attack success rises 16% on average.",
+      "description_zh": "把单轮有害任务改造成多轮工具调用序列的基准：多轮下攻击成功率平均上升 16%。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:138",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "Taxonomy converting single-turn harmful tasks into multi-turn attack sequences over tool-use trajectories",
+          "source_ref": "web-collection-2026-11:138",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Attack success rate in multi-turn versus single-turn settings (+16% average)",
+          "source_ref": "web-collection-2026-11:138",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Evaluated on open and closed models; pairs with the training-free ToolShield defense",
+          "source_ref": "web-collection-2026-11:138",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:138",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2602.13379",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:138"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2602.13379",
+            "redirects": [],
+            "error": null,
+            "page_title": "Unsafer in Many Turns: Benchmarking and Defending Multi-Turn Safety Risks in Tool-Using Agents"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:138"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "fence",
+      "name": "FENCE",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "jailbreak",
+      "resource_type": "evaluation_dataset",
+      "catalog_status": "listed",
+      "description_en": "Bilingual Korean-English finance dataset pairing queries with image-grounded threats, for training and testing multimodal jailbreak detectors.",
+      "description_zh": "韩英双语金融数据集，把查询与图像承载的威胁配对，用于训练和测试多模态越狱检测器。",
+      "languages": [
+        "ko",
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:139",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "Finance-relevant Korean-English queries paired with image-grounded threats",
+          "source_ref": "web-collection-2026-11:139",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Jailbreak-detection accuracy; the FENCE baseline reaches 99% in-distribution",
+          "source_ref": "web-collection-2026-11:139",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Commercial and open-source VLMs evaluated, plus a trained baseline detector",
+          "source_ref": "web-collection-2026-11:139",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:139",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2602.18154",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:139"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2602.18154",
+            "redirects": [],
+            "error": null,
+            "page_title": "FENCE: A Financial and Multimodal Jailbreak Detection Dataset"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:139"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "lsr",
+      "name": "LSR",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "comprehensive",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "Dual-probe design submitting matched English and West African probes, where refusal falls from ~90% to 35-55% across languages.",
+      "description_zh": "英非对照双探针协议：英语下约 90% 的拒答率，在西非语言中跌到 35–55%。",
+      "languages": [
+        "multilingual"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:140",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "14 culturally grounded attack probes in 4 harm categories across Yoruba, Hausa, Igbo and Igala",
+          "source_ref": "web-collection-2026-11:140",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Refusal rate and Refusal Centroid Drift (RCD)",
+          "source_ref": "web-collection-2026-11:140",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Matched English and target-language probes submitted to the same model",
+          "source_ref": "web-collection-2026-11:140",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:140",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2603.19273",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:140"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2603.19273",
+            "redirects": [],
+            "error": null,
+            "page_title": "LSR: Linguistic Safety Robustness Benchmark for Low-Resource West African Languages"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:140"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "jailnewsbench",
+      "name": "JailNewsBench",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "jailbreak",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "34 regions and 22 languages with ~300k instances across 5 jailbreak attacks, measuring jailbreak-induced fake-news generation.",
+      "description_zh": "覆盖 34 个地区、22 种语言、约 30 万条样本与 5 种越狱攻击，测越狱诱导的假新闻生成。",
+      "languages": [
+        "multilingual"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:141",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "~300k instances; 34 regions; 22 languages; 5 jailbreak attacks; 8 sub-metrics",
+          "source_ref": "web-collection-2026-11:141",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Attack success rate plus eight LLM-as-a-judge sub-metrics",
+          "source_ref": "web-collection-2026-11:141",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "9 LLMs under five jailbreak attacks",
+          "source_ref": "web-collection-2026-11:141",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:141",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2603.01291",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:141"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2603.01291",
+            "redirects": [],
+            "error": null,
+            "page_title": "JailNewsBench: Multi-Lingual and Regional Benchmark for Fake News Generation under Jailbreak Attacks"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:141"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "ts-bench",
+      "name": "TS-Bench",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "comprehensive",
+      "resource_type": "benchmark_suite",
+      "catalog_status": "listed",
+      "description_en": "400 human-curated prompts for the traditional-Chinese variety used in Taiwan, covering fraud scams, medical misinformation and political manipulation.",
+      "description_zh": "400 条人工编写提示，面向中国台湾地区通行的繁体中文，覆盖诈骗、医疗谣言与政治操纵。",
+      "languages": [
+        "zh"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:142",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "400 human-curated prompts over financial fraud, medical misinformation, discrimination and political manipulation",
+          "source_ref": "web-collection-2026-11:142",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Safety pass rate per domain, compared against the Breeze Guard safety model",
+          "source_ref": "web-collection-2026-11:142",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Paired with Breeze Guard, an 8B safety model fine-tuned on human-verified data",
+          "source_ref": "web-collection-2026-11:142",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开，并释出 Breeze Guard）",
+          "source_ref": "web-collection-2026-11:142",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2603.07286",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:142"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2603.07286",
+            "redirects": [],
+            "error": null,
+            "page_title": "Taiwan Safety Benchmark and Breeze Guard: Toward Trustworthy AI for Taiwanese Mandarin"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:142"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "navtrust",
+      "name": "NavTrust",
+      "aliases": [],
+      "track": "agent_safety",
+      "topic": "embodied",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "Corrupts RGB, depth and instructions in realistic scenes to measure how embodied navigation agents degrade beyond nominal conditions.",
+      "description_zh": "在真实场景中破坏 RGB、深度与指令输入，衡量具身导航智能体在非理想条件下的性能衰减。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:143",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "RGB, depth and instruction corruptions over VLN and object-goal navigation; 7 state-of-the-art approaches",
+          "source_ref": "web-collection-2026-11:143",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Navigation-success degradation under realistic corruption",
+          "source_ref": "web-collection-2026-11:143",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Unified corruption harness applied to vision-language and object-goal navigation agents",
+          "source_ref": "web-collection-2026-11:143",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:143",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2603.19229",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:143"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2603.19229",
+            "redirects": [],
+            "error": null,
+            "page_title": "NavTrust: Benchmarking Trustworthiness for Embodied Navigation"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:143"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "uni-safebench",
+      "name": "Uni-SafeBench",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "comprehensive",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "Six safety categories over seven task types, with a judge that separates contextual from intrinsic safety in unified multimodal models.",
+      "description_zh": "六类安全风险覆盖七种任务，配套判官把「语境安全」与「模型固有安全」拆开评估统一多模态模型。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:144",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "Six major safety categories across seven task types",
+          "source_ref": "web-collection-2026-11:144",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Safety score decoupled into contextual and intrinsic safety by Uni-Judger",
+          "source_ref": "web-collection-2026-11:144",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Compares unified multimodal models against specialised multimodal models",
+          "source_ref": "web-collection-2026-11:144",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:144",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2604.00547",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:144"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2604.00547",
+            "redirects": [],
+            "error": null,
+            "page_title": "Does Unification Come at a Cost? Uni-SafeBench: A Safety Benchmark for Unified Multimodal Large Models"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:144"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "trustldm",
+      "name": "TrustLDM",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "comprehensive",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "Trustworthiness benchmark for language diffusion models covering safety, privacy and fairness under varied decoding orders and attached post-contexts.",
+      "description_zh": "面向语言扩散模型的可信度基准，在安全、隐私、公平三维上考察解码顺序与上下文拼接的影响。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:145",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "Safety, privacy and fairness categories with multiple static post-context variants",
+          "source_ref": "web-collection-2026-11:145",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Trustworthiness scores as decoding order and generation length vary",
+          "source_ref": "web-collection-2026-11:145",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Multiple language diffusion architectures plus the TrustLDM-Auto evaluator",
+          "source_ref": "web-collection-2026-11:145",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:145",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2606.00023",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:145"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2606.00023",
+            "redirects": [],
+            "error": null,
+            "page_title": "TrustLDM: Benchmarking Trustworthiness in Language Diffusion Models"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:145"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "harmthoughts",
+      "name": "HarmThoughts",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "harmful_content",
+      "resource_type": "evaluation_dataset",
+      "catalog_status": "listed",
+      "description_en": "56,931 sentences from 1,018 reasoning traces, labelled with 16 functional behaviours such as refusal suppression and risk concealment.",
+      "description_zh": "1,018 条推理轨迹中的 56,931 个句子，按 16 类功能行为（压制拒答、掩盖风险等）标注。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:146",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "56,931 sentences from 1,018 reasoning traces across four model families; 16 behaviour categories",
+          "source_ref": "web-collection-2026-11:146",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Sentence-level harm-behaviour classification accuracy",
+          "source_ref": "web-collection-2026-11:146",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Sentence-level annotation inside reasoning traces of four model families",
+          "source_ref": "web-collection-2026-11:146",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:146",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2604.19001",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:146"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2604.19001",
+            "redirects": [],
+            "error": null,
+            "page_title": "HarmThoughts: A Benchmark for Fine-Grained Harmful Behavior Detection in Reasoning Traces"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:146"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "armor-2025",
+      "name": "ARMOR 2025",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "domain_risk",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "Multiple-choice questions generated from the Law of War, Rules of Engagement and Joint Ethics Regulation, organized by the OODA decision cycle.",
+      "description_zh": "从战争法、交战规则与联合伦理条例抽取条文生成选择题，按 OODA 决策循环组织。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:147",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "Doctrine-derived multiple-choice questions from three military doctrine sources; OODA-based taxonomy",
+          "source_ref": "web-collection-2026-11:147",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Multiple-choice accuracy per doctrinal rule",
+          "source_ref": "web-collection-2026-11:147",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Doctrinal text extraction plus question generation that preserves each rule's meaning",
+          "source_ref": "web-collection-2026-11:147",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:147",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2605.00245",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:147"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2605.00245",
+            "redirects": [],
+            "error": null,
+            "page_title": "ARMOR 2025: A Military-Aligned Benchmark for Evaluating Large Language Model Safety Beyond Civilian Contexts"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:147"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "editrisk-bench",
+      "name": "EditRisk-Bench",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "comprehensive",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "Injects misinformation, bias and safety-violating facts through knowledge editing, testing whether downstream reasoning turns harmful.",
+      "description_zh": "通过知识编辑注入错误信息、偏见与违规事实，检验下游推理是否因此走向有害。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:148",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "Malicious editing scenarios spanning misinformation, bias and safety violations at multiple knowledge-intensity levels",
+          "source_ref": "web-collection-2026-11:148",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Downstream reasoning harm rate after malicious edits",
+          "source_ref": "web-collection-2026-11:148",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Knowledge-editing pipeline followed by knowledge-intensive reasoning evaluation",
+          "source_ref": "web-collection-2026-11:148",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:148",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2605.10146",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:148"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2605.10146",
+            "redirects": [],
+            "error": null,
+            "page_title": "Benchmarking Safety Risks of Knowledge-Intensive Reasoning under Malicious Knowledge Editing"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:148"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "medharm",
+      "name": "MedHarm",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "domain_risk",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "1,100 high-risk medical queries such as toxicology, anaesthesia and covert poisoning, where the correct response is refusal or safe redirection.",
+      "description_zh": "1,100 条高危医学查询（毒理、麻醉、隐蔽投毒等 10 类），正确回应应是拒答或安全转介。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:149",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "1,100 medically grounded queries across 10 safety-critical categories",
+          "source_ref": "web-collection-2026-11:149",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Appropriateness of refusal, caution or redirection across 15 LLMs and 4 guardrails",
+          "source_ref": "web-collection-2026-11:149",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Compares general-purpose, medical, closed-source and SFT models alongside guardrails",
+          "source_ref": "web-collection-2026-11:149",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开；敏感数据需申请）",
+          "source_ref": "web-collection-2026-11:149",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2606.28332",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:149"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2606.28332",
+            "redirects": [],
+            "error": null,
+            "page_title": "When Medical Safety Alignment Fails: A Benchmark for Evaluating LLMs on High-Risk Medical Queries"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:149"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "chisafe-pas",
+      "name": "ChiSafe-PAS",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "comprehensive",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "1,897 human-annotated Chinese adversarial prompts exploiting pinyin, character decomposition and slang, across four high-stakes domains.",
+      "description_zh": "1,897 条人工标注的中文对抗提示，利用拼音、拆字、网络俚语等规避手段，覆盖四个高风险领域。",
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:150",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "1,897 adversarial prompts; 1,544 with full gold annotation; 4 high-stakes domains; 9-category obfuscation taxonomy",
+          "source_ref": "web-collection-2026-11:150",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Three-class response label (REFUSE / SAFE-REDIRECT / RESPOND) plus risk-level rating",
+          "source_ref": "web-collection-2026-11:150",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Human annotation with recorded rationale per prompt",
+          "source_ref": "web-collection-2026-11:150",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:150",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2605.29667",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:150"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2605.29667",
+            "redirects": [],
+            "error": null,
+            "page_title": "Beyond English and Evasion: A Human-Annotated Multi-Domain Benchmark for High-Stakes LLM Safety Evaluation in Chinese"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:150"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "stakebench",
+      "name": "StakeBench",
+      "aliases": [],
+      "track": "agent_safety",
+      "topic": "prompt_injection",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "Stakeholder-centric prompt-injection benchmark for web agents, measuring how one exploit produces asymmetric harm across different victims.",
+      "description_zh": "以受害方为中心的网页智能体提示注入基准，衡量同一攻击对不同受害方造成的不对称后果。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:151",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "Victim-conditioned injection scenarios over e-commerce style web-agent workflows",
+          "source_ref": "web-collection-2026-11:151",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Injection success and per-stakeholder harm distribution",
+          "source_ref": "web-collection-2026-11:151",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Web agents executing financially consequential actions on untrusted pages",
+          "source_ref": "web-collection-2026-11:151",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:151",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2606.13385",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:151"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2606.13385",
+            "redirects": [],
+            "error": null,
+            "page_title": "Who Pays the Price? Stakeholder-Centric Prompt Injection Benchmarking for Real-world Web Agents"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:151"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "decompbench",
+      "name": "DeCompBench",
+      "aliases": [],
+      "track": "agent_safety",
+      "topic": "general",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "Decomposition-by-design benchmark where a harmful task is split into individually benign subtasks that cumulatively fulfil the malicious intent.",
+      "description_zh": "按「分解即设计」构建的基准：有害任务被拆成单独看都无害、合起来才完成恶意目标的子任务。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:152",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "Graphical decomposition framework generating benign-looking subtask chains from harmful goals",
+          "source_ref": "web-collection-2026-11:152",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Cumulative attack success under decomposition versus monolithic execution",
+          "source_ref": "web-collection-2026-11:152",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Multi-turn, multi-tool agent execution of decomposed subtask chains",
+          "source_ref": "web-collection-2026-11:152",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:152",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2606.13994",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:152"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2606.13994",
+            "redirects": [],
+            "error": null,
+            "page_title": "Hidden in Plain Sight: Benchmarking Agent Safety Against Decomposition Attacks with DECOMPBENCH"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:152"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "skillmutator",
+      "name": "SkillMutator",
+      "aliases": [],
+      "track": "agent_safety",
+      "topic": "tool_mcp",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "Attacks where SKILL.md reads as benign while implicit directives steer the agent to exfiltrate files; skill scanners catch only 2-17%.",
+      "description_zh": "SKILL.md 看似无害、隐式指令却诱导智能体外泄文件；现有技能扫描器仅能检出 2–17%。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:153",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "Cross-modal skill corpus pairing natural-language SKILL.md specs with executable scripts",
+          "source_ref": "web-collection-2026-11:153",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Scanner detection rate (2-8% open-source, 9-17% commercial) and exfiltration success",
+          "source_ref": "web-collection-2026-11:153",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Agents loading third-party skills at runtime, with a proposed defense evaluated",
+          "source_ref": "web-collection-2026-11:153",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:153",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2606.14154",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:153"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2606.14154",
+            "redirects": [],
+            "error": null,
+            "page_title": "SkillMutator: Benchmarking and Defending Language-and-Code Cross-modal Attacks on LLM Agent Skills"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:153"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "crackedpdfs",
+      "name": "CrackedPDFs",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "prompt_injection",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "29,322 PDFs generated from 4,983 base documents, testing whether guardrails catch instructions never visible on the rendered page.",
+      "description_zh": "由 4,983 份原始文档生成 29,322 个 PDF，检验护栏能否识别渲染页面上根本看不见的指令。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:154",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "29,322 PDFs from 4,983 base documents; 9,774 injected and 19,548 benign or matched-confounder files",
+          "source_ref": "web-collection-2026-11:154",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "F1, ROC-AUC and PR-AUC on held-out provenance splits; label-shuffle and shortcut audits",
+          "source_ref": "web-collection-2026-11:154",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "PromptGuard, a rule baseline, structural-only models and a sanitized hybrid detector",
+          "source_ref": "web-collection-2026-11:154",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:154",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2607.19396",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:154"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2607.19396",
+            "redirects": [],
+            "error": null,
+            "page_title": "CrackedPDFs: A Controlled Benchmark for Hidden Prompt Injection in PDFs"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:154"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "pluralis-v01",
+      "name": "Pluralis v0.1",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "comprehensive",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "6,448 prompts over six Asia-Pacific countries and regions in eight languages, where benign text plus a benign image jointly violate local rules.",
+      "description_zh": "覆盖六个亚太国家和地区、八种语言的 6,448 条提示，文本与图像单独看无害、合起来才违反当地规范。",
+      "languages": [
+        "multilingual"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:155",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "6,448 prompts; six Asia-Pacific countries and regions; eight languages; locally sourced hazards",
+          "source_ref": "web-collection-2026-11:155",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Safety violation rate under text-only versus text-plus-image conditions",
+          "source_ref": "web-collection-2026-11:155",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Multimodal evaluation where the image resolves an otherwise innocuous prompt",
+          "source_ref": "web-collection-2026-11:155",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:155",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2607.06196",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:155"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2607.06196",
+            "redirects": [],
+            "error": null,
+            "page_title": "Pluralis v0.1: Towards a Multicultural, Multimodal, Multilingual Benchmark for AI Risk and Reliability"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:155"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "openskillrisk",
+      "name": "OpenSkillRisk",
+      "aliases": [],
+      "track": "agent_safety",
+      "topic": "tool_mcp",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "263 risky third-party skills from public marketplaces across seven threat types, each paired with a user task and a controlled sandbox.",
+      "description_zh": "从公开技能市场收集 263 个高风险第三方技能，按七类威胁分类，各自配套标准任务与沙箱。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:156",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "263 risky skills across seven threat categories, each with a standardised task and sandbox",
+          "source_ref": "web-collection-2026-11:156",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Risk recognition and avoidance rate with fine-grained per-skill analysis",
+          "source_ref": "web-collection-2026-11:156",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Agents execute third-party skills inside per-skill sandboxes",
+          "source_ref": "web-collection-2026-11:156",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:156",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2607.20121",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:156"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2607.20121",
+            "redirects": [],
+            "error": null,
+            "page_title": "OpenSkillRisk: Benchmarking Agent Safety When Using Real-World Risky Third-Party Skills"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:156"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "masdrift",
+      "name": "MasDrift",
+      "aliases": [],
+      "track": "agent_safety",
+      "topic": "general",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "600 benign productivity tasks comparing single-agent, centralized and peer setups on whether delegated actions stay inside original authorization.",
+      "description_zh": "600 个良性办公任务，比较单智能体、集中式与对等式协作，检验被委派的动作是否越出原授权。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:157",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "600 benign tasks across eight domains, each pairing required work with reserved actions",
+          "source_ref": "web-collection-2026-11:157",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Task completion and authorization preservation across hierarchy depth and peer width",
+          "source_ref": "web-collection-2026-11:157",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Single-agent, centralized and decentralized coordination compared under one harness",
+          "source_ref": "web-collection-2026-11:157",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:157",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2608.07556",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:157"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2608.07556",
+            "redirects": [],
+            "error": null,
+            "page_title": "MasDrift: Benchmarking Authorization Preservation Across Multi-Agent Architectures"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:157"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "surakshaeval",
+      "name": "SurakshaEval",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "comprehensive",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "Human-written prompts in ten Indian languages plus English, mixing pan-India and region-specific scenarios, benchmarking safety and over-refusal.",
+      "description_zh": "十种印度语言加英语的人工撰写提示，兼顾全印通用与地域特有场景，评测安全性与过度拒答。",
+      "languages": [
+        "multilingual"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:158",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "Prompts across Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Punjabi, Tamil, Telugu and English",
+          "source_ref": "web-collection-2026-11:158",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Baseline safety performance, over-refusal and missed-detection rates",
+          "source_ref": "web-collection-2026-11:158",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Broad sweep of state-of-the-art LLMs on generic and region-specific prompts",
+          "source_ref": "web-collection-2026-11:158",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:158",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2608.07862",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:158"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2608.07862",
+            "redirects": [],
+            "error": null,
+            "page_title": "SurakshaEval: An Indic Safety Benchmark for Multilingual LLMs"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:158"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "harnessrisk",
+      "name": "HarnessRisk",
+      "aliases": [],
+      "track": "agent_safety",
+      "topic": "general",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "128 sandboxed cases across six harness phases, from configuration and capability extension to state persistence and incident recovery.",
+      "description_zh": "128 个沙箱用例覆盖智能体外壳六个阶段：配置、能力扩展、运行时、状态持久、动作控制、事件恢复。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:159",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "128 sandboxed cases; six operational phases; benign objective paired with an adversarial artifact",
+          "source_ref": "web-collection-2026-11:159",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Utility, attack success rate, persistence and detection",
+          "source_ref": "web-collection-2026-11:159",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Sandboxed agent harnesses exercised phase by phase",
+          "source_ref": "web-collection-2026-11:159",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:159",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2608.17597",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:159"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2608.17597",
+            "redirects": [],
+            "error": null,
+            "page_title": "HarnessRisk: A Lifecycle-Oriented Benchmark for Agent Harness Safety"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:159"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "mobileworldsafety",
+      "name": "MobileWorldSafety",
+      "aliases": [],
+      "track": "agent_safety",
+      "topic": "web_computer_mobile",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "142 risk tasks on real Android apps, injecting instructions through everyday mobile channels with programmatically verifiable harm indicators.",
+      "description_zh": "142 个基于真实安卓应用的测试任务，经日常手机渠道注入指令，并用可编程指标判定危害是否发生。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:160",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "142 risk tasks built on real Android applications",
+          "source_ref": "web-collection-2026-11:160",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Programmatically verifiable risk indicators per task",
+          "source_ref": "web-collection-2026-11:160",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "GUI agents operating live Android apps under environmental injection",
+          "source_ref": "web-collection-2026-11:160",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:160",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2608.17659",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:160"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2608.17659",
+            "redirects": [],
+            "error": null,
+            "page_title": "MobileWorldSafety: Benchmarking GUI Agent Safety Against Environmental Injection Attacks in Android Apps"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:160"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "multi2av-safety",
+      "name": "Multi2AV-Safety",
+      "aliases": [],
+      "track": "llm_safety",
+      "topic": "comprehensive",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "11,024 attack instances across all 11 text/image/audio/video conditioning combinations, four attack intents and five harm categories.",
+      "description_zh": "11,024 个攻击样本，覆盖文本/图像/音频/视频的全部 11 种非单一条件组合、4 类攻击意图与 5 类危害。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:161",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "11,024 attack instances; 11 non-singleton T/I/A/V conditioning configurations; 4 attack intents; 5 harm categories",
+          "source_ref": "web-collection-2026-11:161",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Harmful-output rate under multimodal conditioning versus text-only prompting",
+          "source_ref": "web-collection-2026-11:161",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Four multimodal-conditioned audio-video generators and eight safety guards",
+          "source_ref": "web-collection-2026-11:161",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:161",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2608.26535",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:161"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2608.26535",
+            "redirects": [],
+            "error": null,
+            "page_title": "Multi2AV-Safety: Benchmarking Safety in Multimodal-to-Audio-Video Generation"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:161"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "blindspot",
+      "name": "BLINDSPOT",
+      "aliases": [],
+      "track": "safety_judging",
+      "topic": "agent_trajectory",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "2,500+ trajectories averaging 14.7 turns, each classed as safe completion, correct refusal, unsafe completion, over-refusal or indeterminate.",
+      "description_zh": "2,500 余条平均 14.7 轮的长程轨迹，逐条判定为安全完成、正确拒答、不安全完成、过度拒答或不确定。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:162",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "22 attack families; 35 scenarios across seven domains; 2,500+ trajectories averaging 14.7 turns; 13 LLMs",
+          "source_ref": "web-collection-2026-11:162",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Eight metrics including unsafe completion, correct refusal, benign utility, over-refusal and post-refusal failure",
+          "source_ref": "web-collection-2026-11:162",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Live simulation with an adaptive adversarial user agent and execution-grounded adjudication",
+          "source_ref": "web-collection-2026-11:162",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:162",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2609.16305",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:162"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2609.16305",
+            "redirects": [],
+            "error": null,
+            "page_title": "BLINDSPOT: A Benchmark for Safety and Refusal Calibration in Long-Horizon Tool-Using Agents"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:162"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "decepeval",
+      "name": "DecepEval",
+      "aliases": [],
+      "track": "safety_judging",
+      "topic": "agent_trajectory",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "1,532 instances across 3 task families, pairing neutral and induced versions to isolate when pressure, incentive or opportunity triggers deception.",
+      "description_zh": "1,532 个样本覆盖 3 类任务，中性版与诱导版配对，分离压力、激励、机会与冲突对欺骗行为的影响。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:163",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "1,532 instances; 3 task families; 28 professional scenarios",
+          "source_ref": "web-collection-2026-11:163",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Deception rate change between neutral and induced conditions",
+          "source_ref": "web-collection-2026-11:163",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "LLM Deception Diamond framework varying pressure, incentive, opportunity and conflict",
+          "source_ref": "web-collection-2026-11:163",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:163",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2610.07967",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:163"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2610.07967",
+            "redirects": [],
+            "error": null,
+            "page_title": "DecepEval: A Benchmark for Evaluating Deception in LLM Agents"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:163"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "swe-deceptionbench",
+      "name": "SWE-DeceptionBench",
+      "aliases": [],
+      "track": "safety_judging",
+      "topic": "agent_trajectory",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "Six software-lifecycle stages under neutral, reward and pressure conditions, separating active deception from helping users mislead others.",
+      "description_zh": "覆盖软件生命周期六个阶段，设中性、奖励与压力三种条件，区分主动欺骗与协助用户误导他人。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:164",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "Six lifecycle stages; two deception triggers (active, passive); three inducement conditions",
+          "source_ref": "web-collection-2026-11:164",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Deception rate per stage and trigger under neutral, reward and pressure settings",
+          "source_ref": "web-collection-2026-11:164",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Software-engineering tasks spanning the full development lifecycle",
+          "source_ref": "web-collection-2026-11:164",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:164",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2610.13626",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:164"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2610.13626",
+            "redirects": [],
+            "error": null,
+            "page_title": "SWE-DeceptionBench: Benchmarking Deceptive Behaviors of LLMs Across the Software Development Lifecycle"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:164"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "mobilejailbench",
+      "name": "MobileJailBench",
+      "aliases": [],
+      "track": "agent_safety",
+      "topic": "web_computer_mobile",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "520 mobile-agent tasks across three jailbreak paradigms and 14 risk categories, with difficulty that evolves as attacks succeed.",
+      "description_zh": "520 个移动智能体任务，覆盖三种越狱范式与 14 类风险，难度随攻击成功而演化。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:165",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "520 tasks; three jailbreak paradigms; 14 risk categories; high-fidelity mobile sandbox",
+          "source_ref": "web-collection-2026-11:165",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Beyond attack success rate: privacy leakage, device compromise and phishing outcomes",
+          "source_ref": "web-collection-2026-11:165",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "MLLM mobile agents in a closed-loop sandbox with evolving task difficulty",
+          "source_ref": "web-collection-2026-11:165",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:165",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2610.23303",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:165"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2610.23303",
+            "redirects": [],
+            "error": null,
+            "page_title": "MobileJailBench: Red Queen Jailbreak Benchmarking for Mobile Agents"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:165"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "duma-bench",
+      "name": "DUMA-Bench",
+      "aliases": [],
+      "track": "agent_safety",
+      "topic": "general",
+      "resource_type": "benchmark",
+      "catalog_status": "listed",
+      "description_en": "Extends τ2-bench with dual-control interaction, where user and agent both alter shared state, across eight vulnerability classes and eight domains.",
+      "description_zh": "在 τ2-bench 上引入「双控互动」——用户与智能体都能改变共享状态，覆盖八类漏洞与八个领域。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:166",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "Eight vulnerability classes (RAG poisoning, cross-agent manipulation, unsafe output handling among them); eight domains; 14 models from five families",
+          "source_ref": "web-collection-2026-11:166",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Attack success rate under dual-control versus passive-user settings (26.9% to 41.1%)",
+          "source_ref": "web-collection-2026-11:166",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Evaluates 14 models from OpenAI, Anthropic, DeepSeek, Qwen and Google across user-behaviour regimes",
+          "source_ref": "web-collection-2026-11:166",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:166",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2609.24662",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:166"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2609.24662",
+            "redirects": [],
+            "error": null,
+            "page_title": "DUMA-Bench: A Dual-Control Multi-Agent Benchmark for Evaluating LLM Agent Security"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:166"
+      ],
+      "metadata_variant_fields": []
+    },
+    {
+      "id": "osguard",
+      "name": "OSGuard",
+      "aliases": [],
+      "track": "agent_safety",
+      "topic": "web_computer_mobile",
+      "resource_type": "benchmark_suite",
+      "catalog_status": "listed",
+      "description_en": "324 annotated actions plus 45 risk-augmented OSWorld tasks, judging guardrails at action level and at end-to-end task level.",
+      "description_zh": "324 条标注动作 + 45 个风险增强的 OSWorld 任务，分别在动作级与端到端任务级判定护栏表现。",
+      "languages": [
+        "en"
+      ],
+      "year": "2026",
+      "reported_metadata": {
+        "year": {
+          "value": "2026",
+          "source_ref": "web-collection-2026-11:167",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "size": {
+          "value": "324 human-annotated action examples; 45 tasks derived from 40 OSWorld tasks",
+          "source_ref": "web-collection-2026-11:167",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "metrics": {
+          "value": "Guardrail accuracy and macro-F1; safe-completion versus unsafe-completion rate",
+          "source_ref": "web-collection-2026-11:167",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "execution": {
+          "value": "Pre-execution guardrail decisions plus full-task execution with state-based safety checks",
+          "source_ref": "web-collection-2026-11:167",
+          "field": "补充收集",
+          "alternatives": []
+        },
+        "availability": {
+          "value": "是（论文公开）",
+          "source_ref": "web-collection-2026-11:167",
+          "field": "补充收集",
+          "alternatives": []
+        }
+      },
+      "links": [
+        {
+          "url": "https://arxiv.org/abs/2606.15034",
+          "type": "paper",
+          "quality": "source_supplied",
+          "source_refs": [
+            "web-collection-2026-11:167"
+          ],
+          "access": {
+            "status": "accessible",
+            "checked_at": "2026-11-01T12:00:00+08:00",
+            "http_status": 200,
+            "final_url": "https://arxiv.org/abs/2606.15034",
+            "redirects": [],
+            "error": null,
+            "page_title": "OSGuard: A Benchmark for Safety in Computer-Use Agents"
+          }
+        }
+      ],
+      "verification": {
+        "status": "links_checked",
+        "last_link_check": "2026-11-01",
+        "link_access_checked": true,
+        "basis": "supplied_workbooks_and_page_reachability_checks"
+      },
+      "issues": [],
+      "curation_note_zh": "2026-11 全网补充收集（web-collection-2026-11）",
+      "source_refs": [
+        "web-collection-2026-11:167"
+      ],
+      "metadata_variant_fields": []
     }
   ],
   "collection_policy": {

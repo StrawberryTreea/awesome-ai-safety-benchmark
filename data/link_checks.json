@@ -3,11 +3,11 @@
   "scope": "page_reachability_only",
   "dataset_files_downloaded": false,
   "paper_files_downloaded": false,
-  "total_unique_urls": 440,
-  "completed_urls": 440,
+  "total_unique_urls": 495,
+  "completed_urls": 495,
   "by_status": {
     "server_error": 1,
-    "accessible": 406,
+    "accessible": 461,
     "redirected": 27,
     "skipped_placeholder": 3,
     "restricted": 1,
@@ -9299,6 +9299,556 @@
       "redirects": [],
       "error": null,
       "page_title": "AutoDojo: A Generative Benchmark for Evaluating Prompt Injection Defenses in LLM Agents"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.11987",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2603.11987",
+      "redirects": [],
+      "error": null,
+      "page_title": "LABSHIELD: A Multimodal Benchmark for Safety-Critical Reasoning and Planning in Scientific Laboratories"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.16301",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2605.16301",
+      "redirects": [],
+      "error": null,
+      "page_title": "Do LLMs Hold Their Values? MANTA: A Multi-Turn Adversarial Benchmark for Animal Welfare Reasoning"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.06477",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2608.06477",
+      "redirects": [],
+      "error": null,
+      "page_title": "StepJack: Benchmarking Computer-Use Agent Safety Against Multi-Step Indirect Prompt Injection"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.06991",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2609.06991",
+      "redirects": [],
+      "error": null,
+      "page_title": "AV-SafetyBench: A Safety Benchmark for Text-to-Audio-Video Generation"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.06193",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2610.06193",
+      "redirects": [],
+      "error": null,
+      "page_title": "Correct Code, Broken Contributions? SWE-CC: Benchmarking Repository Policy Compliance for Coding Agents"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.01627",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2601.01627",
+      "redirects": [],
+      "error": null,
+      "page_title": "JMedEthicBench: A Multi-Turn Conversational Benchmark for Evaluating Medical Safety in Japanese Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.10563",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2605.10563",
+      "redirects": [],
+      "error": null,
+      "page_title": "ThreatCore: A Benchmark for Explicit and Implicit Threat Detection"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.09890",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2606.09890",
+      "redirects": [],
+      "error": null,
+      "page_title": "PreAct-Bench: Benchmarking Predictive Monitoring in LLMs"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.27187",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2606.27187",
+      "redirects": [],
+      "error": null,
+      "page_title": "HarmVideoBench: Benchmarking Harmful Video Understanding in Large Multimodal Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.29887",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2606.29887",
+      "redirects": [],
+      "error": null,
+      "page_title": "SafePyramid: A Hierarchical Benchmark for In-context Policy Guardrailing"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.17476",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2603.17476",
+      "redirects": [],
+      "error": null,
+      "page_title": "UniSAFE: A Comprehensive Benchmark for Safety Evaluation of Unified Multimodal Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.17915",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2603.17915",
+      "redirects": [],
+      "error": null,
+      "page_title": "IndicSafe: A Benchmark for Evaluating Multilingual LLM Safety in South Asia"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00689",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2605.00689",
+      "redirects": [],
+      "error": null,
+      "page_title": "BabelSafe: A Policy-Grounded Multilingual Safety Benchmark for LLMs"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.01970",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2605.01970",
+      "redirects": [],
+      "error": null,
+      "page_title": "Trojan Hippo Bench: A Dynamic Benchmark for Persistent Memory Attacks and Defenses in LLM Agents"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.01481",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2606.01481",
+      "redirects": [],
+      "error": null,
+      "page_title": "SafeGen-Bench: Benchmarking Safety in Image-Conditioned Text-to-Video Generation"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.02523",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2606.02523",
+      "redirects": [],
+      "error": null,
+      "page_title": "FigSIM: A Dataset for Fine-grained Suicide Severity and Figurative Language in Suicide Memes"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.04867",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2606.04867",
+      "redirects": [],
+      "error": null,
+      "page_title": "AICompanionBench: Benchmarking LLMs-as-Judges for AI Companion Safety"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.14697",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2606.14697",
+      "redirects": [],
+      "error": null,
+      "page_title": "ClinHallu: A Benchmark for Diagnosing Stage-Wise Hallucinations in Medical MLLM Reasoning"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.18665",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2607.18665",
+      "redirects": [],
+      "error": null,
+      "page_title": "DeepSafe-SciHazard: A Benchmark for Measuring Scientific Safety Risks with Decomposed Harm Scoring"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.10895",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2609.10895",
+      "redirects": [],
+      "error": null,
+      "page_title": "ReactHuman: A Physics-Grounded Benchmark for Human-Like Reactive Decision-Making in Embodied Multimodal LLMs"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.20776",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2610.20776",
+      "redirects": [],
+      "error": null,
+      "page_title": "INFUSE: A Unified Surface Benchmark for Indirect Prompt Injection in Agentic Systems"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.29537",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2610.29537",
+      "redirects": [],
+      "error": null,
+      "page_title": "Melange: A Synthetic Visual Bias Benchmark for Multi-modal Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.12696",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2601.12696",
+      "redirects": [],
+      "error": null,
+      "page_title": "UbuntuGuard: A Culturally-Grounded Policy Benchmark for Equitable AI Safety in African Languages"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.22706",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2601.22706",
+      "redirects": [],
+      "error": null,
+      "page_title": "RealSec-bench: A Benchmark for Evaluating Secure Code Generation in Real-World Repositories"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.20170",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2602.20170",
+      "redirects": [],
+      "error": null,
+      "page_title": "CAGE: A Framework for Culturally Adaptive Red-Teaming Benchmark Generation"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.13379",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2602.13379",
+      "redirects": [],
+      "error": null,
+      "page_title": "Unsafer in Many Turns: Benchmarking and Defending Multi-Turn Safety Risks in Tool-Using Agents"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.18154",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2602.18154",
+      "redirects": [],
+      "error": null,
+      "page_title": "FENCE: A Financial and Multimodal Jailbreak Detection Dataset"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.19273",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2603.19273",
+      "redirects": [],
+      "error": null,
+      "page_title": "LSR: Linguistic Safety Robustness Benchmark for Low-Resource West African Languages"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.01291",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2603.01291",
+      "redirects": [],
+      "error": null,
+      "page_title": "JailNewsBench: Multi-Lingual and Regional Benchmark for Fake News Generation under Jailbreak Attacks"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.07286",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2603.07286",
+      "redirects": [],
+      "error": null,
+      "page_title": "Taiwan Safety Benchmark and Breeze Guard: Toward Trustworthy AI for Taiwanese Mandarin"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.19229",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2603.19229",
+      "redirects": [],
+      "error": null,
+      "page_title": "NavTrust: Benchmarking Trustworthiness for Embodied Navigation"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.00547",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2604.00547",
+      "redirects": [],
+      "error": null,
+      "page_title": "Does Unification Come at a Cost? Uni-SafeBench: A Safety Benchmark for Unified Multimodal Large Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.00023",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2606.00023",
+      "redirects": [],
+      "error": null,
+      "page_title": "TrustLDM: Benchmarking Trustworthiness in Language Diffusion Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.19001",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2604.19001",
+      "redirects": [],
+      "error": null,
+      "page_title": "HarmThoughts: A Benchmark for Fine-Grained Harmful Behavior Detection in Reasoning Traces"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00245",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2605.00245",
+      "redirects": [],
+      "error": null,
+      "page_title": "ARMOR 2025: A Military-Aligned Benchmark for Evaluating Large Language Model Safety Beyond Civilian Contexts"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.10146",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2605.10146",
+      "redirects": [],
+      "error": null,
+      "page_title": "Benchmarking Safety Risks of Knowledge-Intensive Reasoning under Malicious Knowledge Editing"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.28332",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2606.28332",
+      "redirects": [],
+      "error": null,
+      "page_title": "When Medical Safety Alignment Fails: A Benchmark for Evaluating LLMs on High-Risk Medical Queries"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.29667",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2605.29667",
+      "redirects": [],
+      "error": null,
+      "page_title": "Beyond English and Evasion: A Human-Annotated Multi-Domain Benchmark for High-Stakes LLM Safety Evaluation in Chinese"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.13385",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2606.13385",
+      "redirects": [],
+      "error": null,
+      "page_title": "Who Pays the Price? Stakeholder-Centric Prompt Injection Benchmarking for Real-world Web Agents"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.13994",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2606.13994",
+      "redirects": [],
+      "error": null,
+      "page_title": "Hidden in Plain Sight: Benchmarking Agent Safety Against Decomposition Attacks with DECOMPBENCH"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.14154",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2606.14154",
+      "redirects": [],
+      "error": null,
+      "page_title": "SkillMutator: Benchmarking and Defending Language-and-Code Cross-modal Attacks on LLM Agent Skills"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.19396",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2607.19396",
+      "redirects": [],
+      "error": null,
+      "page_title": "CrackedPDFs: A Controlled Benchmark for Hidden Prompt Injection in PDFs"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.06196",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2607.06196",
+      "redirects": [],
+      "error": null,
+      "page_title": "Pluralis v0.1: Towards a Multicultural, Multimodal, Multilingual Benchmark for AI Risk and Reliability"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.20121",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2607.20121",
+      "redirects": [],
+      "error": null,
+      "page_title": "OpenSkillRisk: Benchmarking Agent Safety When Using Real-World Risky Third-Party Skills"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.07556",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2608.07556",
+      "redirects": [],
+      "error": null,
+      "page_title": "MasDrift: Benchmarking Authorization Preservation Across Multi-Agent Architectures"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.07862",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2608.07862",
+      "redirects": [],
+      "error": null,
+      "page_title": "SurakshaEval: An Indic Safety Benchmark for Multilingual LLMs"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.17597",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2608.17597",
+      "redirects": [],
+      "error": null,
+      "page_title": "HarnessRisk: A Lifecycle-Oriented Benchmark for Agent Harness Safety"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.17659",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2608.17659",
+      "redirects": [],
+      "error": null,
+      "page_title": "MobileWorldSafety: Benchmarking GUI Agent Safety Against Environmental Injection Attacks in Android Apps"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.26535",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2608.26535",
+      "redirects": [],
+      "error": null,
+      "page_title": "Multi2AV-Safety: Benchmarking Safety in Multimodal-to-Audio-Video Generation"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.16305",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2609.16305",
+      "redirects": [],
+      "error": null,
+      "page_title": "BLINDSPOT: A Benchmark for Safety and Refusal Calibration in Long-Horizon Tool-Using Agents"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.07967",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2610.07967",
+      "redirects": [],
+      "error": null,
+      "page_title": "DecepEval: A Benchmark for Evaluating Deception in LLM Agents"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.13626",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2610.13626",
+      "redirects": [],
+      "error": null,
+      "page_title": "SWE-DeceptionBench: Benchmarking Deceptive Behaviors of LLMs Across the Software Development Lifecycle"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.23303",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2610.23303",
+      "redirects": [],
+      "error": null,
+      "page_title": "MobileJailBench: Red Queen Jailbreak Benchmarking for Mobile Agents"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.24662",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2609.24662",
+      "redirects": [],
+      "error": null,
+      "page_title": "DUMA-Bench: A Dual-Control Multi-Agent Benchmark for Evaluating LLM Agent Security"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.15034",
+      "status": "accessible",
+      "checked_at": "2026-11-01T12:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2606.15034",
+      "redirects": [],
+      "error": null,
+      "page_title": "OSGuard: A Benchmark for Safety in Computer-Use Agents"
     }
   ]
 }
