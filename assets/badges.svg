@@ -1,0 +1,11 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='398' height='22' viewBox='0 0 398 22' role='img' aria-label='Repository badges'>
+<rect x='0' y='0' width='102' height='22' rx='6' fill='#f6f8fa' stroke='#d0d7de'/>
+<text x='9' y='15' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='12' fill='#57606a'>License</text>
+<text x='64' y='15' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='12' font-weight='600' fill='#0969da'>MIT</text>
+<rect x='108' y='0' width='138' height='22' rx='6' fill='#f6f8fa' stroke='#d0d7de'/>
+<text x='117' y='15' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='12' fill='#57606a'>语言 Lang</text>
+<text x='183' y='15' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='12' font-weight='600' fill='#8250df'>中 / EN</text>
+<rect x='252' y='0' width='146' height='22' rx='6' fill='#f6f8fa' stroke='#d0d7de'/>
+<text x='261' y='15' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='12' fill='#57606a'>维护 Maint.</text>
+<text x='340' y='15' font-family='-apple-system, Segoe UI, Helvetica, Arial, sans-serif' font-size='12' font-weight='600' fill='#1a7f37'>Weekly</text>
+</svg>

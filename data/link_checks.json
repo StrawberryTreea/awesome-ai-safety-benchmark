@@ -1,14 +1,14 @@
 {
-  "checked_on": "2026-10-14",
+  "checked_on": "2026-11-01",
   "scope": "page_reachability_only",
   "dataset_files_downloaded": false,
   "paper_files_downloaded": false,
-  "total_unique_urls": 324,
-  "completed_urls": 324,
+  "total_unique_urls": 440,
+  "completed_urls": 440,
   "by_status": {
     "server_error": 1,
+    "accessible": 406,
     "redirected": 27,
-    "accessible": 290,
     "skipped_placeholder": 3,
     "restricted": 1,
     "not_found": 2
@@ -8137,6 +8137,1168 @@
           "elapsed_seconds": 1.67
         }
       ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.01359",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2510.01359",
+      "redirects": [],
+      "error": null,
+      "page_title": "Breaking the Code: Security Assessment of AI Code Agents Through Systematic Jailbreaking Attacks"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.13862",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2505.13862",
+      "redirects": [],
+      "error": null,
+      "page_title": "PandaGuard: Systematic Evaluation of LLM Safety against Jailbreaking Attacks"
+    },
+    {
+      "url": "https://arxiv.org/abs/2507.20526",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2507.20526",
+      "redirects": [],
+      "error": null,
+      "page_title": "Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition"
+    },
+    {
+      "url": "https://arxiv.org/abs/2512.05339",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2512.05339",
+      "redirects": [],
+      "error": null,
+      "page_title": "Taxonomy-Adaptive Moderation Model with Robust Guardrails for Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.11184",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2502.11184",
+      "redirects": [],
+      "error": null,
+      "page_title": "Can't See the Forest for the Trees: Benchmarking Multimodal Safety Awareness for Multimodal LLMs"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.18214",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2510.18214",
+      "redirects": [],
+      "error": null,
+      "page_title": "VLSU: Mapping the Limits of Joint Multimodal Understanding for AI Safety"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.15389",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2505.15389",
+      "redirects": [],
+      "error": null,
+      "page_title": "Are Vision-Language Models Safe in the Wild? A Meme-Based Benchmark Study"
+    },
+    {
+      "url": "https://github.com/oneonlee/Meme-Safety-Bench",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://github.com/oneonlee/Meme-Safety-Bench",
+      "redirects": [],
+      "error": null,
+      "page_title": null
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.04704",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2506.04704",
+      "redirects": [],
+      "error": null,
+      "page_title": "HoliSafe: Holistic Safety Benchmarking and Modeling for Vision-Language Model"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.14827",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2503.14827",
+      "redirects": [],
+      "error": null,
+      "page_title": "MMDT: Decoding the Trustworthiness and Safety of Multimodal Foundation Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.12733",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2508.12733",
+      "redirects": [],
+      "error": null,
+      "page_title": "LinguaSafe: A Comprehensive Multilingual Safety Benchmark for Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2512.05485",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2512.05485",
+      "redirects": [],
+      "error": null,
+      "page_title": "TeleAI-Safety: A comprehensive LLM jailbreaking benchmark towards attacks, defenses, and evaluations"
+    },
+    {
+      "url": "https://arxiv.org/abs/2512.01241",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2512.01241",
+      "redirects": [],
+      "error": null,
+      "page_title": "First, do NOHARM: a medical safety benchmark and randomized study of physician and AI teaming on clinical consultations"
+    },
+    {
+      "url": "https://arxiv.org/abs/2507.23486",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2507.23486",
+      "redirects": [],
+      "error": null,
+      "page_title": "A Novel Evaluation Benchmark for Medical LLMs: Illuminating Safety and Effectiveness in Clinical Domains"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.01354",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2510.01354",
+      "redirects": [],
+      "error": null,
+      "page_title": "WAInjectBench: Benchmarking Prompt Injection Detections for Web Agents"
+    },
+    {
+      "url": "https://github.com/Norrrrrrr-lyn/WAInjectBench",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://github.com/Norrrrrrr-lyn/WAInjectBench",
+      "redirects": [],
+      "error": null,
+      "page_title": null
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.12430",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2506.12430",
+      "redirects": [],
+      "error": null,
+      "page_title": "Pushing the Limits of Safety: A Technical Report on the ATLAS Challenge 2025"
+    },
+    {
+      "url": "https://github.com/NY1024/ATLAS_Challenge_2025",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://github.com/NY1024/ATLAS_Challenge_2025",
+      "redirects": [],
+      "error": null,
+      "page_title": null
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.07173",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2508.07173",
+      "redirects": [],
+      "error": null,
+      "page_title": "Omni-SafetyBench: A Benchmark for Safety Evaluation of Audio-Visual Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.15805",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2505.15805",
+      "redirects": [],
+      "error": null,
+      "page_title": "Keep Security! Benchmarking Security Policy Preservation in Large Language Model Contexts Against Indirect Attacks in Question Answering"
+    },
+    {
+      "url": "https://arxiv.org/abs/2511.03248",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2511.03248",
+      "redirects": [],
+      "error": null,
+      "page_title": "Auditing M-LLMs for Privacy Risks: A Synthetic Benchmark and Evaluation Framework"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.20737",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2506.20737",
+      "redirects": [],
+      "error": null,
+      "page_title": "MAGPIE: A dataset for Multi-AGent contextual PrIvacy Evaluation"
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.04039",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2508.04039",
+      "redirects": [],
+      "error": null,
+      "page_title": "Large Reasoning Models Are Autonomous Jailbreak Agents"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.03273",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2601.03273",
+      "redirects": [],
+      "error": null,
+      "page_title": "A Multi-Perspective Benchmark and Moderation Model for Evaluating Safety and Adversarial Robustness"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.13623",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2610.13623",
+      "redirects": [],
+      "error": null,
+      "page_title": "APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.26269",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2605.26269",
+      "redirects": [],
+      "error": null,
+      "page_title": "AgentSecBench: Measuring Prompt Injection, Privacy Leakage, and Tool-Use Integrity in LLM Agents"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.10490",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2607.10490",
+      "redirects": [],
+      "error": null,
+      "page_title": "NetInjectBench: Benchmarking Indirect Prompt Injection in Tool-Using Large Language Model Agents for Network Operations"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.18356",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2606.18356",
+      "redirects": [],
+      "error": null,
+      "page_title": "SafeClawBench: Separating Semantic, Audit-Evidence, and Sandbox Harm in Tool-Using LLM Agents"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.15714",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2603.15714",
+      "redirects": [],
+      "error": null,
+      "page_title": "How Vulnerable Are AI Agents to Indirect Prompt Injections? Insights from a Large-Scale Public Competition"
+    },
+    {
+      "url": "https://github.com/GraySwanAI/ipi_arena_os",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://github.com/GraySwanAI/ipi_arena_os",
+      "redirects": [
+        "https://github.com/grayswansecurity/ipi_arena_os"
+      ],
+      "error": null,
+      "page_title": null
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.25490",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2608.25490",
+      "redirects": [],
+      "error": null,
+      "page_title": "MMJailBench: A Factorized Benchmark for Disentangling Multimodal Jailbreak Vulnerabilities"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.08158",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2510.08158",
+      "redirects": [],
+      "error": null,
+      "page_title": "XSB / MS-XSB"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.07887",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2504.07887",
+      "redirects": [],
+      "error": null,
+      "page_title": "CLEAR-Bias"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.00232",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2510.00232",
+      "redirects": [],
+      "error": null,
+      "page_title": "BiasFreeBench"
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.04192",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2508.04192",
+      "redirects": [],
+      "error": null,
+      "page_title": "MLLMU-Med"
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.00923",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2508.00923",
+      "redirects": [],
+      "error": null,
+      "page_title": "DAS Red-Teaming (Medical)"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.13886",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2410.13886",
+      "redirects": [],
+      "error": null,
+      "page_title": "Refusal-Trained LLMs Are Easily Jailbroken As Browser Agents"
+    },
+    {
+      "url": "https://arxiv.org/abs/2511.10287",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2511.10287",
+      "redirects": [],
+      "error": null,
+      "page_title": "OutSafe-Bench: A Benchmark for Multimodal Offensive Content Detection in Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2512.06589",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2512.06589",
+      "redirects": [],
+      "error": null,
+      "page_title": "OmniSafeBench-MM: A Unified Benchmark and Toolbox for Multimodal Jailbreak Attack-Defense Evaluation"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.07402",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2506.07402",
+      "redirects": [],
+      "error": null,
+      "page_title": "Beyond Jailbreaks: Revealing Stealthier and Broader LLM Security Risks Stemming from Alignment Failures"
+    },
+    {
+      "url": "https://arxiv.org/abs/2509.05471",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2509.05471",
+      "redirects": [],
+      "error": null,
+      "page_title": "Behind the Mask: Benchmarking Camouflaged Jailbreaks in Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.05177",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2606.05177",
+      "redirects": [],
+      "error": null,
+      "page_title": "MCBench: A Multicontext Safety Assessment Benchmark for Omni Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.22724",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2609.22724",
+      "redirects": [],
+      "error": null,
+      "page_title": "MATE: Policy-Aware Security Auditing for Mobile Agents via Synthesis-Driven Trajectory Learning"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.18063",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2607.18063",
+      "redirects": [],
+      "error": null,
+      "page_title": "Adaptive Adversaries: A Multi-Turn, Multi-LLM Benchmark for LLM Agent Security"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.27288",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2607.27288",
+      "redirects": [],
+      "error": null,
+      "page_title": "Open Security Benchmark: Towards Autonomous Enterprise Cyber Defense"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.22643",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2605.22643",
+      "redirects": [],
+      "error": null,
+      "page_title": "Boiling the Frog: A Multi-Turn Benchmark for Agentic Safety"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.01335",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2501.01335",
+      "redirects": [],
+      "error": null,
+      "page_title": "CySecBench: Generative AI-based CyberSecurity-focused Prompt Dataset for Benchmarking Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.09004",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2501.09004",
+      "redirects": [],
+      "error": null,
+      "page_title": "Aegis2.0: A Diverse AI Safety Dataset and Risks Taxonomy for Alignment of LLM Guardrails"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.04662",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2501.04662",
+      "redirects": [],
+      "error": null,
+      "page_title": "On The Origin of Cultural Biases in Language Models: From Pre-training Data to Linguistic Phenomena"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.10057",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2501.10057",
+      "redirects": [],
+      "error": null,
+      "page_title": "MSTS: A Multimodal Safety Test Suite for Vision-Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.12210",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2501.12210",
+      "redirects": [],
+      "error": null,
+      "page_title": "You Can't Eat Your Cake and Have It Too: The Performance Degradation of LLMs with Jailbreak Defense"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.13772",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2501.13772",
+      "redirects": [],
+      "error": null,
+      "page_title": "Jailbreak-AudioBench: In-Depth Evaluation and Analysis of Jailbreak Threats for Large Audio Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.14940",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2501.14940",
+      "redirects": [],
+      "error": null,
+      "page_title": "CASE-Bench: Context-Aware SafEty Benchmark for Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.18533",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2501.18533",
+      "redirects": [],
+      "error": null,
+      "page_title": "Rethinking Bottlenecks in Safety Fine-Tuning of Vision Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.17715",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2501.17715",
+      "redirects": [],
+      "error": null,
+      "page_title": "RICoTA: Red-teaming of In-the-wild Conversation with Test Attempts"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.18636",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2501.18636",
+      "redirects": [],
+      "error": null,
+      "page_title": "SafeRAG: Benchmarking Security in Retrieval-Augmented Generation of Large Language Model"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.09004",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2502.09004",
+      "redirects": [],
+      "error": null,
+      "page_title": "Hope vs. Hate: Understanding User Interactions with LGBTQ+ News Content in Mainstream US News Media through the Lens of Hope Speech"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.11137",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2502.11137",
+      "redirects": [],
+      "error": null,
+      "page_title": "Safety Evaluation of DeepSeek Models in Chinese Contexts"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.13603",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2502.13603",
+      "redirects": [],
+      "error": null,
+      "page_title": "Efficient Safety Retrofitting Against Jailbreaking for LLMs"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.16903",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2502.16903",
+      "redirects": [],
+      "error": null,
+      "page_title": "GuidedBench: Measuring and Mitigating the Evaluation Discrepancies of In-the-wild LLM Jailbreak Methods"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.18511",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2502.18511",
+      "redirects": [],
+      "error": null,
+      "page_title": "ELBA-Bench: An Efficient Learning Backdoor Attacks Benchmark for Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.15086",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2502.15086",
+      "redirects": [],
+      "error": null,
+      "page_title": "Is Safety Standard Same for Everyone? User-Specific Safety Evaluation of Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.15427",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2502.15427",
+      "redirects": [],
+      "error": null,
+      "page_title": "Adversarial Prompt Evaluation: Systematic Benchmarking of Guardrails Against Prompt Input Attacks on LLMs"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.01811",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2503.01811",
+      "redirects": [],
+      "error": null,
+      "page_title": "AutoAdvExBench: Benchmarking autonomous exploitation of adversarial example defenses"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.03586",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2503.03586",
+      "redirects": [],
+      "error": null,
+      "page_title": "Benchmarking LLMs and LLM-based Agents in Practical Vulnerability Detection for Code Repositories"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.06519",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2503.06519",
+      "redirects": [],
+      "error": null,
+      "page_title": "Can Small Language Models Reliably Resist Jailbreak Attacks? A Comprehensive Evaluation"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.07806",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2503.07806",
+      "redirects": [],
+      "error": null,
+      "page_title": "Towards Large Language Models that Benefit for All: Benchmarking Group Fairness in Reward Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.09334",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2503.09334",
+      "redirects": [],
+      "error": null,
+      "page_title": "CyberLLMInstruct: A Pseudo-malicious Dataset Revealing Safety-performance Trade-offs in Cyber Security LLM Fine-tuning"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.09964",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2503.09964",
+      "redirects": [],
+      "error": null,
+      "page_title": "ExtremeAIGC: Benchmarking LMM Vulnerability to AI-Generated Extremist Content"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.15092",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2503.15092",
+      "redirects": [],
+      "error": null,
+      "page_title": "Towards Understanding the Safety Boundaries of DeepSeek Models: Evaluation and Findings"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.15551",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2503.15551",
+      "redirects": [],
+      "error": null,
+      "page_title": "Efficient but Vulnerable: Benchmarking and Defending LLM Batch Prompting Attack"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.15552",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2503.15552",
+      "redirects": [],
+      "error": null,
+      "page_title": "Personalized Attacks of Social Engineering in Multi-turn Conversations: LLM Agents for Simulation and Detection"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.22738",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2503.22738",
+      "redirects": [],
+      "error": null,
+      "page_title": "ShieldAgent: Shielding Agents via Verifiable Safety Policy Reasoning"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.01903",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2504.01903",
+      "redirects": [],
+      "error": null,
+      "page_title": "STAR-1: Safer Alignment of Reasoning LLMs with 1K Data"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.08813",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2504.08813",
+      "redirects": [],
+      "error": null,
+      "page_title": "SafeMLRM: Demystifying Safety in Multi-modal Large Reasoning Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.10081",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2504.10081",
+      "redirects": [],
+      "error": null,
+      "page_title": "RealSafe-R1: Safety-Aligned DeepSeek-R1 without Compromising Reasoning Capability"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.12911",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2504.12911",
+      "redirects": [],
+      "error": null,
+      "page_title": "Benchmarking Multi-National Value Alignment for Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.14985",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2504.14985",
+      "redirects": [],
+      "error": null,
+      "page_title": "aiXamine: Simplified LLM Safety and Security"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.19440",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2504.19440",
+      "redirects": [],
+      "error": null,
+      "page_title": "JailbreaksOverTime: Detecting Jailbreak Attacks Under Distribution Shift"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.19521",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2504.19521",
+      "redirects": [],
+      "error": null,
+      "page_title": "Security Steerability is All You Need"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.04146",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2505.04146",
+      "redirects": [],
+      "error": null,
+      "page_title": "Unmasking the Canvas: A Dynamic Benchmark for Image Generation Jailbreaking and LLM Content Safety"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.06538",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2505.06538",
+      "redirects": [],
+      "error": null,
+      "page_title": "Think in Safety: Unveiling and Mitigating Safety Alignment Collapse in Multimodal Large Reasoning Model"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.07205",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2505.07205",
+      "redirects": [],
+      "error": null,
+      "page_title": "Benchmarking Ethical and Safety Risks of Healthcare LLMs in China-Toward Systemic Governance under Healthy China 2030"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.07584",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2505.07584",
+      "redirects": [],
+      "error": null,
+      "page_title": "SecReEvalBench: A Multi-turned Security Resilience Evaluation Benchmark for Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.11063",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2505.11063",
+      "redirects": [],
+      "error": null,
+      "page_title": "Think Twice Before You Act: Enhancing Agent Behavioral Safety with Thought Correction"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.11365",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2505.11365",
+      "redirects": [],
+      "error": null,
+      "page_title": "Phare: A Safety Probe for Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.11842",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2505.11842",
+      "redirects": [],
+      "error": null,
+      "page_title": "Video-SafetyBench: A Benchmark for Safety Evaluation of Video LVLMs"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.15406",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2505.15406",
+      "redirects": [],
+      "error": null,
+      "page_title": "Audio Jailbreak: An Open Comprehensive Benchmark for Jailbreaking Large Audio-Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.15935",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2505.15935",
+      "redirects": [],
+      "error": null,
+      "page_title": "MAPS: A Multilingual Benchmark for Agent Performance and Security"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.16211",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2505.16211",
+      "redirects": [],
+      "error": null,
+      "page_title": "AudioTrust: Benchmarking the Multifaceted Trustworthiness of Audio Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.16643",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2505.16643",
+      "redirects": [],
+      "error": null,
+      "page_title": "From Evaluation to Defense: Advancing Safety in Video Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.17568",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2505.17568",
+      "redirects": [],
+      "error": null,
+      "page_title": "JALMBench: Benchmarking Jailbreak Vulnerabilities in Audio Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.21605",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2505.21605",
+      "redirects": [],
+      "error": null,
+      "page_title": "SoSBench: Benchmarking Safety Alignment on Six Scientific Domains"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.22037",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2505.22037",
+      "redirects": [],
+      "error": null,
+      "page_title": "Jailbreak Distillation: Renewable Safety Benchmarking"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.23793",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2505.23793",
+      "redirects": [],
+      "error": null,
+      "page_title": "USB: A Comprehensive and Unified Safety Evaluation Benchmark for Multimodal Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.24672",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2505.24672",
+      "redirects": [],
+      "error": null,
+      "page_title": "TRIDENT: Enhancing Large Language Model Safety with Tri-Dimensional Diversified Red-Teaming Data Synthesis"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.00641",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2506.00641",
+      "redirects": [],
+      "error": null,
+      "page_title": "AgentAuditor: Human-Level Safety and Security Evaluation for LLM Agents"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.00973",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2506.00973",
+      "redirects": [],
+      "error": null,
+      "page_title": "XGUARD: A Graded Benchmark for Evaluating Safety Failures of Large Language Models on Extremist Content"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.01055",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2506.01055",
+      "redirects": [],
+      "error": null,
+      "page_title": "Simple Prompt Injection Attacks Can Leak Personal Data Observed by LLM Agents During Task Execution"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.01252",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2506.01252",
+      "redirects": [],
+      "error": null,
+      "page_title": "MTCMB: A Multi-Task Benchmark Framework for Evaluating LLMs on Knowledge, Reasoning, and Safety in Traditional Chinese Medicine"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.02372",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2506.02372",
+      "redirects": [],
+      "error": null,
+      "page_title": "AnswerCarefully: A Dataset for Improving the Safety of Japanese LLM Output"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.04018",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2506.04018",
+      "redirects": [],
+      "error": null,
+      "page_title": "AgentMisalignment: Measuring the Propensity for Misaligned Behaviour in LLM-Based Agents"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.05692",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2506.05692",
+      "redirects": [],
+      "error": null,
+      "page_title": "SafeGenBench: A Benchmark Framework for Security Vulnerability Detection in LLM-Generated Code"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.08885",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2506.08885",
+      "redirects": [],
+      "error": null,
+      "page_title": "AdversariaL attacK sAfety aLIgnment(ALKALI): Safeguarding LLMs through GRACE: Geometric Representation-Aware Contrastive Enhancement- Introducing Adversarial Vulnerability Quality Index (AVQI)"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.09996",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2506.09996",
+      "redirects": [],
+      "error": null,
+      "page_title": "From Judgment to Interference: Early Stopping LLM Harmful Outputs via Streaming Content Monitoring"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.10960",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2506.10960",
+      "redirects": [],
+      "error": null,
+      "page_title": "ChineseHarm-Bench: A Chinese Harmful Content Detection Benchmark"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.10022",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2506.10022",
+      "redirects": [],
+      "error": null,
+      "page_title": "LLMs Caught in the Crossfire: Malware Requests and Jailbreak Challenges"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.06636",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2506.06636",
+      "redirects": [],
+      "error": null,
+      "page_title": "SafeLawBench: Towards Safe Alignment of Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.15476",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2510.15476",
+      "redirects": [],
+      "error": null,
+      "page_title": "SoK: Systematizing LLM Prompt Security: Taxonomies, Datasets, and Unified Evaluation of Attacks and Defenses"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.02677",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2510.02677",
+      "redirects": [],
+      "error": null,
+      "page_title": "ARMs: Adaptive Red-Teaming Agent against Multimodal Models with Plug-and-Play Attacks"
+    },
+    {
+      "url": "https://arxiv.org/abs/2507.02844",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2507.02844",
+      "redirects": [],
+      "error": null,
+      "page_title": "Visual Contextual Attack: Jailbreaking MLLMs with Image-Driven Context Injection"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.12133",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2510.12133",
+      "redirects": [],
+      "error": null,
+      "page_title": "SafeMT: Multi-turn Safety for Multimodal Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2509.15260",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2509.15260",
+      "redirects": [],
+      "error": null,
+      "page_title": "Toxicity Red-Teaming: Benchmarking LLM Safety in Singapore's Low-Resource Languages"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.00062",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2506.00062",
+      "redirects": [],
+      "error": null,
+      "page_title": "SafeCOMM: A Study on Safety Degradation in Fine-Tuned Telecom Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.10597",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2506.10597",
+      "redirects": [],
+      "error": null,
+      "page_title": "SoK: Evaluating Jailbreak Guardrails for Large Language Models"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.15057",
+      "status": "accessible",
+      "checked_at": "2026-11-01T10:00:00+08:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2606.15057",
+      "redirects": [],
+      "error": null,
+      "page_title": "AutoDojo: A Generative Benchmark for Evaluating Prompt Injection Defenses in LLM Agents"
     }
   ]
 }

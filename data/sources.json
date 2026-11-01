@@ -224,6 +224,14 @@
       "retrieved_on": "2026-10-14",
       "named_rows": 13,
       "notes": "Archived OpenEval catalog and current official repositories, papers and dataset pages used to repair dead or restricted navigation links. Page reachability only."
+    },
+    {
+      "id": "web-collection-2026-11",
+      "filename": "Web-collected AI safety benchmarks 2026-11",
+      "url": "https://arxiv.org",
+      "retrieved_on": "2026-11-01",
+      "named_rows": 112,
+      "notes": "Manually curated 2025/2026 AI safety benchmarks discovered across the web; page-reachability verified 2026-11-01."
     }
   ]
 }
